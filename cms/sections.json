@@ -1,0 +1,17 @@
+[
+  {
+    "name": "HelloWorld",
+    "schema": {
+      "title": "Hello World",
+      "description": "This is a sample component describing how to code in FastStore",
+      "type": "object",
+      "required": ["greeting"],
+      "properties": {
+        "greeting": {
+          "type": "string",
+          "title": "Title"
+        }
+      }
+    }
+  }
+]
