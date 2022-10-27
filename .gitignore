@@ -75,3 +75,5 @@ public/~partytown
 tsconfig.tsbuildinfo
 
 storybook-static/
+
+.faststore
