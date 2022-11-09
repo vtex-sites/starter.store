@@ -570,15 +570,17 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@^1.12.20":
-  version "1.12.20"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-1.12.20.tgz#c1ce7f34b6160da3918e307ea68e3437f74cdfb8"
-  integrity sha512-NkxnQ/ryBNUsTSz/GkcEZvbqNm2fK1LJyP+l4Jvm43Fvio6isba6hae2APOy/WiXLqLIWjSv1P2Xla/ODVHOtw==
+"@faststore/cli@^1.12.28":
+  version "1.12.28"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-1.12.28.tgz#b33be9f6313dd9335cc616c295796450fd9284d0"
+  integrity sha512-2gmlTCg/Ku26s0QdgH7AS3c3StHAS3koYj+LR3/niHIJ1gD4FqAdtn0607AHVd3XoO1md8N5zoEW8AYsqeyRig==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
     "@oclif/plugin-not-found" "^2.3.3"
     chokidar "^3.5.3"
+    deepmerge "^4.2.2"
+    fs-extra "^10.1.0"
     path "^0.12.7"
 
 "@faststore/core@^0.3.2":
@@ -2712,6 +2714,15 @@ fraction.js@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
+
+fs-extra@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
+  integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
 
 fs-extra@^9.1.0:
   version "9.1.0"
