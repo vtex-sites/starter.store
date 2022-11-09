@@ -15,7 +15,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@faststore/cli": "^1.12.28"
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/b2d73b48/@faststore/cli"
   },
   "author": "VTEX"
 }
