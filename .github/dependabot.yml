@@ -5,8 +5,8 @@ updates:
     schedule:
       interval: "weekly"
     allow:
-      # Allow updates for @faststore/core
-      - dependency-name: "@faststore/core"
+      # Allow updates for packages starting "@faststore/"
+      - dependency-name: "@faststore/*"
         dependency-type: "direct"
     # Prefix all commit messages with "Evergreen"
     # include a list of updated dependencies
