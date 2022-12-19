@@ -77,3 +77,4 @@ tsconfig.tsbuildinfo
 storybook-static/
 
 .faststore
+public/
