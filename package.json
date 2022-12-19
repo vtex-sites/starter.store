@@ -6,16 +6,15 @@
   "scripts": {
     "dev": "faststore dev",
     "build": "faststore build",
-    "start": "faststore start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "faststore start"
   },
   "dependencies": {
-    "@faststore/core": "^0.3.10",
+    "@faststore/core": "^0.3.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@faststore/cli": "^2.0.20-alpha.0",
+    "@faststore/cli": "^2.0.22-alpha.0",
     "typescript": "^4.9.4"
   },
   "author": "VTEX"

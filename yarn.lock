@@ -563,10 +563,10 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@^2.0.20-alpha.0":
-  version "2.0.20-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.0.20-alpha.0.tgz#29c897635df1510b86a7a131e3d6b43f832a7b64"
-  integrity sha512-vxT+EN7CjicOoWP7vQaGg5tTx3h8xxy9mBQqnzZSIf2R7q32G0GnbmAFTCqncIRgtUp4hK4+StXFkjnQwZLmUQ==
+"@faststore/cli@^2.0.22-alpha.0":
+  version "2.0.22-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.0.22-alpha.0.tgz#a0bb09d98b9957f1c7187c25ba02c7d00df1513e"
+  integrity sha512-XlzfCd37G98AxQY6WDwdbkw07dWnGOXkTITldHH7FmI9bqn+T5RP+qor/Lj+Pjp7ddcDl7l3KOQGR4Da/Q027g==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -587,10 +587,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.18-alpha.0.tgz#e234fe4cdfa9ffd662402d74abf07fa4d35d0591"
   integrity sha512-g8hrJnHGUerh0Zv0ty56tJ8lAmB66q8sIl7NHs0i+NtYTxxyTVxPeMrbjZhu6VW3+7pUWbLeWlUqL6xXbHBvyA==
 
-"@faststore/core@^0.3.10":
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-0.3.10.tgz#748c9ae8618add7b625517f0518d81e5aff74f30"
-  integrity sha512-CGFRpkhA3kuZVI1SaS6zjsuMQpDO6xe3xIF9uW2xY3OzXSjWQCcEhsg2u/UHZh7dVSae47EZSmL3fWSywCsTwQ==
+"@faststore/core@^0.3.14":
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-0.3.14.tgz#925622dd2bcd60c7d39fd44947392721824b7532"
+  integrity sha512-X3dLtj6fhPnSo+I3sX6uXRUhFPzra0md1HsH2Tippwfd2ei1xXPC5B2x+Y1QujND3VibbOXz4MIVlm4L9fHcRQ==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -604,8 +604,8 @@
     "@faststore/ui" "^2.0.17-alpha.0"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
-    "@vtex/tsconfig" "0.6.0"
     autoprefixer "^10.4.0"
+    chalk "^5.2.0"
     css-loader "^6.7.1"
     eslint "^7.22.0"
     eslint-config-next "12.1.5"
@@ -1233,11 +1233,6 @@
     fetch-retry "^4.1.1"
     isomorphic-unfetch "^3.1.0"
 
-"@vtex/tsconfig@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.6.0.tgz#c9dfffc95d2ef55195237411f9c15269ca30b2a5"
-  integrity sha512-SVQBxaSdEVdpJFja1aVTIiZBgpQKePyYOUWGzcYq6LYkSWqSbz2LoC7TuLUsmfweYmVkv8+4eVuxcDpQVEpq1A==
-
 "@xmldom/xmldom@^0.7.5":
   version "0.7.9"
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.9.tgz#7f9278a50e737920e21b297b8a35286e9942c056"
@@ -1612,6 +1607,11 @@ chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2, chalk@~4.1
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+chalk@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.2.0.tgz#249623b7d66869c673699fb66d65723e54dfcfb3"
+  integrity sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==
 
 change-case-all@1.0.14:
   version "1.0.14"
