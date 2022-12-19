@@ -1,11 +1,12 @@
-import styles from './index.module.css'
+import React from "react";
+import styles from "./index.module.css";
 
 interface Props {
-  greeting: string
+  greeting: string;
 }
 
-const HelloWorld = ({  greeting }: Props) => {
-  return <div className={styles.container}>Hello {greeting}</div>
-}
+const HelloWorld = ({ greeting }: Props) => {
+  return <div className={styles.container}>Hello {greeting}</div>;
+};
 
-export default HelloWorld
+export default HelloWorld;
