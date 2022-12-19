@@ -587,10 +587,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.18-alpha.0.tgz#e234fe4cdfa9ffd662402d74abf07fa4d35d0591"
   integrity sha512-g8hrJnHGUerh0Zv0ty56tJ8lAmB66q8sIl7NHs0i+NtYTxxyTVxPeMrbjZhu6VW3+7pUWbLeWlUqL6xXbHBvyA==
 
-"@faststore/core@^0.3.10":
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-0.3.10.tgz#748c9ae8618add7b625517f0518d81e5aff74f30"
-  integrity sha512-CGFRpkhA3kuZVI1SaS6zjsuMQpDO6xe3xIF9uW2xY3OzXSjWQCcEhsg2u/UHZh7dVSae47EZSmL3fWSywCsTwQ==
+"@faststore/core@^0.3.11":
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-0.3.11.tgz#ac4c53346a48915e995ad1f7ea26648702764ff8"
+  integrity sha512-X52HRXZepa/cdy7XCM5Wi6o+IPEtcLvPhTIoj/Kx06dsOQV4Wk6ZDmA5uD5h/7DZswBLfcrY89U+P/d59HCUcg==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -604,7 +604,6 @@
     "@faststore/ui" "^2.0.17-alpha.0"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
-    "@vtex/tsconfig" "0.6.0"
     autoprefixer "^10.4.0"
     css-loader "^6.7.1"
     eslint "^7.22.0"
@@ -1232,11 +1231,6 @@
   dependencies:
     fetch-retry "^4.1.1"
     isomorphic-unfetch "^3.1.0"
-
-"@vtex/tsconfig@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.6.0.tgz#c9dfffc95d2ef55195237411f9c15269ca30b2a5"
-  integrity sha512-SVQBxaSdEVdpJFja1aVTIiZBgpQKePyYOUWGzcYq6LYkSWqSbz2LoC7TuLUsmfweYmVkv8+4eVuxcDpQVEpq1A==
 
 "@xmldom/xmldom@^0.7.5":
   version "0.7.9"
