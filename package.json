@@ -11,7 +11,8 @@
   "dependencies": {
     "@faststore/core": "^0.3.16",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "msw": "^0.43.1"
   },
   "devDependencies": {
     "@faststore/cli": "^2.0.49-alpha.0",
