@@ -9,7 +9,7 @@
     "start": "faststore start"
   },
   "dependencies": {
-    "@faststore/core": "^0.3.14",
+    "@faststore/core": "^0.3.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
