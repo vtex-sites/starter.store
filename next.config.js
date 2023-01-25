@@ -1,5 +1,5 @@
 const nextConfig = {
-  distDir: ".faststore/.next",
+  distDir: ".next",
 };
 
 module.exports = nextConfig;
