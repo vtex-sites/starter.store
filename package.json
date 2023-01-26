@@ -18,7 +18,7 @@
   "devDependencies": {
     "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/8fde7cad/@faststore/cli",
     "typescript": "^4.9.4",
-    "@faststore/lighthouse": "^1.12.32",
+    "@faststore/lighthouse": "https://pkg.csb.dev/vtex/faststore/commit/208076a0/@faststore/lighthouse",
     "@lhci/cli": "^0.9.0",
     "@cypress/code-coverage": "^3.9.10",
     "@testing-library/cypress": "^8.0.0",
