@@ -1,5 +1,6 @@
 module.exports = {
   account: "storeframework",
+  theme: "soft-blue",
   // Lighthouse CI
   lighthouse: {
     server: process.env.BASE_SITE_URL || "http://localhost:3000",
