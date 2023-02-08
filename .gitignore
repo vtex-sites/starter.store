@@ -38,3 +38,6 @@ yarn-error.log*
 /.faststore
 public/
 .vscode/
+lighthouserc.js
+vtex.env
+cypress
