@@ -16,9 +16,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/6a996df3/@faststore/cli",
+    "@faststore/cli": "^2.0.67-alpha.0",
     "typescript": "^4.9.4",
-    "@faststore/lighthouse": "https://pkg.csb.dev/vtex/faststore/commit/6a996df3/@faststore/lighthouse",
+    "@faststore/lighthouse": "^2.0.67-alpha.0",
     "@lhci/cli": "^0.9.0",
     "@cypress/code-coverage": "^3.9.10",
     "@testing-library/cypress": "^8.0.0",

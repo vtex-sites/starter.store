@@ -718,9 +718,10 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/6a996df3/@faststore/cli":
-  version "2.0.66-alpha.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/6a996df3/@faststore/cli#55c7241bf0fec9714df766f14c9910cdafc3254b"
+"@faststore/cli@^2.0.67-alpha.0":
+  version "2.0.67-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.0.67-alpha.0.tgz#d62732601d3fe1b1af4e8e540574a0291f22cb15"
+  integrity sha512-Oq7jEthtCvLd5fmSYGjMNYwKD29X/d4D4VnnrAv5eHbyXqTNPF+BN9dZaoXx5GvTxwmGeOONM49OoHK+NODabQ==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -789,9 +790,10 @@
     "@graphql-codegen/plugin-helpers" "^2.2.0"
     "@graphql-tools/relay-operation-optimizer" "^6.4.0"
 
-"@faststore/lighthouse@https://pkg.csb.dev/vtex/faststore/commit/6a996df3/@faststore/lighthouse":
-  version "2.0.66-alpha.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/6a996df3/@faststore/lighthouse#c28a125ba7230c62e7ef83fd719807a17317d4a2"
+"@faststore/lighthouse@^2.0.67-alpha.0":
+  version "2.0.67-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.0.67-alpha.0.tgz#e29fbc7bba6805a639862d4ce50c86a59fbf4dbc"
+  integrity sha512-tvV6g2zIOTEx0xLfB0EEvRsW0MX54s146FtwOhGqdjvoqzFV6qiaU4sWT04/Pb5wCJeF+hNNvrbCviEpFY1J5Q==
 
 "@faststore/sdk@^2.0.3-alpha.0":
   version "2.0.3-alpha.0"
