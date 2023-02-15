@@ -780,18 +780,9 @@
     tsconfig-paths-webpack-plugin "^3.5.2"
     typescript "4.7.3"
 
-"@faststore/core@https://github.com/vtex-sites/starter.store.git":
-  version "0.0.0"
-  resolved "https://github.com/vtex-sites/starter.store.git#a1f555e345f0998796ceeffc93d1a07e0d683b59"
-  dependencies:
-    "@faststore/core" "^0.3.14"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-
-"@faststore/graphql-utils@^2.0.3-alpha.0":
-  version "2.0.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-2.0.3-alpha.0.tgz#1d70065f5fcaafc51e9399b11b1b117a28a89f38"
-  integrity sha512-+kOX1fOHWMp/GqY9ooYuOwQbvHREoIoIm3CA/B6twPtwU/3G4W7+NZVYPUK1InVDxBQIEWfqPNSxgVTXvGfrFg==
+"@faststore/graphql-utils@https://pkg.csb.dev/vtex/faststore/commit/1c355db8/@faststore/graphql-utils":
+  version "2.0.65-alpha.0"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/1c355db8/@faststore/graphql-utils#57404b90060121b38cb581e590f5110bdd304a53"
   dependencies:
     "@babel/traverse" "^7.15.4"
     "@babel/types" "^7.15.6"
@@ -815,7 +806,7 @@
   resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.54-alpha.0.tgz#fbb4c83cc390f4e4be3ee04bf69e6218349711ed"
   integrity sha512-NswMON5QxEeOuSlqOc1Poh+5WJ3748C+0U/Y6EcLEJr14J/gwn5WIRg4hyLgOR1QjWpbn6uivGba1+kDUxxMFQ==
   dependencies:
-    "@faststore/components" "*"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/1c355db8/@faststore/components"
     "@reach/popover" "^0.16.0"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
@@ -4376,11 +4367,6 @@ modern-normalize@^1.1.0:
   resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-1.1.0.tgz#da8e80140d9221426bd4f725c6e11283d34f90b7"
   integrity sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA==
 
-ms@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
-  integrity sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==
-
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
@@ -5451,13 +5437,6 @@ shebang-command@^1.2.0:
   integrity sha512-EV3L1+UQWGor21OmnvojK36mhg+TyIKDh3iFBKBohr5xeXIhNBcx8oWdgkTEEQ+BEFFYdLRuqMfd5L84N1V5Vg==
   dependencies:
     shebang-regex "^1.0.0"
-
-shebang-command@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
-  integrity sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
-  dependencies:
-    shebang-regex "^3.0.0"
 
 shebang-regex@^1.0.0:
   version "1.0.0"
