@@ -738,15 +738,15 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-1.12.35.tgz#6a89441d3d3cc284dd71304ecac4fcbbcdc784d7"
   integrity sha512-VTTp5StKU5UwXG595fVvLrVjqrtFyafZdRwqcIL7Yje2xwNNx0uuwM0cNRVD+oWVUT0nA9vgkO3EsDJ70cau2g==
 
-"@faststore/components@^2.0.69-alpha.0":
-  version "2.0.69-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.69-alpha.0.tgz#c1d558660b00120acf003048b231bbcb070c7fbe"
-  integrity sha512-cC6b/ODXSCuzmWMDMXMpxZSNKZWxcf8DKRQCfI9/wREDEOMKPmSfH3kJU6UbhC6+gQv3eTss1au006IpIbLHFg==
+"@faststore/components@^2.0.70-alpha.0":
+  version "2.0.70-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.70-alpha.0.tgz#40e89272ec90db1313f344798585373debfa977d"
+  integrity sha512-h9vsR0NIsSJFAcFTS1Gnmd9LKbzMoWbJXl0Y0TZJ8/IVgrZEVeQXsbWUPQCF3+7Zer0irKqwYX92RH6rMfL2xw==
 
-"@faststore/core@2.0.69-alpha.0":
-  version "2.0.69-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.69-alpha.0.tgz#2d6fba7405625d5639bb5ced34bddeb3aa1ded91"
-  integrity sha512-cm7ppP6ogHdBfF9VBECOyJ5qBT/ULDH/Fa2JFnUT5+y8zjkdaxov395s3gSMiy2CSvYI62HxIsq24OAZkbULSQ==
+"@faststore/core@2.0.70-alpha.0":
+  version "2.0.70-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.70-alpha.0.tgz#d2953c0be6981e185f3be3d9d302094a68adfb3e"
+  integrity sha512-jUQU8ver1okqNABfRc3Qdk5/yN3XWTysSuJ7bnTxGZGniMWxxoN00xceCXE96JM6pk16JFO9lGeameaIG2ZQaw==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -754,10 +754,10 @@
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
     "@faststore/api" "^2.0.3-alpha.0"
-    "@faststore/components" "^2.0.69-alpha.0"
+    "@faststore/components" "^2.0.70-alpha.0"
     "@faststore/graphql-utils" "^2.0.3-alpha.0"
     "@faststore/sdk" "^2.0.3-alpha.0"
-    "@faststore/ui" "^2.0.69-alpha.0"
+    "@faststore/ui" "^2.0.70-alpha.0"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
@@ -802,10 +802,10 @@
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.0.69-alpha.0":
-  version "2.0.69-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.69-alpha.0.tgz#109abe9763ba0156be6f42e1c1c147954930d841"
-  integrity sha512-eA7Y8AWoKzDGpqtx978ecTZQVG5T6xZxG1Z6n2sflrXcyKa9ts5IZmlce+8NWb4tESORYh4hEfr68JmiT/UTBw==
+"@faststore/ui@^2.0.70-alpha.0":
+  version "2.0.70-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.70-alpha.0.tgz#0c4c2c18802fd091db3a83266a175d706e160938"
+  integrity sha512-hfr39Y3SWvj4j8V9GqtjIMOHh1SbNgQgLor4/FWO0J85Yzd1nxCqbaGn4Hc9iiWcSwtF8fG3EK7kC6EOG0nUPQ==
   dependencies:
     "@faststore/components" "*"
     "@reach/popover" "^0.16.0"
