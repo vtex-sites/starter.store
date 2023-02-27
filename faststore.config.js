@@ -1,5 +1,5 @@
 module.exports = {
-  account: "storeframework",
+  account: 'storeframework',
   theme: "custom-theme",
   seo: {
     title: "NextJSStore",
