@@ -2,9 +2,6 @@
  * These types will come from FastStore Core in the future.
  */
 
-import { ReactElement, ReactNode } from "react";
-
-
 export const SECTIONS = {
   ProductDetails: { components: ["Price"] },
   ProductCard: { components: ["Image"] },
