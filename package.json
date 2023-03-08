@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@faststore/core": "^0.3.2",
+    "@faststore/core": "https://pkg.csb.dev/vtex-sites/nextjs.store/commit/d3fb30d8/@faststore/core",
+    "@faststore/fashion": "",
+    "@faststore/ui": "https://pkg.csb.dev/vtex/faststore/commit/fd4fe68c/@faststore/ui",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
