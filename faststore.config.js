@@ -1,29 +1,28 @@
 module.exports = {
-  account: 'storeframework',
-  theme: "custom-theme",
   seo: {
     title: "NextJSStore",
     description: "Fast Demo Store",
     titleTemplate: "%s | FastStore",
-    author: "Store Framework",
+    author: "Store Framework"
   },
+  theme: "custom-theme",
   platform: "vtex",
   api: {
     storeId: "storeframework",
     workspace: "master",
     environment: "vtexcommercestable",
-    hideUnavailableItems: true,
+    hideUnavailableItems: true
   },
   session: {
     currency: {
       code: "USD",
-      symbol: "$",
+      symbol: "$"
     },
     locale: "en-US",
-    channel: '{"salesChannel":"1","regionId":""}',
+    channel: "{\"salesChannel\":\"1\",\"regionId\":\"\"}",
     country: "USA",
     postalCode: null,
-    person: null,
+    person: null
   },
   storeUrl: "https://vtexfaststore.com",
   secureSubdomain: "https://secure.vtexfaststore.com",
@@ -35,20 +34,20 @@ module.exports = {
     pages: {
       home: "/",
       pdp: "/apple-magic-mouse/p",
-      collection: "/office",
-    },
+      collection: "/office"
+    }
   },
   cypress: {
     pages: {
       home: "/",
       pdp: "/apple-magic-mouse/p",
       collection: "/office",
-      collection_filtered:
-        "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
-      search: "/s?q=orange",
-    },
+      collection_filtered: "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
+      search: "/s?q=orange"
+    }
   },
   analytics: {
-    gtmContainerId: "GTM-PGHZ95N",
+    gtmContainerId: "GTM-PGHZ95N"
   },
-};
+  account: "storeframework"
+}
