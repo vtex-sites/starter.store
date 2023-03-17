@@ -69,6 +69,14 @@
     --fs-logo-img: url('~/public/brandless-positive.png');
     --fs-logo-width: 8rem;
   }
+  
+  // [data-fs-product-details-body] [data-fs-price-variant="listing"] {
+  //   --fs-price-listing-color: red;
+  // }
+
+  // [data-fs-price-variant="listing"] {
+  //   --fs-price-listing-color: pink;
+  // }
 
   .big-call-to-action {
     font-size: var(--fs-text-size-8);
