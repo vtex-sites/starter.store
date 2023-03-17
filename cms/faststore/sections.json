@@ -1,0 +1,24 @@
+[
+  {
+    "name": "CallToAction",
+    "schema": {
+      "title": "Call to Action",
+      "description": "Capture the attention of your customers with this great call to action",
+      "type": "object",
+      "required": [
+        "title",
+        "link"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        },
+        "link": {
+          "type": "string",
+          "title": "Link"
+        }
+      }
+    }
+  }
+]
