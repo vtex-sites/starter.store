@@ -2,5 +2,9 @@ import React, { FunctionComponent } from "react";
 import { Price as UIPrice, PriceProps } from "@faststore/ui";
 
 export function Price(props: PriceProps) {
-  return <UIPrice {...props} value={0.0} />
+  if (props.variant === "listing") {
+    return <p className={"listing-price"}>📈 {props.value}</p>
+  } else {
+    return <p>📉 {props.value}</p>
+  }
 }
