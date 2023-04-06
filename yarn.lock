@@ -631,7 +631,7 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.103-alpha.0.tgz#4de5390fed240a01ac4ecf840df430ce2a6200f5"
   integrity sha512-ANNIxyTUfF6Tc0qTrs1B+ozJ5fqyxk09ga+s8geY/Bu6akRqYQ1VrXaJtYQJDH9ssvBYjx6VBCeGA2YVMfWqoQ==
 
-"@faststore/core@2.0.103-alpha.0":
+"@faststore/core@ˆ2.0.103-alpha.0":
   version "2.0.103-alpha.0"
   resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.103-alpha.0.tgz#732ff107a6aafb859204a28d9d193be9c697f2ec"
   integrity sha512-gIv1PyHdG/nfK4UChdl0fwhfOzZ0P+vjPvzoejrsz6gFtP7MbxiuqjDEA/kt7Wh3tx8IaBFhdsiUh668q4WZNg==
