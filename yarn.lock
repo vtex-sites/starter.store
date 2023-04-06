@@ -738,15 +738,15 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-1.12.37.tgz#125b59b28f444c0aa13fb92fedb479bf3f984b9f"
   integrity sha512-IDkMa7/Y7FSAsi+DKBZuRW5EFFqsjFFPSCpUXVWXa3rKPC4EejjhCaQK7EWBTtDeokbuyoSfIkCEutFBhIJ+yQ==
 
-"@faststore/components@^2.0.101-alpha.0":
-  version "2.0.101-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.101-alpha.0.tgz#a1147f4af31d748c7304a17c314ce044d319dc59"
-  integrity sha512-Z7umLLSmvCtPrUKIlrmJVZbEd7BFR91CIfBUHy9uwyzKjItRUqpiQyHzi5oTS3rwKLCnvCtjWljKIPDm8ypMaA==
+"@faststore/components@^2.0.102-alpha.0":
+  version "2.0.102-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.102-alpha.0.tgz#99a6fef2147fa251a727a969983c75c6990a2a3a"
+  integrity sha512-HXUZFwYFTKw2m5JS+KEO7dFgDYuVSa8BFTwjdus1Uz2phvgX+bQDkpXE6lFBvElICdCuwHfIDHP6l2x2ClsPbg==
 
-"@faststore/core@^2.0.101-alpha.0":
-  version "2.0.101-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.101-alpha.0.tgz#4954a7a468c08a6c08d7a83eb0bc84b48e8249c1"
-  integrity sha512-+XgT0R4G1BAQLVh3HbksVJyDLsul939a5Q66oJw9qaWP8wICzBfamlzybZioFHCtZtRfWK4NmmPts6qL9q6ZjA==
+"@faststore/core@^v2.0.102-alpha.0":
+  version "2.0.102-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.102-alpha.0.tgz#5718efeef021b85bc13f3747563d57d5830c180d"
+  integrity sha512-stJJ5AEdkg8JTpKXiwALIEcP51zzOtNXoBBovZYopKAdWGj9S7oVVrFgMhQuTotlTawV47wuO7A3bEjhff9z+g==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -754,10 +754,10 @@
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
     "@faststore/api" "^2.0.97-alpha.0"
-    "@faststore/components" "^2.0.101-alpha.0"
+    "@faststore/components" "^2.0.102-alpha.0"
     "@faststore/graphql-utils" "^2.0.3-alpha.0"
     "@faststore/sdk" "^2.0.3-alpha.0"
-    "@faststore/ui" "^2.0.99-alpha.0"
+    "@faststore/ui" "^2.0.102-alpha.0"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
@@ -796,17 +796,17 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.0.67-alpha.0.tgz#e29fbc7bba6805a639862d4ce50c86a59fbf4dbc"
   integrity sha512-tvV6g2zIOTEx0xLfB0EEvRsW0MX54s146FtwOhGqdjvoqzFV6qiaU4sWT04/Pb5wCJeF+hNNvrbCviEpFY1J5Q==
 
-"@faststore/sdk@^2.0.3-alpha.0":
-  version "2.0.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.0.3-alpha.0.tgz#755eb9ec133aa0d53b566fc3f03c05eed59e78a5"
-  integrity sha512-LlHh4OCEP/gYx3WYRvqA/x7UDmKr0E/3Ny33z512T3WfwfBivmcoGuBVnqxJl2/iT7fVyL86MvS/mBkdXPwMGw==
+"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/dd785171/@faststore/sdk":
+  version "2.0.91-alpha.0"
+  uid bc9c6fab7be3869eaeb664f40a1ab00592db4cdf
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/dd785171/@faststore/sdk#bc9c6fab7be3869eaeb664f40a1ab00592db4cdf"
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.0.99-alpha.0":
-  version "2.0.99-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.99-alpha.0.tgz#6e161f0e59fecd8fba7538b047c8e9e7b4ceae32"
-  integrity sha512-urdyKzOYJJ5WhquTI2/vxotCWH+WESqQNffL78rDY0m41D+Li6DYPCKMfh+Muff7GVNYsqtkxgKi8oQTHi/wHg==
+"@faststore/ui@^2.0.102-alpha.0":
+  version "2.0.102-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.102-alpha.0.tgz#a019d1388ab6163f4b96a626bb4d8a4efb633ae8"
+  integrity sha512-EtJtj8nkyDbBel0gOx/Bg/MCZEVIDmCRU2tMgxY40s6LRI7NZGQrPchEKe9JzZ7JjJy4RD7tZ4Q9Vu8nlH9wmw==
   dependencies:
     "@faststore/components" "*"
     include-media "^1.4.10"
