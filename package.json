@@ -1,7 +1,7 @@
 {
   "name": "starter.store",
   "version": "0.0.0",
-  "description": "FastStore base starter",
+  "description": "FastStore Base Starter",
   "private": true,
   "scripts": {
     "dev": "faststore dev",
@@ -10,7 +10,7 @@
     "start:faststore": "faststore start"
   },
   "dependencies": {
-    "@faststore/core": "^2.0.106-alpha.0",
+    "@faststore/core": "^2.0.108-alpha.0",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
