@@ -10,7 +10,7 @@
     "start:faststore": "faststore start"
   },
   "dependencies": {
-    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/451cbc0b/@faststore/core",
+    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/53d37a9f/@faststore/core",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
