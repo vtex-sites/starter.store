@@ -706,10 +706,10 @@
   dependencies:
     tiny-lru "7.0.6"
 
-"@faststore/api@^2.0.105-alpha.0":
-  version "2.0.105-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.0.105-alpha.0.tgz#52896c9cf6923818dea11dcc94f10e845a9a096b"
-  integrity sha512-T7tD+d4EwhcoLhB9z5ZyWRvEhpHvfTn1F0u9KOauUa52oECfBsB7FTcBoyzuXSRTuA/BS+rjx8pSr/uaYEo0wg==
+"@faststore/api@^2.0.118-alpha.0":
+  version "2.0.118-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.0.118-alpha.0.tgz#0a6b72862d5ba57b7d2d920e7f05b9a6cb16eb24"
+  integrity sha512-S2oZxRGSU3jloGE/dRchvv9fW9vC8Igvh3O6edSld84+/lSxvcs/klqq0h0+H7hjh8lFW9pmLa9cXV0GUhUGjA==
   dependencies:
     "@graphql-tools/schema" "^8.2.0"
     "@rollup/plugin-graphql" "^1.0.0"
@@ -738,26 +738,26 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-1.12.37.tgz#125b59b28f444c0aa13fb92fedb479bf3f984b9f"
   integrity sha512-IDkMa7/Y7FSAsi+DKBZuRW5EFFqsjFFPSCpUXVWXa3rKPC4EejjhCaQK7EWBTtDeokbuyoSfIkCEutFBhIJ+yQ==
 
-"@faststore/components@^2.0.117-alpha.0":
-  version "2.0.117-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.117-alpha.0.tgz#3cd794cc41a02ff1b77abe86a1eb367d4188fb56"
-  integrity sha512-XczRSlZQCNAIsLheDmSoawnNsg3OJFLZxv6JspS/LnWJQwChNm+qJZbuUwuRnt3sNu3Y6DFSyaIDFVGcPyDtUA==
+"@faststore/components@^2.0.122-alpha.0":
+  version "2.0.122-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.122-alpha.0.tgz#1075396179af1d91a8a19f7a5c606149656f101a"
+  integrity sha512-QW2lvOSw/8ZEDL2OZjxhE1ojOxhv2kbJZ1b9XmLxWIkYS9MOC/Ry+60Uv1aEktp4UNb7+OZSoqOBRysPXKUKsQ==
 
-"@faststore/core@^2.0.117-alpha.0":
-  version "2.0.117-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.117-alpha.0.tgz#cfc11dedce96f7f01d81e611225d1896ec628ae7"
-  integrity sha512-Dt1NTwa27EH3rgzeBkwBW7FeVWh2+mGnnowM892qclnqdNs3vg2dbTyiCN62HJrb/JH0MxhKfxpNgYO4y8ATRg==
+"@faststore/core@2.0.122-alpha.0":
+  version "2.0.122-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.122-alpha.0.tgz#95fce7c38a08f44459f7b902eda428dc0457ce06"
+  integrity sha512-IVEc2sE9dYyIpmFgKXxZMQRxXPlE2N8Zg28eRRT/EmP6XiCZg19FzO3H4CeZdWtRrFKo6gX6Qz+6s9efAjHIjg==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^2.0.105-alpha.0"
-    "@faststore/components" "^2.0.117-alpha.0"
+    "@faststore/api" "^2.0.118-alpha.0"
+    "@faststore/components" "^2.0.122-alpha.0"
     "@faststore/graphql-utils" "^2.0.3-alpha.0"
-    "@faststore/sdk" "^2.0.3-alpha.0"
-    "@faststore/ui" "^2.0.117-alpha.0"
+    "@faststore/sdk" "^2.0.118-alpha.0"
+    "@faststore/ui" "^2.0.122-alpha.0"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
@@ -796,17 +796,17 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.0.67-alpha.0.tgz#e29fbc7bba6805a639862d4ce50c86a59fbf4dbc"
   integrity sha512-tvV6g2zIOTEx0xLfB0EEvRsW0MX54s146FtwOhGqdjvoqzFV6qiaU4sWT04/Pb5wCJeF+hNNvrbCviEpFY1J5Q==
 
-"@faststore/sdk@^2.0.3-alpha.0":
-  version "2.0.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.0.3-alpha.0.tgz#755eb9ec133aa0d53b566fc3f03c05eed59e78a5"
-  integrity sha512-LlHh4OCEP/gYx3WYRvqA/x7UDmKr0E/3Ny33z512T3WfwfBivmcoGuBVnqxJl2/iT7fVyL86MvS/mBkdXPwMGw==
+"@faststore/sdk@^2.0.118-alpha.0":
+  version "2.0.118-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.0.118-alpha.0.tgz#a855cf7ff07501c0e3237b062ee750f1cf650e6d"
+  integrity sha512-p02w+gqBCjcu93rk1TBzj1+tZCVPkY/rVvDoYxN9iY/8X+5YPqiDqV90WHbKrH6arZdulF0qotSWWqqWyHYtDQ==
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.0.117-alpha.0":
-  version "2.0.117-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.117-alpha.0.tgz#d624fd81466b973d6a1b25fb9b3aef417ea1f673"
-  integrity sha512-HarXR2jFIXtvYJNqS7NCk6b7qdSHvBmbCzoLDZuAWAu6O00dnnQUwE6sJFThKc6PnzPd4VyvNpHZJFnSgg75HQ==
+"@faststore/ui@^2.0.122-alpha.0":
+  version "2.0.122-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.122-alpha.0.tgz#9552d85aad514af1d5b3387d4bbadef82a194776"
+  integrity sha512-r+apAg6CP7yjMN33bpiVdWKyIRzSkgTv1eE1jFxWWA73JcY73sCu2lTpjzxEDH0a3TA2a50gLVQ5akz5CT/jpg==
   dependencies:
     "@faststore/components" "*"
     include-media "^1.4.10"
