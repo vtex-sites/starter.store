@@ -1,7 +1,7 @@
 {
   "name": "starter.store",
   "version": "0.0.0",
-  "description": "FastStore base starter",
+  "description": "FastStore Base Starter",
   "private": true,
   "scripts": {
     "dev": "faststore dev",
