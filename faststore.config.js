@@ -22,7 +22,14 @@ module.exports = {
     channel: "{\"salesChannel\":\"1\",\"regionId\":\"\"}",
     country: "USA",
     postalCode: null,
+    geoCoordinates: null,
     person: null
+  },
+  cart: {
+    id: "",
+    items: [],
+    messages: [],
+    shouldSplitItem: true
   },
   storeUrl: "https://vtexfaststore.com",
   secureSubdomain: "https://secure.vtexfaststore.com",
