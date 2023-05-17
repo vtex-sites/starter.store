@@ -738,15 +738,15 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-1.12.37.tgz#125b59b28f444c0aa13fb92fedb479bf3f984b9f"
   integrity sha512-IDkMa7/Y7FSAsi+DKBZuRW5EFFqsjFFPSCpUXVWXa3rKPC4EejjhCaQK7EWBTtDeokbuyoSfIkCEutFBhIJ+yQ==
 
-"@faststore/components@^2.0.141-alpha.0":
-  version "2.0.141-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.141-alpha.0.tgz#7886cbca44774b8ec11c73f5ae5e87ef9d465d5c"
-  integrity sha512-nigETWrYq1Zf/BknrJZaMCps7gdsJGvCHjWtBJjlkQCX5AHz6Ifzh08abENBeYaWpiTcpuS1yilX0HNBSD72PQ==
+"@faststore/components@^2.0.142-alpha.0":
+  version "2.0.142-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.142-alpha.0.tgz#830c8e9d0c2c330cc31479542a6726442f98ae0b"
+  integrity sha512-7k0bxIG1afAn1rXZ6ekalZDWvGuroIrhn+R/oGdQL1G4SqmFLi71naj4zhbo9hYT7flxavDiDlflZRBdCQPIeQ==
 
-"@faststore/core@2.0.141-alpha.0":
-  version "2.0.141-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.141-alpha.0.tgz#c59238eae69617f0520c654d6c50bcdd2c57627a"
-  integrity sha512-W4VBEUglqDiSbpqfMxZfdIXNvTCpS65ycrYGqXsKDCrpdNmr6C7BOkpwQ9ivdB6iODYknPL1XHgmQkvaUOlzxg==
+"@faststore/core@^2.0.142-alpha.0":
+  version "2.0.142-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.142-alpha.0.tgz#8da6833e5823e47f292f7dcb4f550af6ad4f77d5"
+  integrity sha512-U42wDZeM0cznlRxaPcl2JiRyTgnAsxwTUbC8X2+9Y4s06FBnOTsKeGWVXqU3SblLv2vT+0PG5lURtG0T3oISaA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -754,10 +754,10 @@
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
     "@faststore/api" "^2.0.140-alpha.0"
-    "@faststore/components" "^2.0.141-alpha.0"
+    "@faststore/components" "^2.0.142-alpha.0"
     "@faststore/graphql-utils" "^2.0.3-alpha.0"
     "@faststore/sdk" "^2.0.118-alpha.0"
-    "@faststore/ui" "^2.0.139-alpha.0"
+    "@faststore/ui" "^2.0.142-alpha.0"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
@@ -803,10 +803,10 @@
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.0.139-alpha.0":
-  version "2.0.139-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.139-alpha.0.tgz#db113f37d15df78eaf0b244fe21f599938ccda85"
-  integrity sha512-Sy9mL1ADV14bGo+40vKbwPxQ6tk3Ui/8XIKuOLdIq/uuB1Ulr4IcQpBci1cXXIT+voBRpO5dD9ZyJ7A3jc37gw==
+"@faststore/ui@^2.0.142-alpha.0":
+  version "2.0.142-alpha.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.142-alpha.0.tgz#24f4d74edaaa9c7f6651586443dcc070a50f0d41"
+  integrity sha512-52Uv5SY+RGV4OLxuQdwEk1/E5ORCG8o3sCGNhcmbWfYCvTsjqqv+88WJcc3l8bO4GmZDBU71A1BOJF9I9CWmHQ==
   dependencies:
     "@faststore/components" "*"
     include-media "^1.4.10"
