@@ -711,10 +711,9 @@
   dependencies:
     tiny-lru "7.0.6"
 
-"@faststore/api@^2.0.173-alpha.0":
-  version "2.0.173-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.0.173-alpha.0.tgz#c5b13fbae7e78a690e55f56bd91af1dd58fd4a05"
-  integrity sha512-N2gI9LNhVWAS24vkSuROov++kXPiIv4E2S20I0zrQS/WlZ5f7DTK+mQVn+0wEdsI3MrXZB2eT9JXmSt413uZsg==
+"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/api":
+  version "2.0.165-alpha.0"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/api#e7a521b09d7155437846ad88aee34e320d02f818"
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^8.2.0"
@@ -743,36 +742,31 @@
     path "^0.12.7"
     stringify-object "^3.3.0"
 
-"@faststore/components@*":
-  version "1.12.43"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-1.12.43.tgz#97be33b288f07d9c2d273006cdd4f2480d4e183b"
-  integrity sha512-OA21Rcuvm2HTkuoQQSolDlualVHmuxmB/Syy/j7XuZpoiZn/oyeTUSaVmF8nR1vqlKPrgYQPvEMHbALny14T8w==
+"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/components":
+  version "2.0.160-alpha.0"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/components#f11d37ee27a2be2e480f5c6d3ab0f45215b9fb74"
 
-"@faststore/components@^2.0.173-alpha.0":
-  version "2.0.173-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.0.173-alpha.0.tgz#ffa9439f706c0743a2ac6f32d96cfd87d09ac022"
-  integrity sha512-ZwBdHKHeVQ+8mq6XbrS3ObiCh5DvwWA4K0KSSccWe0rpAsey+QDms1bq6dZRG1JykuMHa7N3ALqRiXxuS2ObNg==
-
-"@faststore/core@2.0.173-alpha.0":
-  version "2.0.173-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.0.173-alpha.0.tgz#f549733ee5ef44e00d23abb4e8107fff6a19d80c"
-  integrity sha512-lSNqY5pcFwRKSaGQV/IIYI5g8wCwal2JUkFRwgkF2ABgTBb8fLG+VFfUeMB/kAPIgXpPV47NFrT5XjapSIXTWg==
+"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/core/_pkg.tgz":
+  version "2.0.165-alpha.0"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/core/_pkg.tgz#ae97107dc2b37d08d7414f34385ee5e416e42c39"
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^2.0.173-alpha.0"
-    "@faststore/components" "^2.0.173-alpha.0"
-    "@faststore/graphql-utils" "^2.0.3-alpha.0"
-    "@faststore/sdk" "^2.0.173-alpha.0"
-    "@faststore/ui" "^2.0.173-alpha.0"
+    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/api"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/components"
+    "@faststore/graphql-utils" "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/graphql-utils"
+    "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/sdk"
+    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/ui"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
     chalk "^5.2.0"
     css-loader "^6.7.1"
+    draft-js "^0.11.7"
+    draft-js-export-html "^1.4.1"
     graphql "^15.0.0"
     include-media "^1.4.10"
     msw "^0.43.1"
@@ -791,10 +785,9 @@
     tsconfig-paths-webpack-plugin "^3.5.2"
     typescript "4.7.3"
 
-"@faststore/graphql-utils@^2.0.3-alpha.0":
-  version "2.0.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-2.0.3-alpha.0.tgz#1d70065f5fcaafc51e9399b11b1b117a28a89f38"
-  integrity sha512-+kOX1fOHWMp/GqY9ooYuOwQbvHREoIoIm3CA/B6twPtwU/3G4W7+NZVYPUK1InVDxBQIEWfqPNSxgVTXvGfrFg==
+"@faststore/graphql-utils@https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/graphql-utils":
+  version "2.0.104-alpha.0"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/graphql-utils#a307d91443e8d930c7ca76125c094d79e5cd89b4"
   dependencies:
     "@babel/traverse" "^7.15.4"
     "@babel/types" "^7.15.6"
@@ -806,19 +799,17 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.0.167-alpha.0.tgz#6dedcbdff779bab1fd6860e4bc88e21e7de3adec"
   integrity sha512-lO17o6cB1U8bil/RBbFeRtXRWXG0mgiahABU3HYTu5SHKo7wBTEmWRUviCyMl6H3veaBM11eXh5yAzL4Dj9dVQ==
 
-"@faststore/sdk@^2.0.173-alpha.0":
-  version "2.0.173-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.0.173-alpha.0.tgz#d378bff7d4fe5883bed755b7cc673e282e7c968f"
-  integrity sha512-3uVlSYRvmfmlV5CPuhYYYjtbN620tUKYiGcxDB0p93XNUGkQuFpivDCfC+4ngIDGv3JkPRI/9S1531Enz3ZoiA==
+"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/sdk":
+  version "2.0.162-alpha.0"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/sdk#619fd451a683c6bc8e22bc8bd5f6f2b284b6b066"
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.0.173-alpha.0":
-  version "2.0.173-alpha.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.0.173-alpha.0.tgz#bc073a527b8c0f90c3016e381cb9b8e6eb271268"
-  integrity sha512-/aTIN+teUTO8d4rUd+sQ9y7hTUzM4juTA2FZ3UVpL2JY31Lbhq47KJlLDzwDehp7kx354f+CVwTUrH8BWpwXyQ==
+"@faststore/ui@https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/ui":
+  version "2.0.160-alpha.0"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/ui#00968702b5e5e2195e464b4c5b4d5ce87cee7d9d"
   dependencies:
-    "@faststore/components" "*"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/772d11ca/@faststore/components"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
@@ -2366,10 +2357,22 @@ cookie@^0.4.2:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
   integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
+core-js@^3.6.4:
+  version "3.30.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.30.2.tgz#6528abfda65e5ad728143ea23f7a14f0dcf503fc"
+  integrity sha512-uBJiDmwqsbJCWHAwjrx3cvjbMXP7xD72Dmsn5LOJpiRmE3WbBbN5rCqQ2Qh6Ek6/eOrjlWngEynBWo4VxerQhg==
+
 core-util-is@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==
+
+cross-fetch@^3.0.4:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.6.tgz#bae05aa31a4da760969756318feeee6e70f15d6c"
+  integrity sha512-riRvo06crlE8HiqOwIpQhxwdOk4fOeR7FVM/wXoxchFEqMNUjvbs3bfo4OTgMEMHzppd4DxFBDbyySj8Cv781g==
+  dependencies:
+    node-fetch "^2.6.11"
 
 cross-fetch@^3.1.5:
   version "3.1.5"
@@ -2750,6 +2753,27 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+draft-js-export-html@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/draft-js-export-html/-/draft-js-export-html-1.4.1.tgz#7cdad970c6f7f2cdd19ce4c1f5073fdf0f313b4d"
+  integrity sha512-G4VGBSalPowktIE4wp3rFbhjs+Ln9IZ2FhXeHjsZDSw0a2+h+BjKu5Enq+mcsyVb51RW740GBK8Xbf7Iic51tw==
+  dependencies:
+    draft-js-utils "^1.4.0"
+
+draft-js-utils@^1.4.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/draft-js-utils/-/draft-js-utils-1.4.1.tgz#a59c792ad621f7050292031a237d524708a6d509"
+  integrity sha512-xE81Y+z/muC5D5z9qWmKfxEW1XyXfsBzSbSBk2JRsoD0yzMGGHQm/0MtuqHl/EUDkaBJJLjJ2EACycoDMY/OOg==
+
+draft-js@^0.11.7:
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.11.7.tgz#be293aaa255c46d8a6647f3860aa4c178484a206"
+  integrity sha512-ne7yFfN4sEL82QPQEn80xnADR8/Q6ALVworbC5UOSzOvjffmYfFsr3xSZtxbIirti14R7Y33EZC5rivpLgIbsg==
+  dependencies:
+    fbjs "^2.0.0"
+    immutable "~3.7.4"
+    object-assign "^4.1.1"
+
 duplexer3@^0.1.4:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.5.tgz#0b5e4d7bad5de8901ea4440624c8e1d20099217e"
@@ -3064,6 +3088,20 @@ fbjs-css-vars@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz#216551136ae02fe255932c3ec8775f18e2c078b8"
   integrity sha512-b2XGFAFdWZWg0phtAWLHCk836A1Xann+I+Dgd3Gk64MHKZO44FfoD1KxyvbSh0qZsIoXQGGlVztIY+oitJPpRQ==
+
+fbjs@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-2.0.0.tgz#01fb812138d7e31831ed3e374afe27b9169ef442"
+  integrity sha512-8XA8ny9ifxrAWlyhAbexXcs3rRMtxWcs3M0lctLfB49jRDHiaxj+Mo0XxbwE7nKZYzgCFoq64FS+WFd4IycPPQ==
+  dependencies:
+    core-js "^3.6.4"
+    cross-fetch "^3.0.4"
+    fbjs-css-vars "^1.0.0"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
 
 fbjs@^3.0.0:
   version "3.0.4"
@@ -3587,7 +3625,7 @@ immutable@^4.0.0:
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
   integrity sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==
 
-immutable@~3.7.6:
+immutable@~3.7.4, immutable@~3.7.6:
   version "3.7.6"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
   integrity sha512-AizQPcaofEtO11RZhPPHBOJRdo/20MKQF9mBLnVkBoyHi1/zXK8fzVdnEpSV9gxqtnh6Qomfp3F0xT5qP/vThw==
@@ -4753,6 +4791,13 @@ node-fetch@2.6.7, node-fetch@^2.6.1, node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
+
+node-fetch@^2.6.11:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.11.tgz#cde7fc71deef3131ef80a738919f999e6edfff25"
+  integrity sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==
   dependencies:
     whatwg-url "^5.0.0"
 
@@ -6300,6 +6345,11 @@ typescript@^4.9.4:
   version "4.9.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
   integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
+
+ua-parser-js@^0.7.18:
+  version "0.7.35"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.35.tgz#8bda4827be4f0b1dda91699a29499575a1f1d307"
+  integrity sha512-veRf7dawaj9xaWEu9HoTVn5Pggtc/qj+kqTOFvNiN1l0YdxwC1kvel57UCjThjGa3BHBihE8/UJAHI+uQHmd/g==
 
 ua-parser-js@^0.7.30:
   version "0.7.32"
