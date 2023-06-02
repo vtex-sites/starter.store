@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from "react";
 
-export const Countdown = ({ targetTime }) => {
+export interface CountdownProps {
+  /**
+   * The time which we are counting down to
+   */
+  targetTime: Date
+} 
+
+export const Countdown = ({ targetTime }: CountdownProps) => {
   const [currentTime, setCurrentTime] = useState(Date.now());
 
-  const timeBetween = targetTime - currentTime;
+  const timeBetween = (targetTime as any) - currentTime;
   const seconds = Math.floor((timeBetween / 1000) % 60);
   const minutes = Math.floor((timeBetween / 1000 / 60) % 60);
   const hours = Math.floor((timeBetween / (1000 * 60 * 60)) % 24);
