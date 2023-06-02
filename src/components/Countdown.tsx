@@ -18,13 +18,11 @@ export const Countdown = ({ targetTime }) => {
   }, []);
 
   return (
-    <>
-      <p className="counter">
-        <span>{days}d </span>
-        <span>{hours}h </span>
-        <span>{minutes}min </span>
-        <span>{seconds}s</span>
-      </p>
-    </>
-  );
-};
+    <p data-counter>
+      <span>{days}d </span>
+      <span>{hours}h </span>
+      <span>{minutes}min </span>
+      <span>{seconds}s</span>
+    </p>
+  )
+}
