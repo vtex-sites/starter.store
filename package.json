@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "faststore dev",
     "build": "faststore build",
-    "start": "next start",
-    "start:faststore": "faststore start"
+    "start": "faststore start"
   },
   "dependencies": {
     "@faststore/core": "2.0.173-alpha.0",
