@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "faststore dev",
     "build": "faststore build",
-    "start": "next start",
-    "start:faststore": "faststore start"
+    "start": "faststore start"
   },
   "dependencies": {
     "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/dc78b1a2/@faststore/core",

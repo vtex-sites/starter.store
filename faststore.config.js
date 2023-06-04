@@ -11,7 +11,8 @@ module.exports = {
     storeId: "storeframework",
     workspace: "master",
     environment: "vtexcommercestable",
-    hideUnavailableItems: true
+    hideUnavailableItems: true,
+    incrementAddress: false
   },
   session: {
     currency: {
@@ -21,14 +22,29 @@ module.exports = {
     locale: "en-US",
     channel: "{\"salesChannel\":\"1\",\"regionId\":\"\"}",
     country: "USA",
+    deliveryMode: null,
+    addressType: null,
     postalCode: null,
+    geoCoordinates: null,
     person: null
+  },
+  cart: {
+    id: "",
+    items: [],
+    messages: [],
+    shouldSplitItem: true
   },
   storeUrl: "https://vtexfaststore.com",
   secureSubdomain: "https://secure.vtexfaststore.com",
   checkoutUrl: "https://secure.vtexfaststore.com/checkout",
   loginUrl: "https://secure.vtexfaststore.com/api/io/login",
   accountUrl: "https://secure.vtexfaststore.com/api/io/account",
+  previewRedirects: {
+    home: "/",
+    plp: "/office",
+    search: "/s?q=headphone",
+    pdp: "/apple-magic-mouse/p"
+  },
   lighthouse: {
     server: "http://localhost:3000",
     pages: {
