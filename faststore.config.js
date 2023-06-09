@@ -10,7 +10,7 @@ module.exports = {
   api: {
     storeId: "storeframework",
     workspace: "master",
-    environment: "vtexcommercestable",
+    environment: "vtexcommercebeta",
     hideUnavailableItems: true,
     incrementAddress: false
   },
