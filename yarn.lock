@@ -743,6 +743,20 @@
     path "^0.12.7"
     stringify-object "^3.3.0"
 
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/efd6812f/@faststore/cli":
+  version "2.1.1"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/efd6812f/@faststore/cli#3de282b4d8977ed469bc3a2e7152469ffc06091a"
+  dependencies:
+    "@oclif/core" "^1.16.4"
+    "@oclif/plugin-help" "^5"
+    "@oclif/plugin-not-found" "^2.3.3"
+    chalk "~4.1.2"
+    chokidar "^3.5.3"
+    deepmerge "^4.2.2"
+    fs-extra "^10.1.0"
+    path "^0.12.7"
+    stringify-object "^3.3.0"
+
 "@faststore/components@^2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.4.tgz#6707720d55c074cee68f91158d0f6f14649802a2"

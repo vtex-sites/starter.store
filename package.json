@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.9.10",
-    "@faststore/cli": "2.0.155-alpha.0",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/efd6812f/@faststore/cli",
     "@faststore/lighthouse": "^2.0.167-alpha.0",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^8.0.0",
