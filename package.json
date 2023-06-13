@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "faststore dev",
     "build": "faststore build",
-    "start": "faststore start"
+    "start": "faststore start",
+    "cms-sync": "faststore cms-sync"
   },
   "dependencies": {
     "@faststore/core": "2.1.5",
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.9.10",
-    "@faststore/cli": "2.1.9",
+    "@faststore/cli": "^2.1.10",
     "@faststore/lighthouse": "^2.1.1",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^8.0.0",
