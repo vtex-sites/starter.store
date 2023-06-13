@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "faststore dev",
     "build": "faststore build",
-    "start": "faststore start"
+    "start": "faststore start",
+    "cms-sync": "faststore cms-sync"
   },
   "dependencies": {
     "@faststore/core": "2.1.5",
