@@ -796,10 +796,10 @@
     "@graphql-codegen/plugin-helpers" "^2.2.0"
     "@graphql-tools/relay-operation-optimizer" "^6.4.0"
 
-"@faststore/lighthouse@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.1.tgz#9606d61fe8b8597788447e9f1e973d13ef5536f1"
-  integrity sha512-fJHZKThMCTcpgj/h7oSJpHYFhbqfC+/KGecyAPamk9icSrrBD8SBJYqecu2MVFK1SxDh5sH0kTWVc42mpDEKig==
+"@faststore/lighthouse@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.9.tgz#8583b707d6965bb3e170a30a4ea52acbb99650e1"
+  integrity sha512-I+9wHbMyU+HIxA+lBRihN8y8NWTe0eWMdcOtrU4FB9k/HBB7pnEMR2XX34JzyrEdMR0ORLtB1INqQVxZDA3cRg==
 
 "@faststore/sdk@^2.1.1":
   version "2.1.1"
