@@ -728,9 +728,23 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/1209c2f3/@faststore/cli":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/a4c903d0/@faststore/cli":
   version "2.1.1"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/1209c2f3/@faststore/cli#a8eb231968fb13f4fffc55271aa789293272c25b"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/a4c903d0/@faststore/cli#3d4cea5491f749d458b05467ba05bd81dcaf529e"
+  dependencies:
+    "@oclif/core" "^1.16.4"
+    "@oclif/plugin-help" "^5"
+    "@oclif/plugin-not-found" "^2.3.3"
+    chalk "~4.1.2"
+    chokidar "^3.5.3"
+    deepmerge "^4.2.2"
+    fs-extra "^10.1.0"
+    path "^0.12.7"
+    stringify-object "^3.3.0"
+
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/d1806810/@faststore/cli":
+  version "2.1.1"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/d1806810/@faststore/cli#e2783a937ecdfbf2621ae7424d4d5773fc185e82"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
