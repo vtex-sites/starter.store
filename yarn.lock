@@ -728,23 +728,10 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/a4c903d0/@faststore/cli":
-  version "2.1.1"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/a4c903d0/@faststore/cli#3d4cea5491f749d458b05467ba05bd81dcaf529e"
-  dependencies:
-    "@oclif/core" "^1.16.4"
-    "@oclif/plugin-help" "^5"
-    "@oclif/plugin-not-found" "^2.3.3"
-    chalk "~4.1.2"
-    chokidar "^3.5.3"
-    deepmerge "^4.2.2"
-    fs-extra "^10.1.0"
-    path "^0.12.7"
-    stringify-object "^3.3.0"
-
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/d1806810/@faststore/cli":
-  version "2.1.1"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/d1806810/@faststore/cli#e2783a937ecdfbf2621ae7424d4d5773fc185e82"
+"@faststore/cli@2.1.11":
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.1.11.tgz#747ec367be9f56b05735596c0db6cc63750b8684"
+  integrity sha512-vEIVSxe4yeRwGrt5BAw6M0e1beKC0xETM8eCA+MiQ9RXgfjWs7Z7izfBIuuKMQtRdYOWUE459Iaii+becNHzkA==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -761,10 +748,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.9.tgz#67f7452b417a20eb9a8af650186b61036cc124be"
   integrity sha512-lUcO4js1EQL4Wc62F/1rmHU8tt5Q/nHqJM0z3M1vq2t0sdpxttH9BKCUBcxCYD1vssM8xuJYQeuPlk96NUQl3g==
 
-"@faststore/core@^2.1.9":
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.9.tgz#ec8c089d641164879ee944e7928ced94c6040bd3"
-  integrity sha512-UQdK7gilzeRWiSgovyzDrG97wWgU9x71UoE0zGtLMaO65ek02xH8z0uA7Lg3w9ihiMplc4cOiEVje2Xc/CIL0w==
+"@faststore/core@2.1.11":
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.11.tgz#24ed76f4e440d196ea5e7ef09d6839fdf2d92ad1"
+  integrity sha512-/Kk/CNtwlbhS7P0kvm+MiP7A7eQ/Ib1ej8xEGTk0vdPdFQxriz9mO0yqfYrd3WNdf7zAuEQRQOY2eT5Ow9P5Qg==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
