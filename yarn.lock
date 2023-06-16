@@ -728,7 +728,7 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@2.1.11":
+"@faststore/cli@^2.1.11":
   version "2.1.11"
   resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.1.11.tgz#747ec367be9f56b05735596c0db6cc63750b8684"
   integrity sha512-vEIVSxe4yeRwGrt5BAw6M0e1beKC0xETM8eCA+MiQ9RXgfjWs7Z7izfBIuuKMQtRdYOWUE459Iaii+becNHzkA==
@@ -748,7 +748,7 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.9.tgz#67f7452b417a20eb9a8af650186b61036cc124be"
   integrity sha512-lUcO4js1EQL4Wc62F/1rmHU8tt5Q/nHqJM0z3M1vq2t0sdpxttH9BKCUBcxCYD1vssM8xuJYQeuPlk96NUQl3g==
 
-"@faststore/core@2.1.11":
+"@faststore/core@^2.1.11":
   version "2.1.11"
   resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.11.tgz#24ed76f4e440d196ea5e7ef09d6839fdf2d92ad1"
   integrity sha512-/Kk/CNtwlbhS7P0kvm+MiP7A7eQ/Ib1ej8xEGTk0vdPdFQxriz9mO0yqfYrd3WNdf7zAuEQRQOY2eT5Ow9P5Qg==
@@ -798,10 +798,10 @@
     "@graphql-codegen/plugin-helpers" "^2.2.0"
     "@graphql-tools/relay-operation-optimizer" "^6.4.0"
 
-"@faststore/lighthouse@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.1.tgz#9606d61fe8b8597788447e9f1e973d13ef5536f1"
-  integrity sha512-fJHZKThMCTcpgj/h7oSJpHYFhbqfC+/KGecyAPamk9icSrrBD8SBJYqecu2MVFK1SxDh5sH0kTWVc42mpDEKig==
+"@faststore/lighthouse@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.9.tgz#8583b707d6965bb3e170a30a4ea52acbb99650e1"
+  integrity sha512-I+9wHbMyU+HIxA+lBRihN8y8NWTe0eWMdcOtrU4FB9k/HBB7pnEMR2XX34JzyrEdMR0ORLtB1INqQVxZDA3cRg==
 
 "@faststore/sdk@^2.1.9":
   version "2.1.9"
