@@ -1,321 +1,321 @@
-// ----------------------------------------------------------
-// GLOBAL TOKENS
-
-@import "@faststore/ui/src/styles/base/utilities.scss";
-
-// Custom Theme
-// ----------------------------------------------------------
-
-.theme {
-  // --------------------------------------------------------
-  // Colors (Branding Core)
-  // --------------------------------------------------------
-
-  // PALETTE
-  --fs-color-main-0                    : #f0eeff;
-  --fs-color-main-1                    : #b9b3ff;
-  --fs-color-main-2                    : #aba3fd;
-  --fs-color-main-3                    : #554eab;
-  --fs-color-main-4                    : #11294b;
-
-  --fs-color-accent-0                  : #faffda;
-  --fs-color-accent-1                  : #e3ef99;
-  --fs-color-accent-2                  : #aacb80;
-  --fs-color-accent-3                  : #42795b;
-  --fs-color-accent-4                  : #23553a;
-
-  --fs-color-neutral-0                 : #ffffff;
-  --fs-color-neutral-1                 : #f0eeff;
-  --fs-color-neutral-2                 : #b9b3ff;
-  --fs-color-neutral-3                 : #554eab;
-  --fs-color-neutral-4                 : #7067de;
-  --fs-color-neutral-5                 : #554eab;
-  --fs-color-neutral-6                 : #73738c;
-  --fs-color-neutral-7                 : #11294b;
-
-  --new-color                          : #ffe7fe;
-
-  // HIERARCHY
-  --fs-color-primary-bkg               : var(--fs-color-main-3);
-  --fs-color-primary-bkg-hover         : var(--fs-color-main-2);
-  --fs-color-primary-bkg-active        : var(--fs-color-main-2);
-
-  // --fs-color-secondary-bkg-light       : var(--fs-color-neutral-0);
-
-  // SITUATIONS
-  --fs-color-success-bkg               : #e3ef99;
-  --fs-color-warning-bkg               : #fff9cf;
-  --fs-color-neutral-bkg               : var(--fs-color-neutral-0);
-
-  // COMPONENTS & STATES
-  --fs-color-text-display              : var(--fs-color-main-4);
-  --fs-color-link                      : var(--fs-color-main-4);
-  --fs-color-focus-ring                : var(--fs-color-main-1);
-
-  --fs-color-disabled-bkg              : rgba(17, 41, 75, .1);
-
-  // --------------------------------------------------------
-  // Typography (Branding Core)
-  // --------------------------------------------------------
-
-  // FACE
-  --fs-text-face-body                  : 'Inter', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
-  --fs-text-face-title                 : 'Roboto Slab', serif;
-
-  // NUMERIC SCALE
-  --fs-text-size-base                  : 18px; // 1rem
-  --fs-text-scale-desktop              : 1.28;
-
-  // --------------------------------------------------------
-  // Grid & Layout (UI Essentials)
-  // --------------------------------------------------------
-
-  // CONTAINER
-  --fs-grid-max-width                  : calc(1140px - var(--fs-grid-padding) - var(--fs-grid-padding));
-
-  // --------------------------------------------------------
-  // Refinements
-  // --------------------------------------------------------
-
-  // BORDERS
-  --fs-border-width                    : 2px;
-  --fs-border-radius-small             : 3px;
-  --fs-border-radius                   : 20px;
-  --fs-border-radius-medium            : 30px;
-  --fs-border-color                    : var(--fs-color-main-4);
-  --fs-border-color-dark               : var(--fs-color-main-4);
-
-  --fs-border-color-light              : rgba(17, 41, 75, .1);
-
-  // SHADOW
-  --fs-shadow                          : none;
-  --fs-shadow-darker                   : 0 0 10px rgb(0 0 0 / 20%);
-  --fs-shadow-hover                    : 4px 4px 0 var(--fs-color-main-4);
-
-  // --------------------------------------------------------
-  // Components
-  // --------------------------------------------------------
-
-  ///////
-  // todo: bring to tokens file
-  // font-family: var(--fs-text-face-body);
-
-  h1, h2, h3 {
-    font-family: var(--fs-text-face-title);
-  }
-
-  ///////
-
-  .section {
-
-    //////////////////////////
-    // Atoms
-    //////////////////////////
-
-    [data-fs-input] {
-      --fs-input-text-size                             : 16px;
-      --fs-input-border-radius                         : var(--fs-border-radius-pill);
-      --fs-input-border-color                          : var(--fs-border-color-dark);
-    }
-
-
-    //////////////////////////
-    // Molecules
-    //////////////////////////
-
-    [data-fs-button] {
-      --fs-button-padding                              : var(--fs-spacing-3) var(--fs-spacing-4);
-      --fs-button-border-radius                        : var(--fs-border-radius-pill);
-
-      --fs-button-primary-text-color                   : var(--fs-color-main-4);
-      --fs-button-primary-border-color                 : var(--fs-color-main-4);
-      --fs-button-primary-bkg-color                    : var(--fs-color-primary-bkg-light-active);
-
-      --fs-button-secondary-text-color                 : var(--fs-color-main-4);
-      --fs-button-secondary-text-color-hover           : var(--fs-color-main-4);
-      --fs-button-secondary-border-color               : var(--fs-border-color-dark);
-      --fs-button-secondary-border-color-hover         : var(--fs-border-color-dark);
-      --fs-button-secondary-bkg-color                  : var(--fs-color-neutral-0);
-      --fs-button-secondary-bkg-color-hover            : var(--fs-color-main-0);
-
-      &[data-fs-button-variant="primary"],
-      &[data-fs-button-variant="secondary"],
-      &[data-fs-buy-button] {
-        --fs-button-shadow                             : var(--fs-shadow-hover);
-      }
-
-      &[data-fs-button-size="small"] [data-fs-button-wrapper] {
-        font-size: 16px;
-      }
-    }
-
-    [data-fs-buy-button] {
-      --fs-buy-button-text-color                       : var(--fs-color-main-4);
-      --fs-buy-button-text-color-hover                 : var(--fs-buy-button-text-color);
-      --fs-buy-button-text-color-active                : var(--fs-buy-button-text-color);
-      --fs-buy-button-bkg-color                        : var(--fs-color-accent-0);
-      --fs-buy-button-bkg-color-hover                  : var(--fs-color-accent-1);
-      --fs-buy-button-bkg-color-active                 : var(--fs-buy-button-bkg-color-hover);
-      --fs-buy-button-border-color                     : var(--fs-border-color-dark);
-      --fs-buy-button-border-color-hover               : var(--fs-buy-button-border-color);
-    }
-
-    [data-fs-alert] {
-      --fs-alert-bkg-color                             : var(--fs-color-primary-bkg-light);
-    }
-
-    [data-fs-search-input-field] [data-fs-search-input-field-input] {
-      --fs-input-border-radius                         : 20px;
-    }
-
-    [data-fs-input-field] {
-      --fs-input-field-size                            : 16px;
-      --fs-input-field-label-padding                   : 0 var(--fs-spacing-3);
-      --fs-input-field-padding                         : var(--fs-spacing-2) var(--fs-spacing-3) 0;
-    }
-
-    [data-fs-quantity-selector] {
-      --fs-qty-selector-border-color                   : var(--fs-border-color-dark);
-    }
-
-    [data-fs-product-card] {
-      --fs-product-card-padding                        : var(--fs-spacing-3) var(--fs-spacing-3) var(--fs-spacing-4);
-      --fs-product-card-border-color-hover             : var(--fs-border-color-dark);
-      --fs-product-card-box-shadow-hover               : var(--fs-shadow-hover);
-
-      &:hover { transform: translateX(-4px) translateY(-4px); }
-
-      &[data-fs-product-card-bordered='true'] {
-        --fs-product-card-border-color                 : var(--fs-border-color-dark);
-      }
-    }
-
-    [data-fs-product-card-variant="wide"] {
-      border-color: var(--fs-border-color-dark);
-    }
-
-    [data-fs-sku-selector] {
-      --fs-sku-selector-option-border-radius            : var(--fs-border-radius-circle);
-    }
-
-
-    //////////////////////////
-    // Organisms
-    //////////////////////////
-
-    [data-fs-hero] {
-      --fs-hero-light-bkg-color                         : var(--fs-color-neutral-0);
-    }
-
-    [data-fs-product-shelf] [data-fs-carousel] {
-      --fs-carousel-item-width-tablet                   : 14.2rem;
-      --fs-carousel-item-width-desktop                  : 16.07rem;
-      --fs-carousel-padding-desktop                     : 5px;
-      width: 100%;
-    }
-
-    [data-fs-incentives-colored] {
-      --fs-incentives-bkg-color                        : var(--fs-color-accent-0);
-      --fs-incentives-gap                              : var(--fs-spacing-4);
-    }
-
-    [data-fs-footer] {
-      --fs-footer-bkg-color                            : var(--fs-color-accent-0);
-    }
-
-    [data-fs-logo] {
-      --fs-logo-img                                    : url('~/public/brandless-positive.png');
-      --fs-logo-width                                  : 8rem;
-    }
-
-    [data-fs-image-gallery] {
-      --fs-image-gallery-current-height                    : 25rem;
-      --fs-image-gallery-selector-thumbnail-width-notebook : 130px;
-
-
-      &[data-fs-image-gallery=with-selector] { display: flex; }
-
-      [data-fs-image-gallery-selector-elements] { flex-direction: row; }
-
-      [data-fs-image-gallery-selector-control] { display: none; }
-    }
-
-    [data-fs-product-details] {
-      --fs-product-details-section-bkg-color            : var(--fs-color-primary-bkg-light);
-      --fs-product-details-section-border-color         : var(--fs-color-neutral-0);
-      --fs-product-details-horizontal-spacing           : var(--fs-spacing-6);
-
-      [data-fs-product-details-title],
-      [data-fs-product-details-info] {
-        grid-column: 9/span 7;
-      }
-
-      [data-fs-image-gallery=with-selector] ~ [data-fs-product-details-content] {
-        grid-column: 1/9;
-      }
-    }
-
-  }
-
-  //////////////////////////
-  // Deletable Content
-  //////////////////////////
-
-  //////////////////////////
-  // Pages sections
-  //////////////////////////
-
-  .text__title-section {
-    text-align: center;
-    font-weight: var(--fs-text-weight-regular);
-    margin-bottom: var(--fs-spacing-5);
-  }
-
-  // Homepage
-  // we need a class for each page
-
-  .section-hero {
-    margin-top: var(--fs-spacing-7);
-    margin-bottom: var(--fs-spacing-12);
-    [data-fs-hero-variant="primary"] [data-fs-hero-image] {
-      display: flex;
-      align-items: center;
-      img {
-        width: auto;
-        height: 80%;
-      }
-    }
-  }
-
-  .section-product-tiles {
-    padding-top: var(--fs-spacing-8);
-    padding-bottom: var(--fs-spacing-9);
-    @include layout-colored(var(--fs-color-accent-0));
-  }
-
-  .section-banner {
-    border-radius: var(--fs-border-radius);
-    overflow: hidden;
-    @include layout-content;
-  }
-
-  .section-newsletter {
-    border-radius: var(--fs-border-radius);
-    overflow: hidden;
-    margin-bottom: var(--fs-spacing-8);
-    @include layout-content;
-  }
-
-  .section.section-product-shelf {
-    [data-fs-content="product-shelf"] {
-      @include media(">=notebook") {
-        @include layout-content;
-        max-width: calc(1140px - var(--fs-grid-padding) - var(--fs-grid-padding) + 10px);
-      }
-    }
-    [data-fs-carousel-track-container] {
-      overflow: visible;
-    }
-  }
-
-}
+// // ----------------------------------------------------------
+// // GLOBAL TOKENS
+
+// @import "@faststore/ui/src/styles/base/utilities.scss";
+
+// // Custom Theme
+// // ----------------------------------------------------------
+
+// .theme {
+//   // --------------------------------------------------------
+//   // Colors (Branding Core)
+//   // --------------------------------------------------------
+
+//   // PALETTE
+//   --fs-color-main-0                    : #f0eeff;
+//   --fs-color-main-1                    : #b9b3ff;
+//   --fs-color-main-2                    : #aba3fd;
+//   --fs-color-main-3                    : #554eab;
+//   --fs-color-main-4                    : #11294b;
+
+//   --fs-color-accent-0                  : #faffda;
+//   --fs-color-accent-1                  : #e3ef99;
+//   --fs-color-accent-2                  : #aacb80;
+//   --fs-color-accent-3                  : #42795b;
+//   --fs-color-accent-4                  : #23553a;
+
+//   --fs-color-neutral-0                 : #ffffff;
+//   --fs-color-neutral-1                 : #f0eeff;
+//   --fs-color-neutral-2                 : #b9b3ff;
+//   --fs-color-neutral-3                 : #554eab;
+//   --fs-color-neutral-4                 : #7067de;
+//   --fs-color-neutral-5                 : #554eab;
+//   --fs-color-neutral-6                 : #73738c;
+//   --fs-color-neutral-7                 : #11294b;
+
+//   --new-color                          : #ffe7fe;
+
+//   // HIERARCHY
+//   --fs-color-primary-bkg               : var(--fs-color-main-3);
+//   --fs-color-primary-bkg-hover         : var(--fs-color-main-2);
+//   --fs-color-primary-bkg-active        : var(--fs-color-main-2);
+
+//   // --fs-color-secondary-bkg-light       : var(--fs-color-neutral-0);
+
+//   // SITUATIONS
+//   --fs-color-success-bkg               : #e3ef99;
+//   --fs-color-warning-bkg               : #fff9cf;
+//   --fs-color-neutral-bkg               : var(--fs-color-neutral-0);
+
+//   // COMPONENTS & STATES
+//   --fs-color-text-display              : var(--fs-color-main-4);
+//   --fs-color-link                      : var(--fs-color-main-4);
+//   --fs-color-focus-ring                : var(--fs-color-main-1);
+
+//   --fs-color-disabled-bkg              : rgba(17, 41, 75, .1);
+
+//   // --------------------------------------------------------
+//   // Typography (Branding Core)
+//   // --------------------------------------------------------
+
+//   // FACE
+//   --fs-text-face-body                  : 'Inter', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+//   --fs-text-face-title                 : 'Roboto Slab', serif;
+
+//   // NUMERIC SCALE
+//   --fs-text-size-base                  : 18px; // 1rem
+//   --fs-text-scale-desktop              : 1.28;
+
+//   // --------------------------------------------------------
+//   // Grid & Layout (UI Essentials)
+//   // --------------------------------------------------------
+
+//   // CONTAINER
+//   --fs-grid-max-width                  : calc(1140px - var(--fs-grid-padding) - var(--fs-grid-padding));
+
+//   // --------------------------------------------------------
+//   // Refinements
+//   // --------------------------------------------------------
+
+//   // BORDERS
+//   --fs-border-width                    : 2px;
+//   --fs-border-radius-small             : 3px;
+//   --fs-border-radius                   : 20px;
+//   --fs-border-radius-medium            : 30px;
+//   --fs-border-color                    : var(--fs-color-main-4);
+//   --fs-border-color-dark               : var(--fs-color-main-4);
+
+//   --fs-border-color-light              : rgba(17, 41, 75, .1);
+
+//   // SHADOW
+//   --fs-shadow                          : none;
+//   --fs-shadow-darker                   : 0 0 10px rgb(0 0 0 / 20%);
+//   --fs-shadow-hover                    : 4px 4px 0 var(--fs-color-main-4);
+
+//   // --------------------------------------------------------
+//   // Components
+//   // --------------------------------------------------------
+
+//   ///////
+//   // todo: bring to tokens file
+//   // font-family: var(--fs-text-face-body);
+
+//   h1, h2, h3 {
+//     font-family: var(--fs-text-face-title);
+//   }
+
+//   ///////
+
+//   .section {
+
+//     //////////////////////////
+//     // Atoms
+//     //////////////////////////
+
+//     [data-fs-input] {
+//       --fs-input-text-size                             : 16px;
+//       --fs-input-border-radius                         : var(--fs-border-radius-pill);
+//       --fs-input-border-color                          : var(--fs-border-color-dark);
+//     }
+
+
+//     //////////////////////////
+//     // Molecules
+//     //////////////////////////
+
+//     [data-fs-button] {
+//       --fs-button-padding                              : var(--fs-spacing-3) var(--fs-spacing-4);
+//       --fs-button-border-radius                        : var(--fs-border-radius-pill);
+
+//       --fs-button-primary-text-color                   : var(--fs-color-main-4);
+//       --fs-button-primary-border-color                 : var(--fs-color-main-4);
+//       --fs-button-primary-bkg-color                    : var(--fs-color-primary-bkg-light-active);
+
+//       --fs-button-secondary-text-color                 : var(--fs-color-main-4);
+//       --fs-button-secondary-text-color-hover           : var(--fs-color-main-4);
+//       --fs-button-secondary-border-color               : var(--fs-border-color-dark);
+//       --fs-button-secondary-border-color-hover         : var(--fs-border-color-dark);
+//       --fs-button-secondary-bkg-color                  : var(--fs-color-neutral-0);
+//       --fs-button-secondary-bkg-color-hover            : var(--fs-color-main-0);
+
+//       &[data-fs-button-variant="primary"],
+//       &[data-fs-button-variant="secondary"],
+//       &[data-fs-buy-button] {
+//         --fs-button-shadow                             : var(--fs-shadow-hover);
+//       }
+
+//       &[data-fs-button-size="small"] [data-fs-button-wrapper] {
+//         font-size: 16px;
+//       }
+//     }
+
+//     [data-fs-buy-button] {
+//       --fs-buy-button-text-color                       : var(--fs-color-main-4);
+//       --fs-buy-button-text-color-hover                 : var(--fs-buy-button-text-color);
+//       --fs-buy-button-text-color-active                : var(--fs-buy-button-text-color);
+//       --fs-buy-button-bkg-color                        : var(--fs-color-accent-0);
+//       --fs-buy-button-bkg-color-hover                  : var(--fs-color-accent-1);
+//       --fs-buy-button-bkg-color-active                 : var(--fs-buy-button-bkg-color-hover);
+//       --fs-buy-button-border-color                     : var(--fs-border-color-dark);
+//       --fs-buy-button-border-color-hover               : var(--fs-buy-button-border-color);
+//     }
+
+//     [data-fs-alert] {
+//       --fs-alert-bkg-color                             : var(--fs-color-primary-bkg-light);
+//     }
+
+//     [data-fs-search-input-field] [data-fs-search-input-field-input] {
+//       --fs-input-border-radius                         : 20px;
+//     }
+
+//     [data-fs-input-field] {
+//       --fs-input-field-size                            : 16px;
+//       --fs-input-field-label-padding                   : 0 var(--fs-spacing-3);
+//       --fs-input-field-padding                         : var(--fs-spacing-2) var(--fs-spacing-3) 0;
+//     }
+
+//     [data-fs-quantity-selector] {
+//       --fs-qty-selector-border-color                   : var(--fs-border-color-dark);
+//     }
+
+//     [data-fs-product-card] {
+//       --fs-product-card-padding                        : var(--fs-spacing-3) var(--fs-spacing-3) var(--fs-spacing-4);
+//       --fs-product-card-border-color-hover             : var(--fs-border-color-dark);
+//       --fs-product-card-box-shadow-hover               : var(--fs-shadow-hover);
+
+//       &:hover { transform: translateX(-4px) translateY(-4px); }
+
+//       &[data-fs-product-card-bordered='true'] {
+//         --fs-product-card-border-color                 : var(--fs-border-color-dark);
+//       }
+//     }
+
+//     [data-fs-product-card-variant="wide"] {
+//       border-color: var(--fs-border-color-dark);
+//     }
+
+//     [data-fs-sku-selector] {
+//       --fs-sku-selector-option-border-radius            : var(--fs-border-radius-circle);
+//     }
+
+
+//     //////////////////////////
+//     // Organisms
+//     //////////////////////////
+
+//     [data-fs-hero] {
+//       --fs-hero-light-bkg-color                         : var(--fs-color-neutral-0);
+//     }
+
+//     [data-fs-product-shelf] [data-fs-carousel] {
+//       --fs-carousel-item-width-tablet                   : 14.2rem;
+//       --fs-carousel-item-width-desktop                  : 16.07rem;
+//       --fs-carousel-padding-desktop                     : 5px;
+//       width: 100%;
+//     }
+
+//     [data-fs-incentives-colored] {
+//       --fs-incentives-bkg-color                        : var(--fs-color-accent-0);
+//       --fs-incentives-gap                              : var(--fs-spacing-4);
+//     }
+
+//     [data-fs-footer] {
+//       --fs-footer-bkg-color                            : var(--fs-color-accent-0);
+//     }
+
+//     [data-fs-logo] {
+//       --fs-logo-img                                    : url('~/public/brandless-positive.png');
+//       --fs-logo-width                                  : 8rem;
+//     }
+
+//     [data-fs-image-gallery] {
+//       --fs-image-gallery-current-height                    : 25rem;
+//       --fs-image-gallery-selector-thumbnail-width-notebook : 130px;
+
+
+//       &[data-fs-image-gallery=with-selector] { display: flex; }
+
+//       [data-fs-image-gallery-selector-elements] { flex-direction: row; }
+
+//       [data-fs-image-gallery-selector-control] { display: none; }
+//     }
+
+//     [data-fs-product-details] {
+//       --fs-product-details-section-bkg-color            : var(--fs-color-primary-bkg-light);
+//       --fs-product-details-section-border-color         : var(--fs-color-neutral-0);
+//       --fs-product-details-horizontal-spacing           : var(--fs-spacing-6);
+
+//       [data-fs-product-details-title],
+//       [data-fs-product-details-info] {
+//         grid-column: 9/span 7;
+//       }
+
+//       [data-fs-image-gallery=with-selector] ~ [data-fs-product-details-content] {
+//         grid-column: 1/9;
+//       }
+//     }
+
+//   }
+
+//   //////////////////////////
+//   // Deletable Content
+//   //////////////////////////
+
+//   //////////////////////////
+//   // Pages sections
+//   //////////////////////////
+
+//   .text__title-section {
+//     text-align: center;
+//     font-weight: var(--fs-text-weight-regular);
+//     margin-bottom: var(--fs-spacing-5);
+//   }
+
+//   // Homepage
+//   // we need a class for each page
+
+//   .section-hero {
+//     margin-top: var(--fs-spacing-7);
+//     margin-bottom: var(--fs-spacing-12);
+//     [data-fs-hero-variant="primary"] [data-fs-hero-image] {
+//       display: flex;
+//       align-items: center;
+//       img {
+//         width: auto;
+//         height: 80%;
+//       }
+//     }
+//   }
+
+//   .section-product-tiles {
+//     padding-top: var(--fs-spacing-8);
+//     padding-bottom: var(--fs-spacing-9);
+//     @include layout-colored(var(--fs-color-accent-0));
+//   }
+
+//   .section-banner {
+//     border-radius: var(--fs-border-radius);
+//     overflow: hidden;
+//     @include layout-content;
+//   }
+
+//   .section-newsletter {
+//     border-radius: var(--fs-border-radius);
+//     overflow: hidden;
+//     margin-bottom: var(--fs-spacing-8);
+//     @include layout-content;
+//   }
+
+//   .section.section-product-shelf {
+//     [data-fs-content="product-shelf"] {
+//       @include media(">=notebook") {
+//         @include layout-content;
+//         max-width: calc(1140px - var(--fs-grid-padding) - var(--fs-grid-padding) + 10px);
+//       }
+//     }
+//     [data-fs-carousel-track-container] {
+//       overflow: visible;
+//     }
+//   }
+
+// }
