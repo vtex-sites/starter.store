@@ -5,7 +5,7 @@ const SECTION = 'ProductShelf' as const
 const overrides: SectionOverride[typeof SECTION] = {
   name: SECTION,
   components: {
-    __experimentalProductCard: { props: { aspectRatio: 0.8 } },
+    __experimentalProductCard: { props: { aspectRatio: 1 } },
   },
 }
 
