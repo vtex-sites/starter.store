@@ -65,5 +65,10 @@ module.exports = {
   analytics: {
     gtmContainerId: "GTM-PGHZ95N"
   },
-  account: "storeframework"
+  account: "storeframework",
+  vtexHeadlessCms: {
+    webhookUrls: [
+      "https://storeframework.myvtex.com/cms-releases/webhook-releases"
+    ]
+  }
 }
