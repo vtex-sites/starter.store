@@ -13,7 +13,7 @@ updates:
       # Allow updates for packages starting "@faststore/"
       - dependency-name: "@faststore/*"
         dependency-type: "direct"
-    # Prefix all commit messages with "Evergreen"
+    # Prefix all commit messages with "Faststore"
     # include a list of updated dependencies
     commit-message:
       prefix: "Faststore"
