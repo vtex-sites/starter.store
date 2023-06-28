@@ -16,6 +16,7 @@ updates:
     # Prefix all commit messages with "Evergreen"
     # include a list of updated dependencies
     commit-message:
+      prefix: "Faststore"
       include: "scope"
     # Specify labels for npm pull requests
     labels:
