@@ -13,9 +13,10 @@ updates:
       # Allow updates for packages starting "@faststore/"
       - dependency-name: "@faststore/*"
         dependency-type: "direct"
-    # Prefix all commit messages with "Evergreen"
+    # Prefix all commit messages with "FastStore"
     # include a list of updated dependencies
     commit-message:
+      prefix: "FastStore"
       include: "scope"
     # Specify labels for npm pull requests
     labels:
