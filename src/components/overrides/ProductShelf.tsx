@@ -2,12 +2,12 @@ import { SectionOverride } from "@faststore/core/src/typings/overrides"
 
 const SECTION = 'ProductShelf' as const
 
-const overrides: SectionOverride[typeof SECTION] = {
-  name: SECTION,
+const override: SectionOverride = {
+  section: SECTION,
   components: {
-    __experimentalProductCard: { props: { aspectRatio: 1 } },
+    __experimentalProductCard: { props: { aspectRatio: 0.8 } },
   },
 }
 
-export default overrides
+export { override }
 
