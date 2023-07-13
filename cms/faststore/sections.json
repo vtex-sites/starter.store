@@ -1,0 +1,26 @@
+[
+    {
+      "name": "ShoppingSeasonCountdown",
+      "schema": {
+        "title": "Shopping Season Countdown",
+        "description": "Add a countdown to your special event",
+        "type": "object",
+        "required": [
+          "content",
+          "date"
+        ],
+        "properties": {
+          "content": {
+            "type": "string",
+            "title": "Content"
+          },
+          "date": {
+            "title": "Date of the event",
+            "type": "string",
+            "default": "2023-11-24 00:00:00",
+            "pattern": "^([0-9]{4})-([0-9]{2})-([0-9]{2}) ([0-9]{2}):([0-9]{2}):([0-9]{2})"
+          }
+        }
+      }
+    }
+  ]
