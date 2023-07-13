@@ -256,45 +256,6 @@
         grid-column: 1/9;
       }
     }
-
-    [data-countdown] {
-      background: linear-gradient(149deg, var(--fs-color-accent-0) 20%, var(--new-color-1) 100%);
-      font-weight: var(--fs-text-weight-bold);
-    }
-
-    [data-countdown-wrapper] {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-top: var(--fs-spacing-3);
-      padding-bottom: var(--fs-spacing-3);
-
-      ul {
-        display: flex;
-        column-gap: var(--fs-spacing-0);
-      }
-      li {
-        display: flex;
-        flex-direction: column;
-        row-gap: var(--fs-spacing-0);
-      }
-    }
-
-    [data-counter-number] {
-      text-align: center;
-      background-color: #11294c0d;
-      border-radius: var(--fs-border-radius-small);
-      padding: var(--fs-spacing-1) 0;
-      min-width: 55px;
-      font-size: var(--fs-text-size-lead);
-    }
-
-    [data-counter-label] {
-      font-size: var(--fs-text-size-tiny);
-      text-align: center;
-      text-transform: uppercase;
-    }
-
   }
 
   //////////////////////////
@@ -315,8 +276,6 @@
   // we need a class for each page
 
   .section-hero {
-    margin-top: var(--fs-spacing-7);
-    margin-bottom: var(--fs-spacing-12);
     [data-fs-hero-variant="primary"] [data-fs-hero-image] {
       display: flex;
       align-items: center;

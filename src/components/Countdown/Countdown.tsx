@@ -1,31 +1,26 @@
-import dynamic from "next/dynamic"
-
-import { CounterProps } from './Counter'
+import { Counter } from "./Counter";
+import styles from './countdown.module.scss'
 
 export interface CountdownProps {
   /**
    * The text that will be displayed for the customer
    */
-  content: string
+  content: string;
   /**
    * The time which we are counting down to as a string
    */
-  date: string
+  date: string;
 }
 
-export function Countdown({ content, date }: CountdownProps) {
-  const Counter = dynamic<CounterProps>(() => import('./Counter').then(mod => mod.Counter ), {
-    ssr: false
-  })
-
-  const targetTime = new Date(date)
+export function ShoppingSeasonCountdown({ content, date }: CountdownProps) {
+  const targetTime = new Date(date);
 
   return (
-    <div data-countdown>
+    <section className={`section ${styles.section}`} data-countdown>
       <div data-countdown-wrapper data-fs-content="countdown">
         {content}
         <Counter targetTime={targetTime} />
       </div>
-    </div>
-  )
+    </section>
+  );
 }
