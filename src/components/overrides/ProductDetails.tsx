@@ -5,7 +5,7 @@ const SECTION = "ProductDetails";
 const override: SectionOverride = {
   section: SECTION,
   components: {
-    BuyButton: { props: { size: "small", iconPosition: "right" } },
+    BuyButton: { props: { size: "small", iconPosition: "left" } },
   },
 };
 
