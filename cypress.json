@@ -5,6 +5,5 @@
   "trashAssetsBeforeRuns": true,
   "screenshotOnRunFailure": true,
   "viewportWidth": 1000,
-  "viewportHeight": 600,
-  "browser": "chrome"
+  "viewportHeight": 600
 }
