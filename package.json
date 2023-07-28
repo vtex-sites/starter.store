@@ -10,7 +10,7 @@
     "cms-sync": "faststore cms-sync"
   },
   "dependencies": {
-    "@faststore/core": "2.1.51",
+    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/6f43b684/@faststore/core",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
