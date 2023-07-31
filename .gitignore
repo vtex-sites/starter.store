@@ -39,4 +39,3 @@ yarn-error.log*
 public/
 .vscode/
 lighthouserc.js
-cypress
