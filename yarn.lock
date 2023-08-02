@@ -720,8 +720,7 @@
 
 "@faststore/api@^2.1.53":
   version "2.1.53"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.1.53.tgz#6375b42164c6f7b0224567113e03c768480580b0"
-  integrity sha512-fJ394br5WpvgoA91SblpbHy2PWkZIMsPwblHU74EtR7k1yOP7ZEvcsYcQXl6qi2gLAX4uc7vYZGsx9Z5HHaNhQ==
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/8890af87/@faststore/api#33e3bce1c14f646cb8535cfef9f12af0eba54ec4"
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^8.2.0"
@@ -735,9 +734,9 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/8856483c/@faststore/cli/_pkg.tgz":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/8890af87/@faststore/cli/_pkg.tgz":
   version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/8856483c/@faststore/cli/_pkg.tgz#169fe5e9bdbe1d895a599f33f7aac20c44f8f587"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/8890af87/@faststore/cli/_pkg.tgz#fdba5b023cd4d00dd42d6cb80c29afdedab5c17f"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -796,8 +795,7 @@
 
 "@faststore/graphql-utils@^2.1.53":
   version "2.1.53"
-  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-2.1.53.tgz#51d829515c013ae17d19d0e2c2b19af027835b7f"
-  integrity sha512-XDMTFokL9OZMGLpQ1ccrlQ2rzBKrjIKQjCWh7q0EUnK+Crv6yp1FGw+78Mq8QNkcGUpbIE+zTKp7dCARly9ATw==
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/8890af87/@faststore/graphql-utils#4260996a09ed1fc47e8057aae9d166d33699db82"
   dependencies:
     "@babel/traverse" "^7.15.4"
     "@babel/types" "^7.15.6"
@@ -811,8 +809,7 @@
 
 "@faststore/sdk@^2.1.53":
   version "2.1.53"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.1.53.tgz#3be9d8d215e933f8a86c962ab333d7027e593825"
-  integrity sha512-rbwzjkTWsMcuZm/ZguJqzrAWS9s/1+BCXWzcvQ+Fvg3RdDPe9IiKxz+LBtnevD596ytrmtDInYZpFloLZ67yUw==
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/8890af87/@faststore/sdk#f80cdb61a650f1ab335deb897da575f9f1c13134"
   dependencies:
     idb-keyval "^5.1.3"
 
