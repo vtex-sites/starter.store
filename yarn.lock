@@ -734,9 +734,10 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/8890af87/@faststore/cli/_pkg.tgz":
-  version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/8890af87/@faststore/cli/_pkg.tgz#fdba5b023cd4d00dd42d6cb80c29afdedab5c17f"
+"@faststore/cli@^2.1.56":
+  version "2.1.56"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.1.56.tgz#648bf4ee81212857232b3b2f494447ed210981c1"
+  integrity sha512-8SzwY8n/jQ36Nuf0yyTLKs0H05WOCneFYX78vwlV1gWpZ4/De4jS8LpXAyY6TgWMwp84ZLE4VQl5x30xMjVaow==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
