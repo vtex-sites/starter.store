@@ -71,5 +71,8 @@ module.exports = {
     webhookUrls: [
       "https://storeframework.myvtex.com/cms-releases/webhook-releases"
     ]
-  }
+  },
+  experimental: {
+    enableCypressExtension: true,
+  },
 }
