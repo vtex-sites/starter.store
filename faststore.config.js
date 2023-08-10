@@ -54,7 +54,6 @@ module.exports = {
     }
   },
   cypress: {
-    browser: "chrome",
     pages: {
       home: "/",
       pdp: "/apple-magic-mouse/p",
