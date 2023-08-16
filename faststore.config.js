@@ -11,7 +11,7 @@ module.exports = {
     storeId: "storeframework",
     workspace: "master",
     environment: "vtexcommercebeta",
-    hideUnavailableItems: true,
+    hideUnavailableItems: false,
     incrementAddress: false
   },
   session: {
