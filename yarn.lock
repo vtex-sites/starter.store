@@ -753,9 +753,10 @@
   version "2.1.67"
   resolved "https://pkg.csb.dev/vtex/faststore/commit/14af6c29/@faststore/components#9fd1966bf47261b58585a978ff52270a3a36979b"
 
-"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/14af6c29/@faststore/core":
-  version "2.1.70"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/14af6c29/@faststore/core#afc8ab3cf918746e0793355841c0dbe52ba2cda0"
+"@faststore/core@^2.1.71":
+  version "2.1.73"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.73.tgz#c30de419c2b0f79ecdcaead9f194c1dd3cbea980"
+  integrity sha512-Slq2BBFIm6VaVu3m5MfQX/aXIjdx2dRSm+7wd3DGx2ZOUSBC3xp81SpGXqSbIkvwTngOJI6K67Aus3uGGiOzsA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
