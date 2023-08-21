@@ -795,7 +795,7 @@
     tsconfig-paths-webpack-plugin "^3.5.2"
     typescript "4.7.3"
 
-"@faststore/graphql-utils@https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/graphql-utils":
+"@faststore/graphql-utils@^2.1.53":
   version "2.1.53"
   resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-2.1.53.tgz#51d829515c013ae17d19d0e2c2b19af027835b7f"
   integrity sha512-XDMTFokL9OZMGLpQ1ccrlQ2rzBKrjIKQjCWh7q0EUnK+Crv6yp1FGw+78Mq8QNkcGUpbIE+zTKp7dCARly9ATw==
@@ -810,7 +810,7 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.31.tgz#e1e9942496e1ca7314b4232ccc79805f2e4cb1d1"
   integrity sha512-12QzCbv/zla+MLU9z+PscV+JOGX12fAsL+eIapIseS4F5duh5Pom4DMDH7Za6EVRLgA/FoGNIDeIyfnamwdSvA==
 
-"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/sdk":
+"@faststore/sdk@^2.1.53":
   version "2.1.53"
   resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.1.53.tgz#3be9d8d215e933f8a86c962ab333d7027e593825"
   integrity sha512-rbwzjkTWsMcuZm/ZguJqzrAWS9s/1+BCXWzcvQ+Fvg3RdDPe9IiKxz+LBtnevD596ytrmtDInYZpFloLZ67yUw==
