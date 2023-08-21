@@ -718,9 +718,10 @@
   dependencies:
     tiny-lru "7.0.6"
 
-"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/api":
-  version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/api#33e3bce1c14f646cb8535cfef9f12af0eba54ec4"
+"@faststore/api@^2.1.68":
+  version "2.1.68"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.1.68.tgz#fc40f8e2f7a2875154cb7e88c79a32764700b040"
+  integrity sha512-jy66D13H6K/rme1AHAxnxgt2rcX1h5i8CuWr83LKxcyvUv/PWzd4sK72qLzwDCWSmLfdfC/NiBmHwOttALXeVw==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^8.2.0"
@@ -764,10 +765,10 @@
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/api"
+    "@faststore/api" "^2.1.68"
     "@faststore/components" "^2.1.67"
-    "@faststore/graphql-utils" "https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/graphql-utils"
-    "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/sdk"
+    "@faststore/graphql-utils" "^2.1.53"
+    "@faststore/sdk" "^2.1.53"
     "@faststore/ui" "^2.1.72"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
@@ -796,7 +797,8 @@
 
 "@faststore/graphql-utils@https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/graphql-utils":
   version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/graphql-utils#4260996a09ed1fc47e8057aae9d166d33699db82"
+  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-2.1.53.tgz#51d829515c013ae17d19d0e2c2b19af027835b7f"
+  integrity sha512-XDMTFokL9OZMGLpQ1ccrlQ2rzBKrjIKQjCWh7q0EUnK+Crv6yp1FGw+78Mq8QNkcGUpbIE+zTKp7dCARly9ATw==
   dependencies:
     "@babel/traverse" "^7.15.4"
     "@babel/types" "^7.15.6"
@@ -810,7 +812,8 @@
 
 "@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/sdk":
   version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/04c1a386/@faststore/sdk#f80cdb61a650f1ab335deb897da575f9f1c13134"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.1.53.tgz#3be9d8d215e933f8a86c962ab333d7027e593825"
+  integrity sha512-rbwzjkTWsMcuZm/ZguJqzrAWS9s/1+BCXWzcvQ+Fvg3RdDPe9IiKxz+LBtnevD596ytrmtDInYZpFloLZ67yUw==
   dependencies:
     idb-keyval "^5.1.3"
 
