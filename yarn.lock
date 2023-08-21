@@ -750,8 +750,12 @@
     path "^0.12.7"
     stringify-object "^3.3.0"
 
+"@faststore/components@^2.1.67":
+  version "2.1.67"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.67.tgz#1cb24f038ae30e1c0230e998a7bd48f7192b3a6a"
+  integrity sha512-OIMwntNvA7gtPEGMHtTcY1YUlt2KB8zm7LeXQCW59P/S14H5LN0ynVt5EWljBlpFc3lgGmmy1eCxFdefqshM5w==
 
-"@faststore/core@^2.1.71":
+"@faststore/core@^2.1.72":
   version "2.1.73"
   resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.73.tgz#c30de419c2b0f79ecdcaead9f194c1dd3cbea980"
   integrity sha512-Slq2BBFIm6VaVu3m5MfQX/aXIjdx2dRSm+7wd3DGx2ZOUSBC3xp81SpGXqSbIkvwTngOJI6K67Aus3uGGiOzsA==
@@ -813,10 +817,10 @@
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.1.67":
-  version "2.1.67"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.1.67.tgz#d295722ebfb341dc2083f4059d0881ad1d8817c2"
-  integrity sha512-ketUttRyAuAUMSfgDimoqF1L4VdVan490U8yEVzFU4wy9nkcbRtD994m8dhlJGAojfjxh87CTZxSgW1OpWgyqw==
+"@faststore/ui@^2.1.72":
+  version "2.1.72"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.1.72.tgz#04f55e5bc8629cb0fab9b9da683dcd68516839be"
+  integrity sha512-B/7cShTMyfL9UkLmi4MI8bhYAdZ5BMpJapD2lp9O/rYzFQE0lEvPq+BP8cECHJU1DF3TouAOk3BCXUc+uVcBTw==
   dependencies:
     "@faststore/components" "^2.1.67"
     include-media "^1.4.10"

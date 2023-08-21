@@ -10,7 +10,7 @@
     "cms-sync": "faststore cms-sync"
   },
   "dependencies": {
-    "@faststore/core": "^2.1.71",
+    "@faststore/core": "^2.1.72",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
