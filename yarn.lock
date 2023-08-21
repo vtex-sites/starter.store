@@ -753,9 +753,10 @@
   version "2.1.57"
   resolved "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/components#48ac2a41f4b21bc1966fd2219ff9ecadaebd356a"
 
-"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/core/_pkg.tgz":
-  version "2.1.64"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/core/_pkg.tgz#c0d60f534b2f236f65b8a2ed218aea1d4abed14e"
+"@faststore/core@^2.1.70":
+  version "2.1.73"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.73.tgz#c30de419c2b0f79ecdcaead9f194c1dd3cbea980"
+  integrity sha512-Slq2BBFIm6VaVu3m5MfQX/aXIjdx2dRSm+7wd3DGx2ZOUSBC3xp81SpGXqSbIkvwTngOJI6K67Aus3uGGiOzsA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -765,7 +766,7 @@
     "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/api"
     "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/components"
     "@faststore/graphql-utils" "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/graphql-utils"
-    "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/sdk"
+    "@faststore/sdk" "^2.1.53"
     "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/ui"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
@@ -806,9 +807,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.31.tgz#e1e9942496e1ca7314b4232ccc79805f2e4cb1d1"
   integrity sha512-12QzCbv/zla+MLU9z+PscV+JOGX12fAsL+eIapIseS4F5duh5Pom4DMDH7Za6EVRLgA/FoGNIDeIyfnamwdSvA==
 
-"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/sdk":
+"@faststore/sdk@^2.1.53":
   version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/f517f1d0/@faststore/sdk#f80cdb61a650f1ab335deb897da575f9f1c13134"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.1.53.tgz#3be9d8d215e933f8a86c962ab333d7027e593825"
+  integrity sha512-rbwzjkTWsMcuZm/ZguJqzrAWS9s/1+BCXWzcvQ+Fvg3RdDPe9IiKxz+LBtnevD596ytrmtDInYZpFloLZ67yUw==
   dependencies:
     idb-keyval "^5.1.3"
 
