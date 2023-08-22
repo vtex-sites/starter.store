@@ -754,9 +754,10 @@
   uid "9fd1966bf47261b58585a978ff52270a3a36979b"
   resolved "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/components#9fd1966bf47261b58585a978ff52270a3a36979b"
 
-"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/core":
-  version "2.1.73"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/core#203abf2631b56a69aa49b6f93adc0116c0a203ae"
+"@faststore/core@^2.1.75":
+  version "2.1.75"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.75.tgz#9e41904ed5f88d5e79f6ec95c0526e65ae9fabe5"
+  integrity sha512-/eBAhvV0qX8U7jlUYXL8KubUsVHeRfOmuZV2FKIk3yykai1tyR2VvDPZmYJC1KbU3DpCINDisLfD9Delo0LDSA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
