@@ -39,3 +39,4 @@ yarn-error.log*
 public/
 .vscode/
 lighthouserc.js
+cms-webhook-urls.json
