@@ -66,6 +66,10 @@ module.exports = {
   analytics: {
     gtmContainerId: "GTM-PGHZ95N"
   },
+  experimental: {
+    enableCypressExtension: false,
+    nodeVersion: 18,
+  },
   account: "storeframework",
   vtexHeadlessCms: {
     webhookUrls: [
