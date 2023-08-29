@@ -68,7 +68,7 @@ module.exports = {
   },
   experimental: {
     enableCypressExtension: false,
-    nodeVersion: 18}},
+    nodeVersion: 18,
   },
   account: "storeframework",
   vtexHeadlessCms: {
