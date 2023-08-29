@@ -10,7 +10,7 @@ module.exports = {
   api: {
     storeId: "storeframework",
     workspace: "master",
-    environment: "vtexcommercebeta",
+    environment: "vtexcommercestable",
     hideUnavailableItems: false,
     incrementAddress: false
   },
@@ -60,7 +60,8 @@ module.exports = {
       collection: "/office",
       collection_filtered: "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
       search: "/s?q=orange"
-    }
+    },
+    browser: "electron"
   },
   analytics: {
     gtmContainerId: "GTM-PGHZ95N"
