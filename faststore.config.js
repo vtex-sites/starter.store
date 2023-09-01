@@ -73,6 +73,6 @@ module.exports = {
     ]
   },
   experimental: {
-    nodeVersion: 18
+    nodeVersion: 18,
   },
 }
