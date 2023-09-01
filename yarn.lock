@@ -946,7 +946,7 @@
     react-swipeable "^7.0.0"
     tabbable "^5.2.1"
 
-"@graphql-codegen/cli@^2.6.2":
+"@graphql-codegen/cli@2.16.5":
   version "2.16.5"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.16.5.tgz#b3b5eeec357af01c1cb72f6a4ea96e52bd49e662"
   integrity sha512-XYPIp+q7fB0xAGSAoRykiTe4oY80VU+z+dw5nuv4mLY0+pv7+pa2C6Nwhdw7a65lXOhFviBApWCCZeqd54SMnA==
