@@ -7,18 +7,22 @@
     "dev": "faststore dev",
     "build": "faststore build",
     "start": "faststore start",
+    "generate-graphql": "faststore generate-graphql",
     "cms-sync": "faststore cms-sync"
   },
   "dependencies": {
-    "@faststore/core": "^2.1.75",
+    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/de9dcfe8/@faststore/core",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.9.10",
-    "@faststore/cli": "2.1.79",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/88110a1a/@faststore/cli",
     "@faststore/lighthouse": "^2.1.31",
+    "@graphql-codegen/cli": "^2.6.2",
+    "@graphql-codegen/typescript": "^2.5.1",
+    "@graphql-codegen/typescript-operations": "^2.4.2",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^8.0.0",
     "@types/cypress": "^1.1.3",
