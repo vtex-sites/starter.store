@@ -1,8 +1,6 @@
-import type { StoreProductRoot } from '@faststore/api'
-
 const productResolver = {
   StoreProduct: {
-    customData: (root: StoreProductRoot) => {
+    customData: (root) => {
       return 'My item id: ' + root.itemId
     },
   },
