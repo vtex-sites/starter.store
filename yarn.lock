@@ -990,9 +990,9 @@
     isomorphic-unfetch "^3.1.0"
     p-limit "^3.1.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/80b224ff/@faststore/cli":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/feb1c129/@faststore/cli":
   version "2.1.79"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/80b224ff/@faststore/cli#4af4371fb329f22f74a20cc792829cb3079abff2"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/feb1c129/@faststore/cli#b8bf9d46b0206758a3911c2ce842e48113e64184"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
