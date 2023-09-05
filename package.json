@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "faststore dev",
-    "build": "faststore build && cat ./.faststore/@generated/graphql/schema.graphql",
+    "build": "faststore build && cat ./.faststore/@generated/graphql/persisted.graphql && cat ./@generated/graphql/persisted.json",
     "start": "faststore start",
     "cms-sync": "faststore cms-sync"
   },
