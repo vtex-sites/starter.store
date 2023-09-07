@@ -718,9 +718,10 @@
   dependencies:
     tiny-lru "7.0.6"
 
-"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/api":
-  version "2.1.68"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/api#0ac9e32af44e122270fdd7f5bba2d3cc5e4a27bd"
+"@faststore/api@^2.1.83":
+  version "2.1.83"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.1.83.tgz#a118ad0566d03ae04fb4c4c49595787dc656c1e9"
+  integrity sha512-nAhYXIohZ31PMXCUHWYkgCp/Q3KG1e0KZn++wf9/fDPWQg/7pKWIMnMxbU8v7/AA8WK/iC4rNa1z8y7EmbMhtA==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^8.2.0"
@@ -749,26 +750,26 @@
     path "^0.12.7"
     stringify-object "^3.3.0"
 
-"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/components":
-  version "2.1.67"
-  uid "9fd1966bf47261b58585a978ff52270a3a36979b"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/components#9fd1966bf47261b58585a978ff52270a3a36979b"
+"@faststore/components@^2.1.82":
+  version "2.1.82"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.82.tgz#d7b854affc440c830350b342241e4a145816747d"
+  integrity sha512-JlRFcUItTlEdnB/ixDM25WjaIDREBY2iCXOGlOOIw/QnrGVOUvl0TmqvZgkCDHDGIEDQef3alOYrYvh572wKcQ==
 
-"@faststore/core@^2.1.75":
-  version "2.1.75"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.75.tgz#9e41904ed5f88d5e79f6ec95c0526e65ae9fabe5"
-  integrity sha512-/eBAhvV0qX8U7jlUYXL8KubUsVHeRfOmuZV2FKIk3yykai1tyR2VvDPZmYJC1KbU3DpCINDisLfD9Delo0LDSA==
+"@faststore/core@^2.1.78":
+  version "2.1.84"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.84.tgz#032a5a74d6394f87aa47fe8aea8f7e6aebf52124"
+  integrity sha512-rBVQ0dk0/zjmLGXeZWN+ZrhUI6lXr5YuwtvK9hAGpL5snR0inGnEcvwPjz6TeR2MqhVb+fLVcWym6zfoK//mmA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/api"
-    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/components"
-    "@faststore/graphql-utils" "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/graphql-utils"
-    "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/sdk"
-    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/ui"
+    "@faststore/api" "^2.1.83"
+    "@faststore/components" "^2.1.82"
+    "@faststore/graphql-utils" "^2.1.82"
+    "@faststore/sdk" "^2.1.82"
+    "@faststore/ui" "^2.1.82"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
@@ -794,9 +795,10 @@
     tsconfig-paths-webpack-plugin "^3.5.2"
     typescript "4.7.3"
 
-"@faststore/graphql-utils@https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/graphql-utils":
-  version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/graphql-utils#4260996a09ed1fc47e8057aae9d166d33699db82"
+"@faststore/graphql-utils@^2.1.82":
+  version "2.1.82"
+  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-2.1.82.tgz#8d372b9e1405bf2877f0bb26ddccd34f59dc93d9"
+  integrity sha512-s7b6fR/RAkkq+tNgX7smshn63UT6SIGssUsyfj8OhE8fh86Jny/BMsd0dv0eWdgl+AEPVKC4139zANNKnkO9nw==
   dependencies:
     "@babel/traverse" "^7.15.4"
     "@babel/types" "^7.15.6"
@@ -808,17 +810,19 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.31.tgz#e1e9942496e1ca7314b4232ccc79805f2e4cb1d1"
   integrity sha512-12QzCbv/zla+MLU9z+PscV+JOGX12fAsL+eIapIseS4F5duh5Pom4DMDH7Za6EVRLgA/FoGNIDeIyfnamwdSvA==
 
-"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/sdk":
-  version "2.1.53"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/sdk#f80cdb61a650f1ab335deb897da575f9f1c13134"
+"@faststore/sdk@^2.1.82":
+  version "2.1.82"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.1.82.tgz#14d62a675c96adab3a173a66981563195990c2f4"
+  integrity sha512-dKrOaBswTcB2O5nd4PXGa7mUlqZtVNtzxzvallun9cXzRuzZxJmqOcDqoon8mTvnMF7b4ddVC+Jeii1JfT+kGg==
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/ui":
-  version "2.1.72"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/ui#656d2250380d0c3e200e0492e9278581ad0a017f"
+"@faststore/ui@^2.1.82":
+  version "2.1.82"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.1.82.tgz#268f25fe45a19d14d50b9bc42948dd141e29314c"
+  integrity sha512-Pr50c9AWEFqYE3QA4+/HuStZKye8KarjXrHbW+c03aap5RUAV6zOKIx0li0OGyPbmNEBZrMPDCjUz8pjpwGj9Q==
   dependencies:
-    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/aa19bb2b/@faststore/components"
+    "@faststore/components" "^2.1.82"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
