@@ -755,7 +755,7 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.82.tgz#d7b854affc440c830350b342241e4a145816747d"
   integrity sha512-JlRFcUItTlEdnB/ixDM25WjaIDREBY2iCXOGlOOIw/QnrGVOUvl0TmqvZgkCDHDGIEDQef3alOYrYvh572wKcQ==
 
-"@faststore/core@^2.1.82":
+"@faststore/core@^2.1.84":
   version "2.1.84"
   resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.84.tgz#032a5a74d6394f87aa47fe8aea8f7e6aebf52124"
   integrity sha512-rBVQ0dk0/zjmLGXeZWN+ZrhUI6lXr5YuwtvK9hAGpL5snR0inGnEcvwPjz6TeR2MqhVb+fLVcWym6zfoK//mmA==
