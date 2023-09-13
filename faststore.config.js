@@ -10,7 +10,7 @@ module.exports = {
   theme: "custom-theme",
   platform: "vtex",
   api: {
-    storeId: "storeframework",
+    storeId: account,
     workspace: "master",
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
