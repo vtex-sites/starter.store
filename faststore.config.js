@@ -1,3 +1,5 @@
+const account = "storeframework";
+
 module.exports = {
   seo: {
     title: "NextJSStore",
@@ -67,10 +69,10 @@ module.exports = {
   analytics: {
     gtmContainerId: "GTM-PGHZ95N",
   },
-  account: "storeframework",
+  account,
   vtexHeadlessCms: {
     webhookUrls: [
-      "https://storeframework.myvtex.com/cms-releases/webhook-releases",
+      `https://${account}.myvtex.com/cms-releases/webhook-releases`,
     ],
   },
 };
