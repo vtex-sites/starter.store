@@ -718,10 +718,10 @@
   dependencies:
     tiny-lru "7.0.6"
 
-"@faststore/api@^2.1.83":
-  version "2.1.83"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.1.83.tgz#a118ad0566d03ae04fb4c4c49595787dc656c1e9"
-  integrity sha512-nAhYXIohZ31PMXCUHWYkgCp/Q3KG1e0KZn++wf9/fDPWQg/7pKWIMnMxbU8v7/AA8WK/iC4rNa1z8y7EmbMhtA==
+"@faststore/api@^2.1.90":
+  version "2.1.90"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.1.90.tgz#f27989f814fa0a61b98ad31d52efd398a3f26639"
+  integrity sha512-Hxr1IWn6vjzxX9Fn62I+eG6IVlY9p7cJYMN2n6QqBPc3nEAO6PZPc0EqwGYI1scWyJntwJRc8fNt/sVbe/sPuA==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^8.2.0"
@@ -755,17 +755,17 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.82.tgz#d7b854affc440c830350b342241e4a145816747d"
   integrity sha512-JlRFcUItTlEdnB/ixDM25WjaIDREBY2iCXOGlOOIw/QnrGVOUvl0TmqvZgkCDHDGIEDQef3alOYrYvh572wKcQ==
 
-"@faststore/core@^2.1.87":
-  version "2.1.87"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.87.tgz#3c7008e18b2f6982351d19d0cc3058ff736280d8"
-  integrity sha512-Jw+C0YGFi+uN7CxYGb8LsBUCVw/GCEUWbMeNTbF5zcT8D08P+wJsCGm5OzJ//lo1ay5vORNZ6j23gEb/njdEXQ==
+"@faststore/core@^2.1.90":
+  version "2.1.90"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.90.tgz#cee42de29a39d5d30d291ea1f223eb555222b7db"
+  integrity sha512-vjEpW32I/KdcO6P2KuCjybt/3FWQZV/Yi3lTUH31s6pbyjsVGYIeuJvSwEXihS4hi6sG+uHNvEmRlkfavCOvuQ==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^2.1.83"
+    "@faststore/api" "^2.1.90"
     "@faststore/components" "^2.1.82"
     "@faststore/graphql-utils" "^2.1.82"
     "@faststore/sdk" "^2.1.82"
