@@ -749,14 +749,14 @@
     path "^0.12.7"
     stringify-object "^3.3.0"
 
-"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/components":
+"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/52c01d5b/@faststore/components":
   version "2.1.57"
-  uid "32668c1319e3f0cf1fa83315e3b256aa7a0ea5d3"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/components#32668c1319e3f0cf1fa83315e3b256aa7a0ea5d3"
+  uid b715bc31f215956f46cd21ef088b39028cb5e8df
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/52c01d5b/@faststore/components#b715bc31f215956f46cd21ef088b39028cb5e8df"
 
-"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/core/_pkg.tgz":
+"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/52c01d5b/@faststore/core":
   version "2.1.64"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/core/_pkg.tgz#085bae67e616602abc417a875e582b586b5a6002"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/52c01d5b/@faststore/core#e7f8510e16ba6c88d47ba41d5f8d41cff52311a6"
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -764,10 +764,10 @@
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
     "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/api"
-    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/components"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/52c01d5b/@faststore/components"
     "@faststore/graphql-utils" "https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/graphql-utils"
     "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/sdk"
-    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/c30c425d/@faststore/ui"
+    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/52c01d5b/@faststore/ui"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
