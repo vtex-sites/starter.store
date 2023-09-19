@@ -62,7 +62,7 @@ module.exports = {
         "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
       search: "/s?q=orange",
     },
-    browser: "chrome",
+    browser: "electron",
   },
   analytics: {
     gtmContainerId: "GTM-PGHZ95N",
@@ -73,4 +73,7 @@ module.exports = {
       "https://storeframework.myvtex.com/cms-releases/webhook-releases",
     ],
   },
+  experimental: {
+    cypressVersion: 12,
+  }
 };
