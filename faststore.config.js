@@ -62,7 +62,7 @@ module.exports = {
         "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
       search: "/s?q=orange",
     },
-    browser: "electron",
+    browser: "chrome",
   },
   analytics: {
     gtmContainerId: "GTM-PGHZ95N",
