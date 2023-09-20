@@ -73,7 +73,4 @@ module.exports = {
       "https://storeframework.myvtex.com/cms-releases/webhook-releases",
     ],
   },
-  experimental: {
-    cypressVersion: 9,
-  }
 };
