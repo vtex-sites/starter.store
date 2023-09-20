@@ -7,7 +7,8 @@
     "dev": "faststore dev",
     "build": "faststore build",
     "start": "faststore start",
-    "cms-sync": "faststore cms-sync"
+    "cms-sync": "faststore cms-sync",
+    "test": "faststore test"
   },
   "dependencies": {
     "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/10d8f24c/@faststore/core",
