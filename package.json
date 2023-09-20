@@ -10,14 +10,14 @@
     "cms-sync": "faststore cms-sync"
   },
   "dependencies": {
-    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/85e762c4/@faststore/core",
+    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/10d8f24c/@faststore/core",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.9.10",
-    "@faststore/cli": "2.1.79",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/10d8f24c/@faststore/cli",
     "@faststore/lighthouse": "^2.1.31",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^8.0.0",
