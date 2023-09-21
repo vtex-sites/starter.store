@@ -58,6 +58,7 @@ module.exports = {
       home: "/",
       pdp: "/apple-magic-mouse/p",
       collection: "/office",
+      collection_2: "/technology",
       collection_filtered:
         "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
       search: "/s?q=orange",
@@ -66,6 +67,9 @@ module.exports = {
   },
   analytics: {
     gtmContainerId: "GTM-PGHZ95N",
+  },
+  experimental: {
+    cypressVersion: 12,
   },
   account: "storeframework",
   vtexHeadlessCms: {
