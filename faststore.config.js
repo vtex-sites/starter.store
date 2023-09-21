@@ -3,7 +3,7 @@ module.exports = {
     title: "NextJSStore",
     description: "Fast Demo Store",
     titleTemplate: "%s | FastStore",
-    author: "Store Framework",
+    author: "Store Framework"
   },
   theme: "custom-theme",
   platform: "vtex",
@@ -12,27 +12,27 @@ module.exports = {
     workspace: "master",
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
-    incrementAddress: false,
+    incrementAddress: false
   },
   session: {
     currency: {
       code: "USD",
-      symbol: "$",
+      symbol: "$"
     },
     locale: "en-US",
-    channel: '{"salesChannel":"1","regionId":""}',
+    channel: "{\"salesChannel\":\"1\",\"regionId\":\"\"}",
     country: "USA",
     deliveryMode: null,
     addressType: null,
     postalCode: null,
     geoCoordinates: null,
-    person: null,
+    person: null
   },
   cart: {
     id: "",
     items: [],
     messages: [],
-    shouldSplitItem: true,
+    shouldSplitItem: true
   },
   storeUrl: "https://vtexfaststore.com",
   secureSubdomain: "https://secure.vtexfaststore.com",
@@ -43,15 +43,15 @@ module.exports = {
     home: "/",
     plp: "/office",
     search: "/s?q=headphone",
-    pdp: "/apple-magic-mouse/p",
+    pdp: "/apple-magic-mouse/p"
   },
   lighthouse: {
     server: "http://localhost:3000",
     pages: {
       home: "/",
       pdp: "/apple-magic-mouse/p",
-      collection: "/office",
-    },
+      collection: "/office"
+    }
   },
   cypress: {
     pages: {
@@ -59,22 +59,22 @@ module.exports = {
       pdp: "/apple-magic-mouse/p",
       collection: "/office",
       collection_2: "/technology",
-      collection_filtered:
-        "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
-      search: "/s?q=orange",
+      collection_filtered: "/office/?category-1=office&marca=acer&facets=category-1%2Cmarca",
+      search: "/s?q=orange"
     },
-    browser: "electron",
+    browser: "electron"
   },
   analytics: {
-    gtmContainerId: "GTM-PGHZ95N",
+    gtmContainerId: "GTM-PGHZ95N"
   },
   experimental: {
     cypressVersion: 12,
+    enableCypressExtension: false
   },
   account: "storeframework",
   vtexHeadlessCms: {
     webhookUrls: [
-      "https://storeframework.myvtex.com/cms-releases/webhook-releases",
-    ],
-  },
-};
+      "https://storeframework.myvtex.com/cms-releases/webhook-releases"
+    ]
+  }
+}
