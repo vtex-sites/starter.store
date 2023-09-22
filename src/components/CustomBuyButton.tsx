@@ -1,8 +1,10 @@
 import { Button as UIButton } from "@faststore/ui";
 import { usePDP } from "@faststore/core";
+import { useSession_unstable as useSession } from "@faststore/core/experimental";
 
 export function CustomBuyButton(_) {
   const context = usePDP();
+  const { country } = useSession();
   console.log("🚀 ~ CustomBuyButton context:", context);
 
   return (
@@ -12,7 +14,7 @@ export function CustomBuyButton(_) {
         alert("Hello User!");
       }}
     >
-      {context?.data?.product.customData}
+      {context?.data?.product.customData} {" - "} {country}
     </UIButton>
   );
 }
