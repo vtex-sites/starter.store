@@ -1,4 +1,4 @@
-import { SectionOverride } from "@faststore/core/src/typings/overrides";
+import { SectionOverride } from "@faststore/core";
 import { CustomBuyButton } from "../CustomBuyButton";
 
 const SECTION = "ProductDetails" as const;
