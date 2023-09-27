@@ -1,5 +1,6 @@
 import { Button as UIButton } from "@faststore/ui";
 import { usePDP } from "@faststore/core";
+/** It's possible to import experimental functions, hooks & components from this namespace */
 import { useSession_unstable as useSession } from "@faststore/core/experimental";
 
 export function CustomBuyButton(_) {
