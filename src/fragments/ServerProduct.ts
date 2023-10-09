@@ -1,7 +1,7 @@
 import { gql } from "@faststore/core/api";
 
 export const fragment = gql`
-  fragment ServerProductPage on Query {
+  fragment ServerProduct on Query {
     extraData {
       data
     }
