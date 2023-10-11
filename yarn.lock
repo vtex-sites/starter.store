@@ -756,10 +756,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.1.107.tgz#7a51692d358d4a6597c677294d0f6d2d9b051ad7"
   integrity sha512-lfXBlFtHdHGTWr0cu5sZx3fTk/FnSocuGz8Q/WJ+lwp6SmMntazfJ1UDBnfp5aMwehlwPR3ysXy/Aba3GbU/xg==
 
-"@faststore/core@^2.1.107":
-  version "2.1.107"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.107.tgz#8426c72db8b275d5acd528a16ac6729744485907"
-  integrity sha512-MbIDGgxSM/fAgtvMXPCMlyTpFdVNygKoTnB6qVTBzONZi9SHIRWQLrIm51Nel4DbRZ04Pq2iSMRRrLWMwFPnhQ==
+"@faststore/core@^2.1.109":
+  version "2.1.109"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.1.109.tgz#dd9bd01ed93bad9feb6308869caf76315101f8fa"
+  integrity sha512-NeuGGQVLeEtHXIks1RgLZDL1GGA8FvqJfL/8PaxJ3a5d4g0BdDrS0yLxSB9sFXXR4Gv241nfm4WA7XFS8ph9cw==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -770,7 +770,7 @@
     "@faststore/components" "^2.1.107"
     "@faststore/graphql-utils" "^2.1.107"
     "@faststore/sdk" "^2.1.107"
-    "@faststore/ui" "^2.1.107"
+    "@faststore/ui" "^2.1.109"
     "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     autoprefixer "^10.4.0"
@@ -817,10 +817,10 @@
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.1.107":
-  version "2.1.107"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.1.107.tgz#f364f20efa0b1ccb65df89643f83a8911c27e068"
-  integrity sha512-fW+iZ7g8raaTPnSMYHKK+WLYZerlOzifrYiGQuuoFabNrySTMPT3XKAhxPPunfH/5EkTKq6AzgyFZ8urj6GNUg==
+"@faststore/ui@^2.1.109":
+  version "2.1.109"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.1.109.tgz#e5b23083de4095fed237774dda40d9b01eba3fc9"
+  integrity sha512-ufYsLf9AgduN8QFSg2+cdSJFAdj1FImUXy1o5dzLn3n+6cBAF8Pah3RDw6+ORvpuyFJLoRfvbNAoUeOpb34jHA==
   dependencies:
     "@faststore/components" "^2.1.107"
     include-media "^1.4.10"
@@ -5332,21 +5332,12 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@^8.3.11:
+postcss@^8.3.11, postcss@^8.4.19, postcss@^8.4.4:
   version "8.4.31"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
   integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
   dependencies:
     nanoid "^3.3.6"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
-
-postcss@^8.4.19, postcss@^8.4.4:
-  version "8.4.20"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
-  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
-  dependencies:
-    nanoid "^3.3.4"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
