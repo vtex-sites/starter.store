@@ -1,0 +1,7 @@
+[
+  {
+    "source": "/my-test",
+    "destination": "/my-test-new",
+    "permanent": true
+  }
+]

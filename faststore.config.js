@@ -77,4 +77,9 @@ module.exports = {
       "https://storeframework.myvtex.com/cms-releases/webhook-releases",
     ],
   },
+  redirects: async ({ BASE_PATH }) => {
+    const redirects = require(`${BASE_PATH}/redirects.json`)
+
+    return redirects
+  }
 };
