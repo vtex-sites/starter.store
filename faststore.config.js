@@ -70,6 +70,7 @@ module.exports = {
   },
   experimental: {
     cypressVersion: 12,
+    nodeVersion: 18,
   },
   account: "storeframework",
   vtexHeadlessCms: {
@@ -78,8 +79,8 @@ module.exports = {
     ],
   },
   redirects: async ({ BASE_PATH }) => {
-    const redirects = require(`${BASE_PATH}/redirects.json`)
+    const redirects = require(`${BASE_PATH}/redirects.json`);
 
-    return redirects
-  }
+    return redirects;
+  },
 };
