@@ -981,6 +981,18 @@
     fs-extra "^10.1.0"
     path "^0.12.7"
 
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/28a20929/@faststore/cli":
+  version "2.2.4"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/28a20929/@faststore/cli#b775f092b17bb124551f65f87215f2d42c65b098"
+  dependencies:
+    "@oclif/core" "^1.16.4"
+    "@oclif/plugin-help" "^5"
+    "@oclif/plugin-not-found" "^2.3.3"
+    chalk "~4.1.2"
+    chokidar "^3.5.3"
+    fs-extra "^10.1.0"
+    path "^0.12.7"
+
 "@faststore/components@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.2.0.tgz#dc2273372cf5a8b0b5dfe41c5cc224228f242119"
@@ -5082,6 +5094,13 @@ is-regex@^1.1.4:
   dependencies:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
+
+is-relative@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-relative/-/is-relative-1.0.0.tgz#a1bb6935ce8c5dba1e8b9754b9b2dcc020e2260d"
+  integrity sha512-Kw/ReK0iqwKeu0MITLFuj0jbPAmEiOsIwyIXvvbfa6QfmN9pkD1M+8pdk7Rl/dTKbH34/XBFMbgD4iMJhLQbGA==
+  dependencies:
+    is-unc-path "^1.0.0"
 
 is-set@^2.0.1, is-set@^2.0.2:
   version "2.0.2"
