@@ -1,3 +1,3 @@
 # starter.store
 
-A starterr powered by FastStore.
+Aa starterr powered by FastStore.
