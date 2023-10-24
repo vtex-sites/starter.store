@@ -968,10 +968,10 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.2.4.tgz#d1b1c1fb7c2e5f322f986d51ccd575fcf00ec07d"
-  integrity sha512-4fXz8is3zwgGjvYKCVRqrH2oWsF7MdA9BvBNcoIwsUgtTJg5+q5OKklTUkFJzjZ1Xa/IM9D7/O3IF7DOhnNO1g==
+"@faststore/cli@2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.2.5.tgz#66e325fad123f8910ab49fd58329391c8c46fe0f"
+  integrity sha512-1KO81wi6nB7nyHsjRn5mLBRPFcg0FecXbq1NJRqxdXYmWkDTgT6lf5EeRqoNPuRuvbn+ZtT/vo/ivVncAb7Xgg==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -986,10 +986,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.2.0.tgz#dc2273372cf5a8b0b5dfe41c5cc224228f242119"
   integrity sha512-t+MJv8A4X5nZFfIgAHna7bPbJbZGyly73QMcnyd11v4zten/hpqNMN/paOGxKK4yl1XLhy+Y6djx1jiQ2AawTQ==
 
-"@faststore/core@^2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.4.tgz#65e97ec7eb9897d3470772ea1c1ea62829b061d4"
-  integrity sha512-g2tzgFbf4FOsGw6x8bp9osT2tU2FrTNvE8rNIVCgZIZT9yokS3LPciG9TK/FrWC97OShiSoY6vdM1EbnoT7ZLw==
+"@faststore/core@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.5.tgz#c1e4a82bc6c6a9ee7a09952b8c449c1b80e54ce5"
+  integrity sha512-5Z1dGWmRBvbgdC85GDqrUSr4wHFveGkSy2vMeAUKmK00NAqxi99i+zeG7mctq1x+Aaj5bIIGV0CVWY4b4FR1fA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -1045,10 +1045,10 @@
     "@graphql-codegen/plugin-helpers" "^2.2.0"
     "@graphql-tools/relay-operation-optimizer" "^6.4.0"
 
-"@faststore/lighthouse@^2.1.106":
-  version "2.1.106"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.106.tgz#6bd1d28c5f156d2a1fc0f03667b67b4ce264ad72"
-  integrity sha512-MNW4vIoYqe7kIguPjZ0V8Ti5pAXR/Jnl0oKAzV+877huHDeGDTCOrmmWHXI3Rh/BQ1dSu4xpCsNd+Uf1Y8ttVA==
+"@faststore/lighthouse@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.2.0.tgz#57f0c7991984cdc0a73fec49e8a2e757471618c2"
+  integrity sha512-tLK4IyIFfQccYyHiri/slvM+9Dnc1IbJ0lXlOLnC4j/gR2XZaRg3RrihD+ogXIeyup0YGL2/zrcv0FDbsLiegA==
 
 "@faststore/sdk@^2.2.0":
   version "2.2.0"
@@ -5082,6 +5082,13 @@ is-regex@^1.1.4:
   dependencies:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
+
+is-relative@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-relative/-/is-relative-1.0.0.tgz#a1bb6935ce8c5dba1e8b9754b9b2dcc020e2260d"
+  integrity sha512-Kw/ReK0iqwKeu0MITLFuj0jbPAmEiOsIwyIXvvbfa6QfmN9pkD1M+8pdk7Rl/dTKbH34/XBFMbgD4iMJhLQbGA==
+  dependencies:
+    is-unc-path "^1.0.0"
 
 is-set@^2.0.1, is-set@^2.0.2:
   version "2.0.2"

@@ -11,15 +11,15 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/core": "^2.2.4",
+    "@faststore/core": "^2.2.5",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.1",
-    "@faststore/cli": "2.2.4",
-    "@faststore/lighthouse": "^2.1.106",
+    "@faststore/cli": "2.2.5",
+    "@faststore/lighthouse": "^2.2.0",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^10.0.1",
     "cypress": "12.17.4",
