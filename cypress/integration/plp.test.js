@@ -1,5 +1,3 @@
-// Empty test
-
 import { cypress } from '../../faststore.config'
 
 const { pages } = cypress

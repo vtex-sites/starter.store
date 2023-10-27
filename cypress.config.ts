@@ -8,7 +8,7 @@ export default defineConfig({
   viewportWidth: 1000,
   viewportHeight: 600,
   e2e: {
-    specPattern: "cypress/e2e/**/*.test.{js,jsx,ts,tsx}",
+    specPattern: "cypress/integration/**/*.test.{js,jsx,ts,tsx}",
     setupNodeEvents(on, config) {
       return require("cypress/plugins/index.js")(on, config);
     },
