@@ -968,10 +968,21 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@2.2.5":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/84e74d43/@faststore/cli":
   version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.2.5.tgz#66e325fad123f8910ab49fd58329391c8c46fe0f"
-  integrity sha512-1KO81wi6nB7nyHsjRn5mLBRPFcg0FecXbq1NJRqxdXYmWkDTgT6lf5EeRqoNPuRuvbn+ZtT/vo/ivVncAb7Xgg==
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/84e74d43/@faststore/cli#a5e5f142c2a376305b6257de3cea6aeba025b7d2"
+  dependencies:
+    "@oclif/core" "^1.16.4"
+    "@oclif/plugin-help" "^5"
+    "@oclif/plugin-not-found" "^2.3.3"
+    chalk "~4.1.2"
+    chokidar "^3.5.3"
+    fs-extra "^10.1.0"
+    path "^0.12.7"
+
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/da7d9704/@faststore/cli":
+  version "2.2.5"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/da7d9704/@faststore/cli#bcdbee8aab11af91c968302bf39bca7bfc7d0f1d"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
