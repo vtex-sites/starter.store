@@ -69,7 +69,7 @@ module.exports = {
   },
   experimental: {
     nodeVersion: 18,
-    cypressVersion: 12,
+    cypressVersion: 9,
     enableCypressExtension: true,
   },
   account: "storeframework",
