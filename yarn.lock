@@ -968,9 +968,9 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/be4de8a9/@faststore/cli":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/4768c724/@faststore/cli":
   version "2.2.5"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/be4de8a9/@faststore/cli#2e5ad7a4766f3f0e2c2b4a44a7f6beaf10b551d4"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/4768c724/@faststore/cli#4395efcbce3cadc0a07223fe3fb3cdcd40ffd121"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -980,9 +980,9 @@
     fs-extra "^10.1.0"
     path "^0.12.7"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/f3ae011e/@faststore/cli":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/be4de8a9/@faststore/cli":
   version "2.2.5"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/f3ae011e/@faststore/cli#c9cda3ea25d7c31c1a7adae990b7ea630a8f9092"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/be4de8a9/@faststore/cli#2e5ad7a4766f3f0e2c2b4a44a7f6beaf10b551d4"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
