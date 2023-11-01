@@ -1,7 +1,16 @@
+version: 1
 frontend:
   phases:
-    commands:
-      build:
+    preBuild:
+      commands:
+        - yarn install
+    build:
+      commands:
         - yarn run build
   artifacts:
-    baseDirectory: .faststore/.next
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
