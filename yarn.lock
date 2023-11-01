@@ -968,9 +968,9 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/b12f7659/@faststore/cli":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/d7a54d5f/@faststore/cli":
   version "2.2.5"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/b12f7659/@faststore/cli#bdfb14f701246c9254d0dbc5f8556bb7d9c7191c"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/d7a54d5f/@faststore/cli#5c4582edab410475950741ff641b0b986eafdaed"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
