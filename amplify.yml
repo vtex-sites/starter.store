@@ -1,0 +1,7 @@
+frontend:
+  phases:
+    commands:
+      build:
+        - yarn run build
+  artifacts:
+    baseDirectory: .faststore/.next
