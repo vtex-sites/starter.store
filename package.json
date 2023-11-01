@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@faststore/core": "^2.2.5",
-    "@faststore/cli": "2.2.5",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/9a4ca4a5/@faststore/cli",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
