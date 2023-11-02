@@ -10,14 +10,12 @@ export default function CustomCarousel(props: UICarouselProps) {
   const notebookWidth = 1024;
 
   const updateItemsPerPage = () => {
-    if (screenWidth) {
-      if (screenWidth <= tabletWidth) {
-        return 2.1;
-      } else if (screenWidth > tabletWidth && screenWidth <= notebookWidth) {
-        return 3;
-      } else {
-        return 5;
-      }
+    if (screenWidth <= tabletWidth) {
+      return 2.1;
+    } else if (screenWidth > tabletWidth && screenWidth <= notebookWidth) {
+      return 3;
+    } else {
+      return 5;
     }
   };
 
