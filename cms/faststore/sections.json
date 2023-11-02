@@ -1,0 +1,167 @@
+[
+  {
+    "name": "SimpleAlert",
+    "schema": {
+      "title": "Simple alert",
+      "description": "Add a simple alert",
+      "type": "object",
+      "required": ["icon", "content", "dismissible"],
+      "properties": {
+        "icon": {
+          "type": "string",
+          "title": "Icon",
+          "enumNames": [
+            "Bell",
+            "BellRinging",
+            "Checked",
+            "Info",
+            "Truck",
+            "User"
+          ],
+          "enum": ["Bell", "BellRinging", "Checked", "Info", "Truck", "User"]
+        },
+        "content": { "type": "string", "title": "Content" },
+        "link": {
+          "title": "Link",
+          "type": "object",
+          "properties": {
+            "text": { "type": "string", "title": "Link Text" },
+            "to": { "type": "string", "title": "Action link" }
+          }
+        },
+        "dismissible": {
+          "type": "boolean",
+          "default": false,
+          "title": "Is dismissible?"
+        }
+      }
+    }
+  },
+  {
+    "name": "CustomIconsAlert",
+    "schema": {
+      "title": "Alert with more Icon options",
+      "description": "Add an alert that has more Icon options",
+      "type": "object",
+      "required": ["icon", "content", "dismissible"],
+      "properties": {
+        "icon": {
+          "type": "string",
+          "title": "Icon",
+          "enumNames": [
+            "Bell",
+            "BellRinging",
+            "Checked",
+            "Info",
+            "Truck",
+            "User",
+            "Plus",
+            "PlusCircle",
+            "Ruler",
+            "Star",
+            "Storefront",
+            "Twitter"
+          ],
+          "enum": [
+            "Bell",
+            "BellRinging",
+            "Checked",
+            "Info",
+            "Truck",
+            "User",
+            "Plus",
+            "PlusCircle",
+            "Ruler",
+            "Star",
+            "Storefront",
+            "Twitter"
+          ]
+        },
+        "content": { "type": "string", "title": "Content" },
+        "link": {
+          "title": "Link",
+          "type": "object",
+          "properties": {
+            "text": { "type": "string", "title": "Link Text" },
+            "to": { "type": "string", "title": "Action link" }
+          }
+        },
+        "dismissible": {
+          "type": "boolean",
+          "default": false,
+          "title": "Is dismissible?"
+        }
+      }
+    }
+  },
+  {
+    "name": "AlwaysDismissibleAlert",
+    "schema": {
+      "title": "Always Dismissible Alert",
+      "description": "Add an Alert that's always dismissible",
+      "type": "object",
+      "required": ["icon", "content"],
+      "properties": {
+        "icon": {
+          "type": "string",
+          "title": "Icon",
+          "enumNames": [
+            "Bell",
+            "BellRinging",
+            "Checked",
+            "Info",
+            "Truck",
+            "User"
+          ],
+          "enum": [
+            "Bell",
+            "BellRinging",
+            "Checked",
+            "Info",
+            "Truck",
+            "User"
+          ]
+        },
+        "content": { "type": "string", "title": "Content" },
+        "link": {
+          "title": "Link",
+          "type": "object",
+          "properties": {
+            "text": { "type": "string", "title": "Link Text" },
+            "to": { "type": "string", "title": "Action link" }
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "AlertWithImage",
+    "schema": {
+      "title": "Alert with image",
+      "description": "Add an Alert that has an Image as an icon",
+      "type": "object",
+      "required": ["src", "content", "dismissible"],
+      "properties": {
+        "src": {
+          "type": "string",
+          "title": "Image source",
+          "description": "Source of the Alert icon image"
+        },
+        "content": { "type": "string", "title": "Content" },
+        "link": {
+          "title": "Link",
+          "type": "object",
+          "properties": {
+            "text": { "type": "string", "title": "Link Text" },
+            "to": { "type": "string", "title": "Action link" }
+          }
+        },
+        "dismissible": {
+          "type": "boolean",
+          "default": false,
+          "title": "Is dismissible?"
+        }
+      }
+    }
+  }
+]
