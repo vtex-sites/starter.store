@@ -6,7 +6,10 @@ const SECTION = "ProductShelf" as const;
 const override: SectionOverride = {
   section: SECTION,
   components: {
-    __experimentalCarousel: { Component: CustomCarousel },
+    // __experimentalCarousel: { Component: CustomCarousel },
+    __experimentalCarousel: {
+      props: { itemsPerPage: 1, infiniteMode: true, variant: "slide" },
+    },
   },
 };
 
