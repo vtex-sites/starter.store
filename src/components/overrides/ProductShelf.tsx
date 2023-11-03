@@ -8,7 +8,7 @@ const override: SectionOverride = {
   components: {
     // __experimentalCarousel: { Component: CustomCarousel },
     __experimentalCarousel: {
-      props: { itemsPerPage: 1, infiniteMode: true, variant: "slide" },
+      props: { itemsPerPage: 7 },
     },
   },
 };
