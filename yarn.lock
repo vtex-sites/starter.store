@@ -980,13 +980,14 @@
     fs-extra "^10.1.0"
     path "^0.12.7"
 
-"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/components":
+"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/0ef5a306/@faststore/components":
   version "2.2.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/components#b2c801bb48096311f5fd612e7309bb8bceeaa9b8"
+  uid "94573a08f45f1ac8cdf8637ef85cfd95c682a59e"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/0ef5a306/@faststore/components#94573a08f45f1ac8cdf8637ef85cfd95c682a59e"
 
-"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/core":
+"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/0ef5a306/@faststore/core":
   version "2.2.5"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/core#73a0c9f493e5c51454c2f9de830894ec0e523302"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/0ef5a306/@faststore/core#49a4449e2c164eb45c49a8ea366873870b44c25e"
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -994,10 +995,10 @@
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
     "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/api"
-    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/components"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/0ef5a306/@faststore/components"
     "@faststore/graphql-utils" "https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/graphql-utils"
     "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/sdk"
-    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/a0be398a/@faststore/ui"
+    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/0ef5a306/@faststore/ui"
     "@graphql-codegen/cli" "^3.3.1"
     "@graphql-codegen/typescript" "^3.0.4"
     "@graphql-codegen/typescript-operations" "^3.0.4"
