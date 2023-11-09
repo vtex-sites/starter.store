@@ -11,7 +11,7 @@ const override: SectionOverride = {
   components: {
     Alert: {
       props: {
-        icon: <UIIcon name="Truck" />,
+        // icon: <UIIcon name="Truck" />,
         "aria-checked": true,
       },
     },
