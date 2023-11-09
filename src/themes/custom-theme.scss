@@ -33,5 +33,20 @@
     // FS UI Components
     // --------------------------------------------------------
     // Add here the customizations for FastStore UI components.
+
+    // Alert
+    [data-fs-alert] {
+      background-color: pink;
+    }
+
+    // CartSideBar
+    [data-fs-cart-sidebar] {
+      background-color: lightblue;
+    }
+
+    // Toast
+    [data-fs-toast] {
+      background-color: salmon;
+    }
   }
 }

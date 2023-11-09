@@ -981,15 +981,13 @@
     fs-extra "^10.1.0"
     path "^0.12.7"
 
-"@faststore/components@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.2.0.tgz#dc2273372cf5a8b0b5dfe41c5cc224228f242119"
-  integrity sha512-t+MJv8A4X5nZFfIgAHna7bPbJbZGyly73QMcnyd11v4zten/hpqNMN/paOGxKK4yl1XLhy+Y6djx1jiQ2AawTQ==
+"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/components":
+  version "2.2.10"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/components#f2f900c1f2741ad51b3700e77632122bdfe3af28"
 
-"@faststore/core@^2.2.5":
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.5.tgz#c1e4a82bc6c6a9ee7a09952b8c449c1b80e54ce5"
-  integrity sha512-5Z1dGWmRBvbgdC85GDqrUSr4wHFveGkSy2vMeAUKmK00NAqxi99i+zeG7mctq1x+Aaj5bIIGV0CVWY4b4FR1fA==
+"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/core":
+  version "2.2.12"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/core#e35f59d2b21897f927d7473c486b9dd58f2e15cc"
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -997,10 +995,10 @@
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
     "@faststore/api" "^2.2.0"
-    "@faststore/components" "^2.2.0"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/components"
     "@faststore/graphql-utils" "^2.2.0"
     "@faststore/sdk" "^2.2.0"
-    "@faststore/ui" "^2.2.0"
+    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/ui"
     "@graphql-codegen/cli" "^3.3.1"
     "@graphql-codegen/typescript" "^3.0.4"
     "@graphql-codegen/typescript-operations" "^3.0.4"
@@ -1057,12 +1055,11 @@
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.2.0.tgz#92206e4aa0ab19790cc6a0804ac691835e940fad"
-  integrity sha512-7giWhWj2tRG1VHV1lLsWS2HZhriTtdWrHTtj9rERW2ObAi4ohR4l9RNi1/dJVFIVISJxUIIS41r72A1IOGzFdA==
+"@faststore/ui@https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/ui":
+  version "2.2.10"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/ui#66c789af71a28b082fa1fe142e5aae8e0dcd771b"
   dependencies:
-    "@faststore/components" "^2.2.0"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/3a30d2c3/@faststore/components"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
