@@ -77,4 +77,16 @@ module.exports = {
       "https://storeframework.myvtex.com/cms-releases/webhook-releases",
     ],
   },
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: '/test/my-office',
+          destination: `/office`,
+        },
+      ],
+      afterFiles: [],
+      fallback: [],
+    }
+  },
 };
