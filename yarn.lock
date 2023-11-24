@@ -968,9 +968,9 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/d17058cd/@faststore/api":
+"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/9aa0239a/@faststore/api":
   version "2.2.33"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/d17058cd/@faststore/api#6574c6478d00179d3fa1c2991f946dcfdb8fdb8f"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/9aa0239a/@faststore/api#12c24412775891a1269cf520d5315140a62ed4cc"
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^9.0.0"
@@ -1070,6 +1070,13 @@
   version "2.2.22"
   resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.2.22.tgz#4c77ea82b4d6b4f5f69c9a30f1e41fdcfa18bc85"
   integrity sha512-A05BcxZ9zGNRaOQWofILmsB7SOXFcNIKrs4Pb/NwmywpJ2LbDP/+l9VgbIfQaVU+IPOG6CqwS59KOUde3hA6vA==
+  dependencies:
+    idb-keyval "^5.1.3"
+
+"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/9aa0239a/@faststore/sdk":
+  version "2.2.33"
+  uid "6a506fc6070268ce7e204b68eb4f97ef51387e0e"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/9aa0239a/@faststore/sdk#6a506fc6070268ce7e204b68eb4f97ef51387e0e"
   dependencies:
     idb-keyval "^5.1.3"
 

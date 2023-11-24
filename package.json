@@ -11,9 +11,9 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/api": "https://pkg.csb.dev/vtex/faststore/commit/d17058cd/@faststore/api",
+    "@faststore/api": "https://pkg.csb.dev/vtex/faststore/commit/9aa0239a/@faststore/api",
     "@faststore/core": "^2.2.24",
-    "@faststore/sdk": "https://pkg.csb.dev/vtex/faststore/commit/d17058cd/@faststore/sdk",
+    "@faststore/sdk": "https://pkg.csb.dev/vtex/faststore/commit/9aa0239a/@faststore/sdk",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
