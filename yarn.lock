@@ -950,9 +950,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/3ba28b6a/@faststore/api":
+"@faststore/api@^2.2.42":
   version "2.2.42"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/3ba28b6a/@faststore/api#4357d3072f3f063d8bfb845585244356e308f684"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.2.42.tgz#46f08d12b3f5f7e59c6c3c7700eab74e0b6603b0"
+  integrity sha512-N4eVXP+uHOHw7Aq7ajv1qFjU8vZT6Lcematw4R3D6I6/Hs49O+w6mK6Jz1cHC1YRn69Wn++9KhbKXZyxcsad4Q==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^9.0.0"
@@ -994,7 +995,7 @@
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/3ba28b6a/@faststore/api"
+    "@faststore/api" "^2.2.42"
     "@faststore/components" "^2.2.38"
     "@faststore/graphql-utils" "^2.2.38"
     "@faststore/sdk" "^2.2.38"
