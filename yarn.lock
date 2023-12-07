@@ -950,10 +950,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@faststore/api@^2.2.38":
-  version "2.2.38"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.2.38.tgz#72fe54b4a8a06afce98d49e67e58cb608fc1809c"
-  integrity sha512-NgpyAR7jwAEDpvCJEO24XlkZEr/Xtv+WTgA76lWRDMc/7kqPPgi+0jL1igiCSuKww4sKz390AbDd/0SIxzAKyQ==
+"@faststore/api@^2.2.42":
+  version "2.2.42"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.2.42.tgz#46f08d12b3f5f7e59c6c3c7700eab74e0b6603b0"
+  integrity sha512-N4eVXP+uHOHw7Aq7ajv1qFjU8vZT6Lcematw4R3D6I6/Hs49O+w6mK6Jz1cHC1YRn69Wn++9KhbKXZyxcsad4Q==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/schema" "^9.0.0"
@@ -986,17 +986,17 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.2.38.tgz#60b965ac4cd4c18ba18f47a0741e5b16f1795351"
   integrity sha512-fKlZc5UMg6dbYCp+91vJYkibI++adNhhXo1ilFdih9sxaW/9DmjYN/cXYHy4LrJn/9EgQVHMAwwtw7Rzf+b17g==
 
-"@faststore/core@^2.2.40":
-  version "2.2.40"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.40.tgz#74348046c29c0f34e4dae7c405d4cefccc9d231b"
-  integrity sha512-JKoBVpayNOh7TKyqHCe+2G1FC2ORAtU3aIi0UzBJDAjkakvGtOQqktDac3U61abax21MCCIxAh/AjbUhu0Xrjg==
+"@faststore/core@^2.2.42":
+  version "2.2.42"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.42.tgz#5ceae105e12e67dcdaa95cd8995ca5cccf45b75a"
+  integrity sha512-Ci117KVFe68QsgnFZfbxx+YDo6evXYWvyqxazcFuc8GuPpDGQQrKzWYiFT1OQuHygBn/81ueYvkHNApg1B+vcA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^2.2.38"
+    "@faststore/api" "^2.2.42"
     "@faststore/components" "^2.2.38"
     "@faststore/graphql-utils" "^2.2.38"
     "@faststore/sdk" "^2.2.38"
@@ -1019,7 +1019,7 @@
     include-media "^1.4.10"
     msw "^0.43.1"
     next "^12.3.1"
-    next-seo "^5.4.0"
+    next-seo "^6.4.0"
     nextjs-progressbar "^0.0.14"
     postcss "^8.4.4"
     prettier "^2.2.0"
@@ -5959,10 +5959,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-seo@^5.4.0:
-  version "5.15.0"
-  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-5.15.0.tgz#b1a90508599774982909ea44803323c6fb7b50f4"
-  integrity sha512-LGbcY91yDKGMb7YI+28n3g+RuChUkt6pXNpa8FkfKkEmNiJkeRDEXTnnjVtwT9FmMhG6NH8qwHTelGrlYm9rgg==
+next-seo@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-6.4.0.tgz#05a75b8acae881f856eb690b1f66b5e8741aa16e"
+  integrity sha512-XQFxkOL2hw0YE+P100HbI3EAvcludlHPxuzMgaIjKb7kPK0CvjGvLFjd9hszZFEDc5oiQkGFA8+cuWcnip7eYA==
 
 next@^12.3.1:
   version "12.3.4"
