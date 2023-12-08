@@ -1,0 +1,42 @@
+.ourStores {
+  @import '@faststore/ui/src/components/atoms/Button/styles.scss';
+  @import '@faststore/ui/src/components/atoms/Select/styles.scss';
+  @import '@faststore/ui/src/components/molecules/SelectField/styles.scss';
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--fs-spacing-5);
+  margin: auto;
+  background-color: var(--fs-color-neutral-bkg);
+
+  [data-fs-select-field] {
+    flex-direction: column;
+    align-items: flex-start;
+
+    [data-fs-select] {
+      border: var(--fs-border-width) solid var(--fs-border-color);
+      margin-top: var(--fs-spacing-0);
+      width: 10rem;
+      height: var(--fs-control-min-height);
+
+      select {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.ourStores__title {
+  font-size: var(--fs-text-size-title-section);
+  margin-bottom: var(--fs-spacing-1);
+}
+
+.ourStores__content {
+  display: flex;
+  align-items: flex-end;
+  column-gap: var(--fs-spacing-5);
+  margin: var(--fs-spacing-5);
+}

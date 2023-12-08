@@ -1,0 +1,26 @@
+[
+  {
+    "name": "OurStores",
+    "schema": {
+      "title": "Our Stores",
+      "description": "Search stores near to the users",
+      "type": "object",
+      "required": [
+        "title",
+        "description"
+      ],
+      "properties": {
+        "title": {
+          "title": "Title",
+          "type": "string",
+          "default": "Explore Nearby Stores"
+        },
+        "description": {
+          "title": "Link Path",
+          "type": "string",
+          "default": "Discover the closest store to you and pay us a visit."
+        }
+      }
+    }
+  }
+]
