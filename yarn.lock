@@ -950,13 +950,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@faststore/api@^2.2.49":
-  version "2.2.49"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-2.2.49.tgz#345b8f337a9294242bb70145d9c5d47b387674ef"
-  integrity sha512-R1yKmcm+S57IA4X8c0gsIDYRZikCd2XkVaa3SDOXSLoM08cXyqSwL6qa1x2qbiAzmB2tLN5YC4kTYRTf5FCXwg==
+"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/api":
+  version "2.2.42"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/api#4357d3072f3f063d8bfb845585244356e308f684"
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
-    "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/schema" "^9.0.0"
     "@opentelemetry/exporter-logs-otlp-grpc" "^0.39.1"
     "@opentelemetry/exporter-trace-otlp-grpc" "^0.39.1"
@@ -982,33 +980,31 @@
     fs-extra "^10.1.0"
     path "^0.12.7"
 
-"@faststore/components@^2.2.45":
-  version "2.2.45"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.2.45.tgz#140d290c7b08e4e53915c3c0ac3aafdd3a4fe2aa"
-  integrity sha512-jJ8ypgeVp3/Mb2sx/ip1s1U9uN3nVU5Y01lPL8qwbAsoKlmXSKTu4hbr98vEJG89MuEl4qwEfTqvo0E/oq/7dw==
+"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/components":
+  version "2.2.38"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/components#8f9add88b3ebdc7c38f1e2723907df3ceb81857b"
 
-"@faststore/core@^2.2.49":
-  version "2.2.49"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.49.tgz#c89c05b462532a12eec27b32b3c5b0cddb589437"
-  integrity sha512-QlPrWehqyOTlIYyfm+eAhEl+mFgjc19eq672+lvhgxOAqi49POEKZftwo0Bqz+KDu2hiHgiW6gUNr5QIM6zsvQ==
+"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/core/_pkg.tgz":
+  version "2.2.42"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/core/_pkg.tgz#3899da8226b242c0b3572ac97ba91d7a3eab5a1b"
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^2.2.49"
-    "@faststore/components" "^2.2.45"
-    "@faststore/graphql-utils" "^2.2.45"
-    "@faststore/sdk" "^2.2.45"
-    "@faststore/ui" "^2.2.45"
+    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/api"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/components"
+    "@faststore/graphql-utils" "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/graphql-utils"
+    "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/sdk"
+    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/ui"
     "@graphql-codegen/cli" "^3.3.1"
     "@graphql-codegen/typescript" "^3.0.4"
     "@graphql-codegen/typescript-operations" "^3.0.4"
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/merge" "^9.0.0"
     "@graphql-tools/utils" "^9.2.1"
-    "@types/react" "^18.2.42"
+    "@types/react" "^18.0.14"
     "@vtex/client-cms" "^0.2.12"
     "@vtex/prettier-config" "1.0.0"
     autoprefixer "^10.4.0"
@@ -1032,13 +1028,12 @@
     sharp "^0.32.6"
     style-loader "^3.3.1"
     swr "^1.3.0"
-    tsx "^4.6.2"
+    tsx "^3.12.7"
     typescript "4.7.3"
 
-"@faststore/graphql-utils@^2.2.45":
-  version "2.2.45"
-  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-2.2.45.tgz#69d2584de2558ad23f0b45c3e7e0b570389fcd06"
-  integrity sha512-PQofbMZmtIpJYYt1Rv6delCOfphjJnBuWGXbUtgkTe8BSNvKmBppalBS4BufII096KFzd1W1N6uGqQoPxGh9gQ==
+"@faststore/graphql-utils@https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/graphql-utils":
+  version "2.2.38"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/graphql-utils#7ef240d463e5113aaa4ce71504d0accbca80d425"
   dependencies:
     "@babel/traverse" "^7.15.4"
     "@babel/types" "^7.15.6"
@@ -1050,19 +1045,17 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.2.45.tgz#c666472e52003b7ebf88b857e127e3a21abef75e"
   integrity sha512-28rpbVXas4w9WuMRYOHy1wci/yG6sTvUbq0hRjgd/q19aBgW8+o65mS7xTDFJVZSLO5MtyCLWP+2TZEeiFVvEQ==
 
-"@faststore/sdk@^2.2.45":
-  version "2.2.45"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.2.45.tgz#42740830b17eab85687da99082b36f5f6adbdf8a"
-  integrity sha512-6oqGkTDxVAr4oUgY1skMtwWlW+1YdvLeS0+kSXLesHXKCK2CjLpAzgQks7VepWiZvG2YNYznLGEt0viBo6Ni0w==
+"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/sdk":
+  version "2.2.38"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/sdk#fd09554d97eebb9327d7796752b17fb149f6abc5"
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^2.2.45":
-  version "2.2.45"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.2.45.tgz#45a06e4e28dd6a30267ffa5bc24f4476b659f629"
-  integrity sha512-NEsyYVpPEvo1r62bq5HDKSWzV/GD5/s/vMXhYBWqV5HeBi98wtHcNhcrJb/ynlt++ZjS1VanE1j4fEQwnhRuDQ==
+"@faststore/ui@https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/ui":
+  version "2.2.38"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/ui#c7890b084e8d7a66e8e4f2d4308a64a4f8144275"
   dependencies:
-    "@faststore/components" "^2.2.45"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/fd38229a/@faststore/components"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
@@ -2288,10 +2281,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react@^18.2.42":
-  version "18.2.42"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.42.tgz#6f6b11a904f6d96dda3c2920328a97011a00aba7"
-  integrity sha512-c1zEr96MjakLYus/wPnuWDo1/zErfdU9rNsIGmE+NV71nx88FG9Ttgo5dqorXTu/LImX2f63WBP986gJkMPNbA==
+"@types/react@^18.0.14":
+  version "18.2.43"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.43.tgz#c58e5abe241e6f71f60ce30e2a9aceb9d3a2a374"
+  integrity sha512-nvOV01ZdBdd/KW6FahSbcNplt2jCJfyWdTos61RYHV+FVv5L/g9AOX1bmbVcWcLFL8+KHQfh1zVIQrud6ihyQA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -2795,6 +2788,11 @@ buffer-crc32@~0.2.3:
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
   integrity sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==
+
+buffer-from@^1.0.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer@^5.5.0, buffer@^5.6.0:
   version "5.7.1"
@@ -7265,7 +7263,15 @@ snake-case@^3.0.4:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
-source-map@^0.6.1:
+source-map-support@^0.5.21:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
@@ -7694,13 +7700,14 @@ tslib@~2.5.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.3.tgz#24944ba2d990940e6e982c4bea147aba80209913"
   integrity sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==
 
-tsx@^4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.6.2.tgz#8e9c1456ad4f1102c5c42c5be7fd428259b7d39b"
-  integrity sha512-QPpBdJo+ZDtqZgAnq86iY/PD2KYCUPSUGIunHdGwyII99GKH+f3z3FZ8XNFLSGQIA4I365ui8wnQpl8OKLqcsg==
+tsx@^3.12.7:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-3.14.0.tgz#be6e2176b6f210fe8f48124fb6e22e0f075e927b"
+  integrity sha512-xHtFaKtHxM9LOklMmJdI3BEnQq/D5F73Of2E1GDrITi9sgoVkvIsrQUTY1G8FlmGtA+awCI4EBlTRRYxkL2sRg==
   dependencies:
     esbuild "~0.18.20"
     get-tsconfig "^4.7.2"
+    source-map-support "^0.5.21"
   optionalDependencies:
     fsevents "~2.3.3"
 
