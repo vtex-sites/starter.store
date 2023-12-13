@@ -1,6 +1,6 @@
 [
   {
-    "name": "CrossSellingShelf",
+    "name": "CrossSellingShelfCustom",
     "schema": {
       "title": "Custom Cross Selling Shelf",
       "description": "Add cross selling product data to your users",
