@@ -9,7 +9,7 @@ module.exports = {
   platform: "vtex",
   api: {
     storeId: "storeframework",
-    workspace: "master",
+    workspace: "breadcrumbtest",
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
     incrementAddress: false,

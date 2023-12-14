@@ -1,0 +1,17 @@
+[
+  {
+    "name": "CustomBreadcrumb",
+    "schema": {
+      "title": "Custom Breadcrumb",
+      "description": "Configure the breadcrumb icon and depth",
+      "type": "object",
+      "required": ["alt"],
+      "properties": {
+        "alt": {
+          "title": "Alternative Label",
+          "type": "string"
+        }
+      }
+    }
+  }
+]
