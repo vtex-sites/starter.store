@@ -1057,6 +1057,12 @@
   dependencies:
     idb-keyval "^5.1.3"
 
+"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/4487f888/@faststore/sdk/_pkg.tgz":
+  version "2.2.56"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/4487f888/@faststore/sdk/_pkg.tgz#8b6ac52b73710711e6ea9fd642a34d04f127fd32"
+  dependencies:
+    idb-keyval "^5.1.3"
+
 "@faststore/ui@^2.2.52":
   version "2.2.52"
   resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-2.2.52.tgz#e18510075d058db785e16fb7df487f18d26ac98c"
