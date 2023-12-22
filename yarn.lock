@@ -987,10 +987,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.2.56.tgz#3aaa22a44dde126b4516e4a338474bd58a56e56a"
   integrity sha512-CAo+MN68g18VGy/1yoHxPjakWYTblsHFm0yap+i4Z8MKx5/nIC5zldBBFMg2nbzSMn9kZi53+P6XMc2eqFVAZA==
 
-"@faststore/core@^2.2.60":
-  version "2.2.60"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.60.tgz#4ad387c24f2f46761ba5f0ae5361a8d887381959"
-  integrity sha512-0G3VUdN0DSK/SAHaVVshIrZXam8feRidaaJRJhdf0UC9Syd8Z2aRJg7q/uX/L1rvXoc4v5u0tNbmXG4KPl5jrA==
+"@faststore/core@^2.2.61":
+  version "2.2.61"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.61.tgz#53d7bc70297cc8ee507f7e8d5999b448ce7ee01a"
+  integrity sha512-pJ0OYgMnkeBvE/RqYQiIpdhnZkYqEPThgll12pSYnCQpA7Kk+qxQxy43FUYVqB8OnfplCARWyxiTJUddX0ggXQ==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -1000,7 +1000,7 @@
     "@faststore/api" "^2.2.56"
     "@faststore/components" "^2.2.56"
     "@faststore/graphql-utils" "^2.2.56"
-    "@faststore/sdk" "^2.2.56"
+    "@faststore/sdk" "^2.2.61"
     "@faststore/ui" "^2.2.56"
     "@graphql-codegen/cli" "^3.3.1"
     "@graphql-codegen/typescript" "^3.0.4"
@@ -1050,10 +1050,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.2.45.tgz#c666472e52003b7ebf88b857e127e3a21abef75e"
   integrity sha512-28rpbVXas4w9WuMRYOHy1wci/yG6sTvUbq0hRjgd/q19aBgW8+o65mS7xTDFJVZSLO5MtyCLWP+2TZEeiFVvEQ==
 
-"@faststore/sdk@^2.2.56":
-  version "2.2.56"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.2.56.tgz#aca7bc00166984a7d6fcb91cf42c0aab7c269f13"
-  integrity sha512-OjlhVi47/fdVfFYINifRs5ej8+qeVI4AoaclZpJIlEUrANw82tKgzRrYmWq+9k7faj7MHACyzAWzdUazPljP+A==
+"@faststore/sdk@^2.2.61":
+  version "2.2.61"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-2.2.61.tgz#b242d8aabf4ba0d0a72449cbdf2f023d01ffb81c"
+  integrity sha512-A23AvMgp9mYvOVZoS8K0T8eJMJHGmkbu7Nlav1J/jsABsu70dzEt0OudhFqwxuImJ8PDG5mAuyyKTXqA0iteKQ==
   dependencies:
     idb-keyval "^5.1.3"
 
