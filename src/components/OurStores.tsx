@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Icon, SelectField } from "@faststore/ui";
 
-import styles from "./OurStores.module.scss";
+import styles from "./ourStores.module.scss";
 
 export interface OurStoresProps {
   title: string;
