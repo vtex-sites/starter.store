@@ -8,6 +8,9 @@ const NewsletterCustom = getOverriddenSection({
         <img src="https://picsum.photos/32/32.webp" alt="random image" />
       ),
     },
+    NewsletterAddendum: {
+      Component: () => <>Addemdum componente override</>,
+    },
   },
 });
 
