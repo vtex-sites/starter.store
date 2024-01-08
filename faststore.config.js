@@ -78,13 +78,12 @@ module.exports = {
     ],
   },
   redirects: async () => {
-    return {
-      beforeFiles: [
-        {
-          source: '/cheap-chairs',
-          destination: "/office?category-1=office&price=0.00-to-238.00&category-2=chairs&facets=category-1%2Cprice%2Ccategory-2&sort=score_desc&page=0 ",
-        }
-      ]
-    }
-  }
+    return [
+      {
+        source: '/cheap-chairs',
+        destination: "/office?category-1=office&price=0.00-to-238.00&category-2=chairs&facets=category-1%2Cprice%2Ccategory-2&sort=score_desc&page=0 ",
+        permanent: false
+      }
+    ]
+  },
 };
