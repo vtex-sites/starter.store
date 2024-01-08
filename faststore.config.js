@@ -77,7 +77,7 @@ module.exports = {
       "https://storeframework.myvtex.com/cms-releases/webhook-releases",
     ],
   },
-  rewrites: async () => {
+  redirects: async () => {
     return {
       beforeFiles: [
         {
