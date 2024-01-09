@@ -969,10 +969,9 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@2.2.56":
-  version "2.2.56"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.2.56.tgz#24f4b927b627957e752fb35be2a24d1a9971b67a"
-  integrity sha512-WxvrvowOsGLHoB9gJfFrV8xne2GJbhs0CL6vPgLOwYYyp2FEW43SWCVWc7KF7F/Iszlb5VZ8IaDyrYAzinPAHw==
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/b6ccff7b/@faststore/cli":
+  version "2.2.69"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/b6ccff7b/@faststore/cli#9e6703fd459d8add731ded89113fb7fc1fde7964"
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
