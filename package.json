@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@faststore/core": "^2.2.71",
-    "next": "^13.5.6",
+    "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
