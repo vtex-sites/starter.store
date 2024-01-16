@@ -72,9 +72,4 @@ module.exports = {
     cypressVersion: 12,
   },
   account: "storeframework",
-  vtexHeadlessCms: {
-    webhookUrls: [
-      "https://storeframework.myvtex.com/cms-releases/webhook-releases",
-    ],
-  },
 };
