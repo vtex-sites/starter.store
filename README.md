@@ -2,4 +2,4 @@
 
 A starter powered by FastStore.
 
-github-auth-chang
+github-auth-change
