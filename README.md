@@ -2,4 +2,4 @@
 
 A starter powered by FastStore.
 
-github-auth
+github-auth-
