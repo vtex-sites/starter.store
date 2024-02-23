@@ -8,7 +8,7 @@ module.exports = {
   theme: "custom-theme",
   platform: "vtex",
   api: {
-    storeId: "storeframework",
+    storeId: "lojavivara",
     workspace: "master",
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
