@@ -9,12 +9,18 @@ import { execute_unstable as execute } from "@faststore/core/experimental";
 
 async function fetchDataMyLandingPage() {
   const response = await fetch("my-api/my-landing-page-endpoint");
-  return await response.json();
+  const data = await response.json();
+  return {
+    data,
+  };
 }
 
 async function fetchDataOtherLandingPage() {
   const response = await fetch("other-api/other-landing-page-endpoint");
-  return await response.json();
+  const data = await response.json();
+  return {
+    data,
+  };
 }
 
 async function fetchDataUsingPromiseAll() {
@@ -25,12 +31,15 @@ async function fetchDataUsingPromiseAll() {
     ]);
 
     return {
-      apiData1,
-      apiData2,
+      data: {
+        apiData1,
+        apiData2,
+      },
     };
   } catch (error) {
     console.error("Error fetching data from APIs:", error);
     return {
+      data: null,
       error: "Error fetching data from APIs",
     };
   }
