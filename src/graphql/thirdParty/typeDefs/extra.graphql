@@ -1,0 +1,35 @@
+type Rating {
+  rate: String
+  count: Int
+}
+
+type ProductsExtraData {
+  id: Int
+  title: String
+  price: Float
+  description: String
+  category: String
+  image: String
+  rating: Rating
+}
+
+type ExtraData {
+  """
+  Data customizing ExtraData
+  """
+  data: [ProductsExtraData]
+  customFieldFromRoot: String
+  customField: String
+}
+
+type NamedExtraData {
+  """
+  Data customizing NamedExtraData
+  """
+  data: String!
+}
+
+type Query {
+  extraData: ExtraData
+  namedExtraData(name: String!): NamedExtraData
+}
