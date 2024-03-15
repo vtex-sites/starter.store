@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # WebOps do not work with multiples '/' in the branch name
+      # for example, `dependabot-npm_and_yarn-faststore-core-1.0.0`
+      separator: "-"
+    allow:
+      # Allow updates for packages starting "@faststore/"
+      - dependency-name: "@faststore/*"
+        dependency-type: "direct"
+    # Prefix all commit messages with "FastStore"
+    # include a list of updated dependencies
+    commit-message:
+      prefix: "FastStore"
+      include: "scope"
+    # Specify labels for npm pull requests
+    labels:
+      - "Dependabot"
