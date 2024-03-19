@@ -276,6 +276,10 @@
         --fs-cart-sidebar-bkg-color                          : var(--fs-color-neutral-0);
         --fs-cart-sidebar-footer-box-shadow                  : none;
 
+        [data-fs-empty-state] {
+          --fs-empty-state-bkg-color-default                   : var(--fs-color-neutral-0);
+        }
+
         [data-fs-slide-over-header] [data-fs-button-wrapper] {
           color: var(--fs-color-text);
         }
