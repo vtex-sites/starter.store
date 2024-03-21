@@ -154,6 +154,10 @@
 
       --fs-product-card-shadow-hover                    : none;
 
+      [data-fs-product-card-prices] {
+        column-gap: var(--fs-grid-gap-0);
+      }
+
       @media (hover: hover) {
         &:hover {
           [data-fs-product-card-image] img { opacity: .8; }
@@ -183,10 +187,20 @@
 
     [data-fs-tiles] {
       --fs-tiles-gap-notebook                          : var(--fs-grid-gap-4);
+      --fs-tiles-gap-mobile                            : var(--fs-grid-gap-4);
+
+      [data-fs-product-card-image] {
+        aspect-ratio: 1;
+      }
+
+      [data-fs-tile] > * {
+        @include media(">=notebook") {
+          grid-auto-rows: 640px auto;
+        }
+      }
     }
 
     [data-fs-newsletter-color-variant="light"] {
-      // --fs-newsletter-padding-desktop                      : 0 10%;
       --fs-newsletter-light-bkg-color                      : transparent;
       max-width: 670px;
 
@@ -258,13 +272,39 @@
     // PLP
     ////////////////////
 
+    [data-fs-hero-variant=secondary] {
+      --fs-hero-light-bkg-color                            : transparent;
+      --fs-hero-secondary-title-size                       : var(--fs-text-size-9);
+      --fs-hero-secondary-image-height-mobile              : unset;
+      --fs-hero-secondary-image-height-desktop             : unset;
+
+      [data-fs-hero-image] { display: none; }
+      [data-fs-hero-wrapper] { margin: 0; }
+      [data-fs-hero-subtitle] { color: var(--fs-color-text-light); }
+      [data-fs-hero-title] { letter-spacing: 1.1; }
+    }
+
     [data-fs-product-grid] {
+      --fs-product-grid-gap-mobile                         : var(--fs-grid-gap-2);
       --fs-product-grid-gap-desktop                        : var(--fs-spacing-6);
     }
 
+    [data-fs-product-listing] {
+      [data-fs-product-listing-results],
+      [data-fs-product-listing-results-count] { background-color: transparent; }
+
+      [data-fs-product-listing-results] {
+        --padding: var(--fs-grid-gap-2);
+      }
+
+      [data-fs-product-listing-results-count] {
+        color: var(--fs-color-text-light);
+      }
+    }
+
     [data-fs-product-listing-content-grid] {
-      row-gap: var(--fs-spacing-3);
       column-gap: var(--fs-spacing-6);
+      @include media(">=notebook") { row-gap: var(--fs-spacing-3); }
     }
 
     [data-fs-filter] {
@@ -272,6 +312,10 @@
       --fs-filter-accordion-item-panel-padding-right-notebook : 0;
       --fs-filter-accordion-border-radius-notebook            : 0;
       --fs-filter-title-margin-bottom                         : var(--fs-spacing-3);
+
+      [data-fs-filter-title] {
+        font-weight: var(--fs-text-weight-semibold);
+      }
 
       [data-fs-filter-accordion] {
         border-right: 0;
@@ -349,4 +393,6 @@
       letter-spacing: -1.2px;
     }
   }
+
+  .section-banner + .section-newsletter { background-color: var(--fs-color-neutral-bkg); }
 }
