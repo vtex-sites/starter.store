@@ -950,10 +950,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@faststore/api@^3.0.27":
-  version "3.0.27"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.27.tgz#fc278baab9b7bca3b9def1d7796770599a093860"
-  integrity sha512-DhVb8gLcZXV4D8EjibRxULiqjpxgFAj2tI7/yLTottSUxl7SGjV7nS8tTRAyVwu4Pg/W9YAf9Nevs4ENifqBNw==
+"@faststore/api@^3.0.32":
+  version "3.0.32"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.32.tgz#e41cc42280eba8c9ece02f82283493c41f8e2901"
+  integrity sha512-PSmKafe5EgHjVasPiGlCJBpuXNjrN2xhEivzTN2iiNksNyirGAWgcsK/ksAFbk3VF6PofQZN6ghSQF02mmAPhw==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/load-files" "^7.0.0"
@@ -987,17 +987,17 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.24.tgz#3e5eb1c94636b8d7fc2fa1140fdccabcbd6055a3"
   integrity sha512-H8rE2dK6Ik9ELrkKvbFg7tR/Jc0kae2EYY0f2+bPe8BF/58hoOeWIVaZUGUK2P3CDewVLvM0vI5f0IW0/6X2Ww==
 
-"@faststore/core@3.0.27":
-  version "3.0.27"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.27.tgz#9c0a7462c186d9a2d4b6455305e9582e03cc8b4b"
-  integrity sha512-Z2ypk4g21hm0k6qszvKSE+k2AsARh2PNVZ+wIOhHz8LphyoBO8r/Vcrt8+beCPI/c9j5v3hkgqAjIdk0PzxacA==
+"@faststore/core@3.0.33":
+  version "3.0.33"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.33.tgz#f13d6262dc68a2e603648900dc94f38290fff57f"
+  integrity sha512-Cj7JvsqJ7gY60wtBDTR7faclrCyO1Puo8BAB5Q7nNgpWR9b0+fWXRB8ai3HcD6c6AbWNxfEWHffM75CJBpUPYQ==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^3.0.27"
+    "@faststore/api" "^3.0.32"
     "@faststore/components" "^3.0.24"
     "@faststore/graphql-utils" "^3.0.24"
     "@faststore/sdk" "^3.0.24"
