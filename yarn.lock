@@ -969,16 +969,17 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@3.0.24":
-  version "3.0.24"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.24.tgz#3b945bf45988d2ca02e65eb1f27dbc69f065ea0a"
-  integrity sha512-5lQ8/MtEuED0ckE5r25iDmFhWGywHEC69HuHuZ5elvM7VJTSJnqtBpFMbP3CpvvRBhsZmsg77OiV8E4F/quqpw==
+"@faststore/cli@3.0.33":
+  version "3.0.33"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.33.tgz#7a9fea15b21f07d85b23f7306ebe684cdae72f94"
+  integrity sha512-eYBAVlKBATQghVjNTygBjXiZ0/JjlFns1XEmErZhkcVXEIhmjyB4ZvP623d6X/ueHqVh6xjlutWwWoNeo0XMfQ==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
     "@oclif/plugin-not-found" "^2.3.3"
     chalk "~4.1.2"
     chokidar "^3.5.3"
+    dotenv "^16.4.5"
     fs-extra "^10.1.0"
     path "^0.12.7"
 
@@ -3814,10 +3815,10 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@^16.0.0:
-  version "16.3.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
-  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
+dotenv@^16.0.0, dotenv@^16.4.5:
+  version "16.4.5"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
+  integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
 
 draftjs-to-html@^0.9.1:
   version "0.9.1"
