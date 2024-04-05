@@ -969,10 +969,10 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@3.0.33":
-  version "3.0.33"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.33.tgz#7a9fea15b21f07d85b23f7306ebe684cdae72f94"
-  integrity sha512-eYBAVlKBATQghVjNTygBjXiZ0/JjlFns1XEmErZhkcVXEIhmjyB4ZvP623d6X/ueHqVh6xjlutWwWoNeo0XMfQ==
+"@faststore/cli@3.0.35":
+  version "3.0.35"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.35.tgz#8a7697eda1482f4b9e927258c62ad133104b1a1e"
+  integrity sha512-8r+Ljg7xsZKrEDjJj5e4t51uMqi70zax/vfxfuLk27KpCxvBdzZiQYaARGag/C9hUCAR6CrQ8u3ZpHGormBhuA==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -988,10 +988,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.24.tgz#3e5eb1c94636b8d7fc2fa1140fdccabcbd6055a3"
   integrity sha512-H8rE2dK6Ik9ELrkKvbFg7tR/Jc0kae2EYY0f2+bPe8BF/58hoOeWIVaZUGUK2P3CDewVLvM0vI5f0IW0/6X2Ww==
 
-"@faststore/core@3.0.34":
-  version "3.0.34"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.34.tgz#6913183831e9ca145a78b9a361731993d2f266c1"
-  integrity sha512-Zf5/nZiS5jl3AJzE+yJDVEZpD/6yNEhA0ECwldJXyhOrikikoITaXpvdDCuZ9ps8gYnfada1CD9UaG0Oip7m+Q==
+"@faststore/core@3.0.35":
+  version "3.0.35"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.35.tgz#e9fbb27c80293fa0c7e8f56e38d3eac49b00914a"
+  integrity sha512-o1S5sEXTC3Wlb1AUaWBuL+XHoOyuJilxoukGGAYPNqGntMUsRrHxX77zRttRqqV9/GVysexxdxCtJnfaJUMGkA==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
