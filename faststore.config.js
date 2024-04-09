@@ -54,9 +54,9 @@ module.exports = {
 
   previewRedirects: {
     home: '/',
-    plp: "/roupas",
+    plp: "/headphones",
     search: "/s?q=Newstore",
-    pdp: "/camisa-teste/p",
+    pdp: "/headphone-white-10000006/p",
   },
 
   // Lighthouse CI
@@ -64,8 +64,8 @@ module.exports = {
     server: process.env.BASE_SITE_URL || 'http://localhost:3000',
     pages: {
       home: '/',
-      pdp: "/camisa-teste/p",
-      collection: "/roupas",
+      pdp: "/headphone-white-10000006/p",
+      collection: "/headphones",
     },
   },
 
@@ -73,9 +73,9 @@ module.exports = {
   cypress: {
     pages: {
       home: '/',
-      pdp: "/camisa-teste/p",
-      collection: "/roupas",
-      collection_filtered: "/roupas/?category-1=roupas&brand=Newstore&facets=category-1%2Cbrand%27",
+      pdp: "/headphone-white-10000006/p",
+      collection: "/headphones",
+      collection_filtered: "/headphones?category-1=headphones&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=score_desc&page=0",
       search: "/s?q=Newstore",
     },
     browser: 'electron',
