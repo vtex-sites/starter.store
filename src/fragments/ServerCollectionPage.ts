@@ -1,6 +1,6 @@
 import { gql } from "@faststore/core/api";
 
-export const fragment = gql`
+export const fragment = gql(`
   fragment ServerCollectionPage on Query {
     collection(slug: $slug) {
       title
@@ -8,4 +8,4 @@ export const fragment = gql`
       customData
     }
   }
-`;
+`);
