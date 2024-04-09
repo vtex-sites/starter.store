@@ -1,0 +1,8 @@
+extend type StoreCollection {
+  """
+  Custom data extending StoreCollection
+  """
+  title: String!
+  metaTagDescription: String!
+  customData: String!
+}
