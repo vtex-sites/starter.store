@@ -9,23 +9,14 @@ export default function HeroCustom(
 ) {
   const { title, subtitle, image, ...otherProps } = props;
   const context = usePLP();
-  if (context?.data?.collection?.title?.toLowerCase() === "headphones") {
-    return (
-      <OverridenHero
-        title={context?.data?.collection?.title}
-        subtitle={context?.data?.collection?.metaTagDescription}
-        image={{
-          src: context?.data?.collection?.customData,
-          alt: "Headphones",
-        }}
-      />
-    );
-  }
   return (
     <OverridenHero
-      {...props}
       title={context?.data?.collection?.title}
       subtitle={context?.data?.collection?.metaTagDescription}
+      image={{
+        src: context?.data?.collection?.customData,
+        alt: "Headphones",
+      }}
     />
   );
 }
