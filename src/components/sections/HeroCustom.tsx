@@ -17,6 +17,8 @@ export default function HeroCustom(
         src: context?.data?.collection?.customData,
         alt: "Headphones",
       }}
+      variant={props.variant ?? "primary"}
+      colorVariant={props.colorVariant ?? "light"}
     />
   );
 }
