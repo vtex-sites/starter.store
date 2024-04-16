@@ -950,10 +950,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@faststore/api@^3.0.32":
-  version "3.0.32"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.32.tgz#e41cc42280eba8c9ece02f82283493c41f8e2901"
-  integrity sha512-PSmKafe5EgHjVasPiGlCJBpuXNjrN2xhEivzTN2iiNksNyirGAWgcsK/ksAFbk3VF6PofQZN6ghSQF02mmAPhw==
+"@faststore/api@^3.0.37":
+  version "3.0.37"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.37.tgz#bf4f62aa882657b8d6d6ef61d484275e0443c29c"
+  integrity sha512-i9FjFYD31Q2UCD/e0MBQPXLH1IEwc4Lwb1AjbqxJvDWxdPnz3Ib3nWni8UcTQreBLZ5SYWXdwc6cZQ1wkLLYMA==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/load-files" "^7.0.0"
@@ -963,6 +963,7 @@
     "@opentelemetry/sdk-logs" "^0.39.1"
     "@opentelemetry/sdk-trace-base" "^1.13.0"
     "@rollup/plugin-graphql" "^1.0.0"
+    cookie "^0.6.0"
     dataloader "^2.1.0"
     fast-deep-equal "^3.1.3"
     isomorphic-unfetch "^3.1.0"
@@ -983,26 +984,26 @@
     fs-extra "^10.1.0"
     path "^0.12.7"
 
-"@faststore/components@^3.0.24":
-  version "3.0.24"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.24.tgz#3e5eb1c94636b8d7fc2fa1140fdccabcbd6055a3"
-  integrity sha512-H8rE2dK6Ik9ELrkKvbFg7tR/Jc0kae2EYY0f2+bPe8BF/58hoOeWIVaZUGUK2P3CDewVLvM0vI5f0IW0/6X2Ww==
+"@faststore/components@^3.0.38":
+  version "3.0.38"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.38.tgz#6c9ac2dd5a97f594c57cff0b9dbd6e1f4981287d"
+  integrity sha512-TvU8JfPfsFcIwRndkSNeFS1CHAgseV4Pti686QSoRtT4y35iwPplzNoGOhjySutxFJO5ISkffWcPM4tx1ONxRQ==
 
-"@faststore/core@3.0.35":
-  version "3.0.35"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.35.tgz#e9fbb27c80293fa0c7e8f56e38d3eac49b00914a"
-  integrity sha512-o1S5sEXTC3Wlb1AUaWBuL+XHoOyuJilxoukGGAYPNqGntMUsRrHxX77zRttRqqV9/GVysexxdxCtJnfaJUMGkA==
+"@faststore/core@3.0.38":
+  version "3.0.38"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.38.tgz#5767dfbd657dc0c200fdb35166e3afd8fc69cde1"
+  integrity sha512-9omqQFSNaDG5rJXBAcYX10/iN1Gd9Kfj3y0LurWFndKOMbi6g8N3DMFadNzAweckxYtmdmEwrBdEjvvPWKeQYg==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^3.0.32"
-    "@faststore/components" "^3.0.24"
+    "@faststore/api" "^3.0.37"
+    "@faststore/components" "^3.0.38"
     "@faststore/graphql-utils" "^3.0.24"
     "@faststore/sdk" "^3.0.34"
-    "@faststore/ui" "^3.0.24"
+    "@faststore/ui" "^3.0.38"
     "@graphql-codegen/cli" "^3.3.1"
     "@graphql-codegen/client-preset" "^4.1.0"
     "@graphql-codegen/typescript" "^3.0.4"
@@ -1056,12 +1057,12 @@
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^3.0.24":
-  version "3.0.24"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.0.24.tgz#06120e1907e9086e1b1cecaa24a4acc15fca2d7f"
-  integrity sha512-unFEcz4Cis8sD8rBMDBwMcY4l/vGrIcFydbOueqwAl39n+IPUTpJqmXKI9iIch685fhhwy6NyZoiJALOpQzBcA==
+"@faststore/ui@^3.0.38":
+  version "3.0.38"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.0.38.tgz#6cf39b2b4410a9517776d86f936de5c178281c62"
+  integrity sha512-Jxd16PilMw3PQjjRTVb/zf0ZVhtNDc8/cD+++HYqSLfCpjczBOkerAYIc5mJaI/h/zBciZhpY3Z5ob76BssJuA==
   dependencies:
-    "@faststore/components" "^3.0.24"
+    "@faststore/components" "^3.0.38"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
@@ -3379,6 +3380,11 @@ cookie@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
   integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
+
+cookie@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.6.0.tgz#2798b04b071b0ecbff0dbb62a505a8efa4e19051"
+  integrity sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==
 
 copyfiles@^2.4.1:
   version "2.4.1"
