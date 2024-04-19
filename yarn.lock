@@ -968,10 +968,10 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.0.35":
-  version "3.0.35"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.35.tgz#8a7697eda1482f4b9e927258c62ad133104b1a1e"
-  integrity sha512-8r+Ljg7xsZKrEDjJj5e4t51uMqi70zax/vfxfuLk27KpCxvBdzZiQYaARGag/C9hUCAR6CrQ8u3ZpHGormBhuA==
+"@faststore/cli@^3.0.39":
+  version "3.0.39"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.39.tgz#0f7104686d17bb1e54151203cd3050d25a119a0b"
+  integrity sha512-mPNlVkPBWg8U4vrpZp1lje3EXH4MmTpKBymwA6rqfI9P3FsLqIzhptJ4gufY43jK4743YmkJTYNU1R7cHAG9vw==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -3809,12 +3809,7 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@^16.0.0:
-  version "16.3.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
-  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
-
-dotenv@^16.4.5:
+dotenv@^16.0.0, dotenv@^16.4.5:
   version "16.4.5"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
   integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
