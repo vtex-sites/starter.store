@@ -8,7 +8,7 @@ import {
 import { execute_unstable as execute } from "@faststore/core/experimental";
 
 async function fetchDataMyLandingPage() {
-  const response = await fetch("my-api/my-landing-page-endpoint");
+  const response = await fetch("https://fakestoreapi.com/products/1");
   const data = await response.json();
   return {
     data,
@@ -65,24 +65,37 @@ const query = gql(`
 `);
 
 async function fetchDataUsingApiExtension() {
-  const dynamicContentResult = await execute<
-    ServerDynamicContentQueryVariables,
-    ServerDynamicContentQuery
-  >({
-    variables: { name: "Variables passed to query - Dynamic Content Feature" },
-    operation: query,
-  });
-  return dynamicContentResult;
+  try {
+    const dynamicContentResult = await execute<
+      ServerDynamicContentQueryVariables,
+      ServerDynamicContentQuery
+    >({
+      variables: {
+        name: "Variables passed to query - Dynamic Content Feature",
+      },
+      operation: query,
+    });
+    return {
+      data: dynamicContentResult.data,
+    };
+  } catch (error) {
+    console.error("Error fetching data from APIs:", error);
+    return {
+      data: null,
+      error: "Error fetching data from APIs",
+    };
+  }
 }
 
 // map the slug to correspondent functions
-const fetchFunctions = {
+const dynamicContent = {
   home: fetchDataUsingApiExtension,
-  "my-landing-page": fetchDataMyLandingPage,
+  "my-landing-page": fetchDataUsingApiExtension,
+  // "my-landing-page": fetchDataMyLandingPage,
   "other-landing-page": fetchDataOtherLandingPage,
   "landing-page-using-promise-all": fetchDataUsingPromiseAll,
   "landing-page-using-api-extension": fetchDataUsingApiExtension,
   about: fetchDataUsingApiExtension,
 };
 
-export default fetchFunctions;
+export default dynamicContent;

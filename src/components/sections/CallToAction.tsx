@@ -15,6 +15,7 @@ export default function CallToAction(props: CallToActionProps) {
   return (
     <section>
       <h2>{`${props.title} ${context?.data?.namedExtraData?.data}`}</h2>
+      <pre>{`${JSON.stringify(context?.data, null, 2)}`}</pre>
     </section>
   );
 }
