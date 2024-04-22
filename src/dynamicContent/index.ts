@@ -40,7 +40,7 @@ async function fetchDataUsingPromiseAll() {
     console.error("Error fetching data from APIs:", error);
     return {
       data: null,
-      error: "Error fetching data from APIs",
+      errors: ["Error fetching data from APIs"],
     };
   }
 }
@@ -82,7 +82,7 @@ async function fetchDataUsingApiExtension() {
     console.error("Error fetching data from APIs:", error);
     return {
       data: null,
-      error: "Error fetching data from APIs",
+      errors: ["Error fetching data from APIs"],
     };
   }
 }
