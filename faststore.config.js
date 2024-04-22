@@ -8,7 +8,7 @@ module.exports = {
   theme: "custom-theme",
   platform: "vtex",
   api: {
-    storeId: "vendemo",
+    storeId: "storeframework",
     workspace: "master",
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
