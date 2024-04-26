@@ -99,14 +99,14 @@
     [data-fs-input] {
       --fs-input-height                                 : 56px;
       --fs-input-border-radius                          : var(--fs-border-radius);
-
-      [data-fs-button] { min-width: var(--fs-input-height); }
     }
 
     [data-fs-input-field] {
       --fs-input-field-padding                          : var(--fs-spacing-2) var(--fs-spacing-2) 0;
       --fs-input-field-label-padding                    : 0 var(--fs-spacing-2);
+      --fs-input-field-button-height                    : 56px;
 
+      [data-fs-button] { min-width: var(--fs-input-field-button-height); }
       input:not(:placeholder-shown) + label, &:focus + label { top: rem(9px); }
     }
 
@@ -202,6 +202,7 @@
 
     [data-fs-newsletter-color-variant="light"] {
       --fs-newsletter-light-bkg-color                      : transparent;
+
       max-width: 670px;
 
       [data-fs-newsletter-addendum] {
@@ -209,11 +210,10 @@
       }
 
       [data-fs-button-inverse="true"] [data-fs-button-wrapper] {
-        border-color: var(--fs-border-color);;
         color: var(--fs-color-link);
+        border-color: var(--fs-border-color);
       }
     }
-
 
     ////////////////////
     // PDP
@@ -272,7 +272,7 @@
     // PLP
     ////////////////////
 
-    [data-fs-hero-variant=secondary] {
+    [data-fs-hero-variant="secondary"] {
       --fs-hero-light-bkg-color                            : transparent;
       --fs-hero-secondary-title-size                       : var(--fs-text-size-9);
       --fs-hero-secondary-image-height-mobile              : unset;
@@ -304,6 +304,7 @@
 
     [data-fs-product-listing-content-grid] {
       column-gap: var(--fs-spacing-6);
+
       @include media(">=notebook") { row-gap: var(--fs-spacing-3); }
     }
 
