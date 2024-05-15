@@ -1,5 +1,5 @@
-import { ShippingSimulation } from "@faststore/ui";
 import { useShippingSimulation_unstable } from "@faststore/core/experimental";
+import { ShippingSimulation } from "@faststore/ui";
 
 export function CustomShippingSimulation(props: any) {
   const {

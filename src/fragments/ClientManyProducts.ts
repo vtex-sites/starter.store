@@ -1,6 +1,6 @@
 import { gql } from "@faststore/core/api";
 
-export const fragment = gql`
+export const fragment = gql(`
   fragment ClientManyProducts on Query {
     search(
       first: $first
@@ -21,4 +21,4 @@ export const fragment = gql`
       }
     }
   }
-`;
+`);
