@@ -36,6 +36,5 @@ yarn-error.log*
 
 # faststore
 /.faststore
-public/
 .vscode/
 lighthouserc.js
