@@ -5,7 +5,7 @@ import {
   ServerDynamicContentQueryVariables,
   gql,
 } from "@faststore/core/api";
-import { execute_unstable as execute } from "@faststore/core/experimental";
+import { execute_unstable as execute } from "@faststore/core/experimental/server";
 
 async function fetchDataMyLandingPage() {
   const response = await fetch("https://fakestoreapi.com/products/1");
