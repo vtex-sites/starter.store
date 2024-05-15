@@ -2,7 +2,7 @@ import { ProductDetailsSection, getOverriddenSection } from "@faststore/core";
 import { CustomBuyButton } from "../CustomBuyButton";
 import { CustomShippingSimulation } from "../CustomShippingSimulation";
 
-const ProductDetails = getOverriddenSection({
+const ProductDetailsCustom = getOverriddenSection({
   Section: ProductDetailsSection,
   components: {
     BuyButton: { Component: CustomBuyButton },
@@ -10,4 +10,4 @@ const ProductDetails = getOverriddenSection({
   },
 });
 
-export default ProductDetails;
+export default ProductDetailsCustom;
