@@ -989,10 +989,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.54.tgz#d9857d2ab37ec6bea181ce387bfa6cb4f5fcff06"
   integrity sha512-cCtKmcjdJwtSmcxOq3AaSLxZXPHwNlMCU6pbpNbkqWtMFT9AB6qk4R8kU15URMQNFAWTZvfPH7Wpmq5OnY7QnQ==
 
-"@faststore/core@3.0.55":
-  version "3.0.55"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.55.tgz#71c5f1c30166458dac96fce19207aca9d1a8c214"
-  integrity sha512-dUyKCPJCYlMq3eElGNzlMq1gYCJTm8NPQn6IXmN1FzMJd4gwrwvG10WqeCx95rcuhTZH2PxCLHD5fbNV0CHp7g==
+"@faststore/core@3.0.57":
+  version "3.0.57"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.57.tgz#d39ce6a55e2cd23a8400c353cc65468bdd4ba34e"
+  integrity sha512-w7g8Vwpr3Kvw8PI3FSmGWO/54Jmd1PGXpoA6IqpcRb02fsOdC+IBBnvssHRSVHgZyhdI25txVWo+ZH6eqRoalw==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -1021,7 +1021,7 @@
     css-loader "^6.7.1"
     deepmerge "^4.3.1"
     draftjs-to-html "^0.9.1"
-    graphql "^15.0.0"
+    graphql "^15.6.0"
     include-media "^1.4.10"
     next "^13.5.6"
     next-seo "^6.4.0"
@@ -4555,7 +4555,7 @@ graphql-ws@5.12.1:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.12.1.tgz#c62d5ac54dbd409cc6520b0b39de374b3d59d0dd"
   integrity sha512-umt4f5NnMK46ChM2coO36PTFhHouBrK9stWWBczERguwYrGnPNxJ9dimU6IyOBfOkC6Izhkg4H8+F51W/8CYDg==
 
-graphql@^15.0.0:
+graphql@^15.6.0:
   version "15.8.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.8.0.tgz#33410e96b012fa3bdb1091cc99a94769db212b38"
   integrity sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==
