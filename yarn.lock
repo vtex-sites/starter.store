@@ -988,9 +988,10 @@
   uid "3de4d9914ddca1fb5b01bbbdd3d57b2b3ecab9b9"
   resolved "https://pkg.csb.dev/vtex/faststore/commit/673f5ff2/@faststore/components#3de4d9914ddca1fb5b01bbbdd3d57b2b3ecab9b9"
 
-"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/673f5ff2/@faststore/core":
+"@faststore/core@3.0.55":
   version "3.0.55"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/673f5ff2/@faststore/core#877d09c7116bc470c3decaa7b99d052f4655fddd"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.55.tgz#71c5f1c30166458dac96fce19207aca9d1a8c214"
+  integrity sha512-dUyKCPJCYlMq3eElGNzlMq1gYCJTm8NPQn6IXmN1FzMJd4gwrwvG10WqeCx95rcuhTZH2PxCLHD5fbNV0CHp7g==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
