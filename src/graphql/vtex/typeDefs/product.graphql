@@ -3,4 +3,17 @@ extend type StoreProduct {
   Custom data extending StoreProduct
   """
   customData: String!
+  """
+  Array of SKU variations
+  """
+  skuVariations: [SkuVariation!]!
+}
+
+"""
+SKU Variation type
+"""
+type SkuVariation {
+  itemId: String!
+  name: String!
+  image: String!
 }
