@@ -1,3 +1,4 @@
-import CallToAction from './CallToAction'
+// import CallToAction from "./CallToAction";
+import ProductDetailsCustom from "./overrides/ProductDetailsCustom";
 
-export default { CallToAction }
+export default { ProductDetailsCustom };
