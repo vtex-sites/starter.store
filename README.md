@@ -1,4 +1,4 @@
 # starter.store
 
 A starter powered by FastStore.
-test new cluster4
+test new cluster5
