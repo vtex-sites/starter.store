@@ -1,12 +1,10 @@
-import { SectionOverride } from "@faststore/core/src/typings/overrides";
+import { ProductDetailsSection, getOverriddenSection } from "@faststore/core";
 import { CustomBuyButton } from "../CustomBuyButton";
 // import { CustomShippingSimulation } from "../CustomShippingSimulation";
 import CustomProductDetailsSetting from "../CustomProductDetailsSetting";
 
-const SECTION = "ProductDetails" as const;
-
-const override: SectionOverride = {
-  section: SECTION,
+const ProductDetailsCustom = getOverriddenSection({
+  Section: ProductDetailsSection,
   components: {
     BuyButton: { Component: CustomBuyButton },
     // __experimentalShippingSimulation: { Component: CustomShippingSimulation },
@@ -14,6 +12,6 @@ const override: SectionOverride = {
       Component: CustomProductDetailsSetting,
     },
   },
-};
+});
 
-export { override };
+export default ProductDetailsCustom;
