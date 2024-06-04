@@ -1040,10 +1040,10 @@
   version "3.0.13"
   resolved "https://pkg.csb.dev/vtex/faststore/commit/5a15d09d/@faststore/graphql-utils#33000c8b39a882ec965f17e96960e334c10a3d0b"
 
-"@faststore/lighthouse@^3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.0.7.tgz#428e4ee7b7dd1dbca98539a9d52bc77f12508a33"
-  integrity sha512-W1Kgdjk1MP0GmtiWPilcwnJdglWTy/uoMEVPZav2LDtcRdrbGzE6uKYdV2+XebLokNWKr+cg6DbKopSL8aU/xQ==
+"@faststore/lighthouse@^3.0.66":
+  version "3.0.66"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.0.66.tgz#5952394775e5b21fcf1ea1719e60b8b0b05dc8d8"
+  integrity sha512-+NTSpLbe7mLH1Q9tosldC2QRPQbUMpMyPjdkgDOPY+wZWX1ag+UlvPc1SeiIdIMAdxMe2aTEEy3khSvkAbsjjw==
 
 "@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/5a15d09d/@faststore/sdk":
   version "3.0.7"
