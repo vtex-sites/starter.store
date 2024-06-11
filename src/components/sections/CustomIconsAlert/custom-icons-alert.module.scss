@@ -1,0 +1,12 @@
+.customIconsAlert {
+  [data-fs-alert] {
+    justify-content: center;
+    color: var(--fs-color-neutral-0);
+    background-color: var(--fs-color-neutral-7);
+  }
+
+  [data-fs-icon],
+  [data-fs-link] {
+    color: var(--fs-color-neutral-0);
+  }
+}
