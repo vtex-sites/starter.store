@@ -1,3 +1,5 @@
+"use client";
+
 import { AlertSection, getOverriddenSection } from "@faststore/core";
 
 import styles from "./custom-icons-alert.module.scss";
