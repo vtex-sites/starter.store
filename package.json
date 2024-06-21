@@ -11,7 +11,6 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/api": "https://pkg.csb.dev/vtex/faststore/commit/6054181a/@faststore/api",
     "@faststore/core": "3.0.70",
     "next": "^13.5.6",
     "react": "^18.2.0",
