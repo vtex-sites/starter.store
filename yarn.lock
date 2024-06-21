@@ -1137,10 +1137,9 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@faststore/api@^3.0.68":
+"@faststore/api@^3.0.68", "@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/6054181a/@faststore/api":
   version "3.0.68"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.68.tgz#6045ab0d1e1d64ced68fa97d8150cd99dd27c540"
-  integrity sha512-Y75PRhaEKrLHUn5fE67SN9k06MDoWp6wU3QVyNTlo/JQDn3bA1BNwVv9KCHm47U5pIvrQjVihho/uHuw3nu3Gg==
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/6054181a/@faststore/api#2d459754052d67770ae78c50ba15b8451767d2a7"
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/load-files" "^7.0.0"
