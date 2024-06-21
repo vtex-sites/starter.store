@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@faststore/api": "https://pkg.csb.dev/vtex/faststore/commit/1a123bf6/@faststore/api",
+    "@faststore/components": "https://pkg.csb.dev/vtex/faststore/commit/1a123bf6/@faststore/components",
     "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/1a123bf6/@faststore/core",
     "next": "^13.5.6",
     "react": "^18.2.0",
