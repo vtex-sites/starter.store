@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.1",
-    "@faststore/cli": "3.0.68",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/4f748813/@faststore/cli/_pkg.tgz",
     "@faststore/lighthouse": "^3.0.68",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^10.0.1",
