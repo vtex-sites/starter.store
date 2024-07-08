@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.1",
-    "@faststore/cli": "3.0.71",
+    "@faststore/cli": "3.0.80",
     "@faststore/lighthouse": "^3.0.68",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^10.0.1",
