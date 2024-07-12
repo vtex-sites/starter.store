@@ -11,7 +11,7 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/core": "3.0.77",
+    "@faststore/core": "3.0.83",
     "next": "^13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
