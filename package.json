@@ -11,7 +11,7 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "^3.0.87",
+    "@faststore/cli": "^3.0.90",
     "next": "^13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
