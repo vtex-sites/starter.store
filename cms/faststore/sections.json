@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CustomCard",
+    "schema": {
+      "title": "Custom Card",
+      "description": "Testing Card Component",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
