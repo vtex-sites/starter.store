@@ -1,3 +1,3 @@
-import CustomCard from "./CustomCard";
+import CustomCard from "./CustomCard/CustomCard";
 
 export default { CustomCard };

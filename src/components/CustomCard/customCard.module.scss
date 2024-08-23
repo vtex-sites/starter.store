@@ -1,0 +1,8 @@
+.customCard {
+  @import "@faststore/ui/src/components/molecules/Card/styles.scss";
+  @import "@faststore/ui/src/components/atoms/Button/styles.scss";
+
+  [data-fs-card] [data-fs-icon] {
+    --fs-card-header-icon-color: #f71963;
+  }
+}

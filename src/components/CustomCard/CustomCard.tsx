@@ -1,9 +1,13 @@
 import { Card as UICard } from "@faststore/ui";
-import "@faststore/ui/src/components/molecules/Card/styles.scss";
+
+import styles from "./customCard.module.scss";
 
 export default function CustomCard() {
   return (
-    <section style={{ backgroundColor: "white", margin: "5rem" }}>
+    <section
+      className={styles.customCard}
+      style={{ backgroundColor: "white", margin: "5rem" }}
+    >
       <UICard title="Card Title" iconName="X" maxWidth="300px">
         New Card Content New Card Content New Card Content New Card Content New
         Card Content New Card Content New Card Content
