@@ -13,6 +13,7 @@ module.exports = {
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
     incrementAddress: false,
+    simulationBehavior: "skip",
   },
   session: {
     currency: {
