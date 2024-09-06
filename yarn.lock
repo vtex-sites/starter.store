@@ -1142,10 +1142,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
-"@faststore/api@^3.0.97":
-  version "3.0.97"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.97.tgz#9bc0c92dd42e8d4b89c6f5a43f2eeec8ee8bda1d"
-  integrity sha512-Ogrunw4fxyJMk9W8m/sC8H3Ue2qd5TzqKXhtsU5paGXN/3xtUWCl6OyWf76CjdYD5SJJxuQQyvZ9icdUNvoovw==
+"@faststore/api@^3.0.99":
+  version "3.0.99"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.99.tgz#eab41e0612cade5661c0ec2b64c1073bf0c016f9"
+  integrity sha512-vNAvWQ2FuzaKYtRWTtmVt+6V+jMWahSP6YZnDA/bclO9tj+P7lK0m3d+5GzAMzjjx2aDkAojpfGfA860r1DutQ==
   dependencies:
     "@envelop/on-resolve" "^2.0.6"
     "@graphql-tools/load-files" "^7.0.0"
@@ -1162,13 +1162,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.0.97":
-  version "3.0.97"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.97.tgz#8554ea26f3816fec12f9069a520adc2d8fa05605"
-  integrity sha512-U4iMsHTnsAyAoa9xxYFwtvFPlFw2Iu//ill6Tc70kDIwglPeK0W2KPiXqsEXgPMjxSn4ugfNvhX1yjU7AoaHOg==
+"@faststore/cli@^3.0.99":
+  version "3.0.99"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.99.tgz#ab24aac2a6ac66c6bde6f936251cbc788ecfb892"
+  integrity sha512-vUysNYjQPqQNHGvj4UNfSwOkLD+/PMRseR7JQfbelWMXNawlfnAurSfHf53TmDCN8ikq2Cy3UDVlRS8R8y1rew==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.0.97"
+    "@faststore/core" "^3.0.99"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1185,10 +1185,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.97.tgz#7da7f6309a4a22dab33d7f6926477323417d76fe"
   integrity sha512-QqnttyWF67F3opoby6m/BjCciWwFRuInnRObi43k52mwJhRB8hL8xM2qdvcUP4SVtb3RDLkXz+8yIyzhbIBDZg==
 
-"@faststore/core@^3.0.97":
-  version "3.0.97"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.97.tgz#0d161f1be5fba63a35de0a8b135df5e1ba53a4f8"
-  integrity sha512-8Vo1PwUhplvAh31ya2QFAGuQ4q6tSY/S6kVtTku5FhoKyvQHLEIz/4jLrV+IzFKwCIpEIjSzFWxO02V5JHKiOQ==
+"@faststore/core@^3.0.99":
+  version "3.0.99"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.99.tgz#c6a376216deb71811d02ad38991676ebc9cc4126"
+  integrity sha512-QbG8uCGWErgQ3+q2Ac7izQvWgYxM/lzGcT2fV2Gt1TCYdCshy31YleWe8gZTdeysyM+eE/LjhgZazj9Rl5c/JA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1196,7 +1196,7 @@
     "@envelop/graphql-jit" "^1.1.1"
     "@envelop/parser-cache" "^2.2.0"
     "@envelop/validation-cache" "^2.2.0"
-    "@faststore/api" "^3.0.97"
+    "@faststore/api" "^3.0.99"
     "@faststore/components" "^3.0.97"
     "@faststore/graphql-utils" "^3.0.97"
     "@faststore/sdk" "^3.0.97"
