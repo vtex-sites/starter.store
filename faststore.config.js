@@ -65,7 +65,7 @@ module.exports = {
     },
   },
   analytics: {
-    gtmContainerId: "GTM-PGHZ95N",
+    gtmContainerId: "GTM-P888NJW9",
   },
   experimental: {
     nodeVersion: 18,
