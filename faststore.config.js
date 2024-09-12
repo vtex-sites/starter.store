@@ -71,6 +71,10 @@ module.exports = {
     nodeVersion: 18,
     cypressVersion: 12,
   },
+  redirects: () => {
+    const redirects = require("./src/redirects.json");
+    return redirects
+  },
   account: "storeframework",
   vtexHeadlessCms: {
     webhookUrls: [
