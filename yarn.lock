@@ -1166,13 +1166,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.0.104":
-  version "3.0.104"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.104.tgz#7eddabe7125172d76efd5b583e2918b44d127cc5"
-  integrity sha512-hYPqRTRDKrsXZKvbRYP02I2nKZBSZBLEhj4jCospJUnZrKe/7CtJD/14eKheQZqkm4lJXZAa26yA8mb/fuUIjA==
+"@faststore/cli@^3.0.105":
+  version "3.0.105"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.105.tgz#edcdc720d0f7de2c3645d239c12f40eab68bb832"
+  integrity sha512-3yC9/TutjwzcqoOIvQvYiZpPkma79XRqivT+B0XOqAOU1uz1Db4rlKsPpvN0RT+U00iOzxbGFpbIzyiKie87+Q==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.0.103"
+    "@faststore/core" "^3.0.105"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1189,10 +1189,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.103.tgz#b7443d7b3c8f4f5ce94eeaa1f69b946223d2b14f"
   integrity sha512-nKtL2DtOKCsAl0YutuqcJt+L0eAR929ekU7FBgLMjlIE/zy+/+r7cgkkAlrxoJhaT1rQiN9GHGLNtkJBJQ6MTA==
 
-"@faststore/core@^3.0.103":
-  version "3.0.103"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.103.tgz#fd5d191cd37ea7ae2a402df672680b3fde3db3b0"
-  integrity sha512-SDBg/jrgge5gvb7Z39JWuZNU56BvZxOwb0aoV693lb0oPzJYd00yK3jT46SbGO7ggQ1rhrCx3uP9+v1L9y4nuw==
+"@faststore/core@^3.0.105":
+  version "3.0.105"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.105.tgz#0db9dac95a8eebce604fedbea840e6a528e6724e"
+  integrity sha512-Ta360RirDrwmwzjULQ/qULcNjSSc/f6ZBep0wdalmIIvyOtG/w33joyCfzw441aaNR4wtE8uJVSjqL8VCqvvyA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1203,6 +1203,7 @@
     "@faststore/api" "^3.0.100"
     "@faststore/components" "^3.0.103"
     "@faststore/graphql-utils" "^3.0.97"
+    "@faststore/lighthouse" "^3.0.97"
     "@faststore/sdk" "^3.0.97"
     "@faststore/ui" "^3.0.103"
     "@graphql-codegen/cli" "^5.0.2"
