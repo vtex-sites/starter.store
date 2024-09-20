@@ -13,6 +13,7 @@ module.exports = {
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
     incrementAddress: false,
+    showSponsored: true,
   },
   session: {
     currency: {
