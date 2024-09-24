@@ -70,6 +70,7 @@ module.exports = {
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
+    enableMiddleware: true
   },
   account: "storeframework",
   vtexHeadlessCms: {
