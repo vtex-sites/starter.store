@@ -21,9 +21,9 @@ export function middleware(req: NextRequest) {
     url.pathname = database[pathname]
 
     // Return a redirect response (302 by default)
-    return NextResponse.redirect(url, {
-      headers: requestHeaders
-    })
+    const response =  NextResponse.redirect(url)
+    response.headers.set('x-forwarded-for', 'https://www.vtexfaststore.com')
+    return response
   }
 
   // If no redirect is required, continue to the requested page
