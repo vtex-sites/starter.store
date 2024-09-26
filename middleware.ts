@@ -11,6 +11,9 @@ export function middleware(req: NextRequest) {
   // Get the pathname of the request (e.g., "/produto/7428352752/test-1")
   const { pathname } = req.nextUrl
 
+  const requestHeaders = new Headers(req.headers)
+  requestHeaders.set('x-forwarded-host', 'https://www.vtexfaststore.com')
+
   // Check if the requested path exists in our redirect map 
   if (database[pathname]) {
     // Perform the redirect
@@ -18,7 +21,9 @@ export function middleware(req: NextRequest) {
     url.pathname = database[pathname]
 
     // Return a redirect response (302 by default)
-    return NextResponse.redirect(url)
+    return NextResponse.redirect(url, {
+      headers: requestHeaders
+    })
   }
 
   // If no redirect is required, continue to the requested page
