@@ -7819,6 +7819,11 @@ timed-out@4.0.1:
   resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
   integrity sha512-G7r3AhovYtr5YKOWQkta8RKAPb+J9IsO4uVmzjl8AZwfhs8UcUwTiD6gcJYSgOtzyjvQKrKYn41syHbUWMkafA==
 
+tiny-lru@7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-7.0.6.tgz#b0c3cdede1e5882aa2d1ae21cb2ceccf2a331f24"
+  integrity sha512-zNYO0Kvgn5rXzWpL0y3RS09sMK67eGaQj9805jlK9G6pSadfriTczzLHFXa/xcW4mIRfmlB9HyQ/+SgL0V1uow==
+
 title-case@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/title-case/-/title-case-3.0.3.tgz#bc689b46f02e411f1d1e1d081f7c3deca0489982"
