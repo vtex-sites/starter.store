@@ -1162,7 +1162,7 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.0.114":
+"@faststore/cli@^3.0.115":
   version "3.0.115"
   resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.115.tgz#c2ec793897f696bc593e7afb52ad5b5e8c7f9bc4"
   integrity sha512-JYLguffRlDu5fRJkj/Z0pt9ZqlkblqMlcGAcy26j5JA+Q0+2RROJ8I1TSKtm3a9MsEGdO1SG/IV8ZoHokd0ptg==

@@ -49,14 +49,14 @@ module.exports = {
     server: "http://localhost:3000",
     pages: {
       home: "/",
-      pdp: "/apple-magic-mouse/p",
+      pdp: "/4k-philips-monitor-99988213/p",
       collection: "/office",
     },
   },
   cypress: {
     pages: {
       home: "/",
-      pdp: "/apple-magic-mouse/p",
+      pdp: "/4k-philips-monitor-99988213/p",
       collection: "/office",
       collection_2: "/technology",
       collection_filtered:
