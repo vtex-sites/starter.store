@@ -1165,13 +1165,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.0.125":
-  version "3.0.125"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.125.tgz#bb8230a89d59c4b6f3e8ce190fab851fe71b8e5c"
-  integrity sha512-NS3vFWLVOVtQEQeBg6klDQbcODldcoD9hLAv5n/1HlWO1pM/zZhlocWjNgwPAaSG8CSj+qkNs8Aob9deO6Sg5A==
+"@faststore/cli@^3.0.128":
+  version "3.0.128"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.0.128.tgz#78633762786edb278da0b9cbcf9fb0b71d274af2"
+  integrity sha512-KcRn7W7qnKdgOGwb27cMP2vBaK7EDqeGVEGS6gPY4vv0ISegbMbgjixwSGKIb59757BO5l5QDOALshoEXAavWA==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.0.125"
+    "@faststore/core" "^3.0.127"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1188,10 +1188,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.116.tgz#92592d08b52705117f12fa32e658413c0d212ba1"
   integrity sha512-usVsgEgpt19kuvud+douSv/bi94NdJLSrVAh0eSI1CL4WQd7R8oAFqDJElla6x35bLQ1CAUZLuJCvVNHiFfdRA==
 
-"@faststore/core@^3.0.125":
-  version "3.0.125"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.125.tgz#8120deb65233f577f5090a8e648e366f71bd2219"
-  integrity sha512-rAR5hMslJW9P26MAWgPQGbCjBIuqC6Ivufj5A6SfhAHuKa7KwUKCR9AhRbpFxaxYbE457FhrU1x4/A7dFRlayA==
+"@faststore/core@^3.0.127":
+  version "3.0.127"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.0.127.tgz#9754b6b1ec38384aed77908ce16fd96636bb76ee"
+  integrity sha512-jxoIWT1hIvn8tz8Dm6Eef42FqretrOqHVrc7C9XS6q13PT7bkNX1t8lKzx2/xYZJASc3aj/B41EuvJfK0FSowA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1205,10 +1205,10 @@
     "@faststore/lighthouse" "^3.0.116"
     "@faststore/sdk" "^3.0.120"
     "@faststore/ui" "^3.0.116"
-    "@graphql-codegen/cli" "^5.0.2"
-    "@graphql-codegen/client-preset" "^4.2.6"
-    "@graphql-codegen/typescript" "^4.0.7"
-    "@graphql-codegen/typescript-operations" "^4.2.1"
+    "@graphql-codegen/cli" "5.0.2"
+    "@graphql-codegen/client-preset" "4.2.6"
+    "@graphql-codegen/typescript" "4.0.7"
+    "@graphql-codegen/typescript-operations" "4.2.1"
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/merge" "^9.0.4"
     "@graphql-tools/schema" "^10.0.3"
@@ -1276,7 +1276,7 @@
     "@graphql-codegen/plugin-helpers" "^5.0.3"
     tslib "~2.6.0"
 
-"@graphql-codegen/cli@^5.0.2":
+"@graphql-codegen/cli@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-5.0.2.tgz#07ff691c16da4c3dcc0e1995d3231530379ab317"
   integrity sha512-MBIaFqDiLKuO4ojN6xxG9/xL9wmfD3ZjZ7RsPjwQnSHBCUXnEkdKvX+JVpx87Pq29Ycn8wTJUguXnTZ7Di0Mlw==
@@ -1317,7 +1317,7 @@
     yaml "^2.3.1"
     yargs "^17.0.0"
 
-"@graphql-codegen/client-preset@^4.2.2", "@graphql-codegen/client-preset@^4.2.6":
+"@graphql-codegen/client-preset@4.2.6", "@graphql-codegen/client-preset@^4.2.2":
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/client-preset/-/client-preset-4.2.6.tgz#dbce627c9db5fcb5777d8567b8fd46683741e31d"
   integrity sha512-e7SzPb+nxNJfsD0uG+NSyzIeTtCXTouX5VThmcCoqGMDLgF5Lo7932B3HtZCvzmzqcXxRjJ81CmkA2LhlqIbCw==
@@ -1389,7 +1389,7 @@
     change-case-all "1.0.15"
     tslib "~2.6.0"
 
-"@graphql-codegen/typescript-operations@^4.2.1":
+"@graphql-codegen/typescript-operations@4.2.1", "@graphql-codegen/typescript-operations@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-4.2.1.tgz#887d5883d33d1e14a6f5dc90f125db343b3759d3"
   integrity sha512-LhEPsaP+AI65zfK2j6CBAL4RT0bJL/rR9oRWlvwtHLX0t7YQr4CP4BXgvvej9brYdedAxHGPWeV1tPHy5/z9KQ==
@@ -1400,7 +1400,7 @@
     auto-bind "~4.0.0"
     tslib "~2.6.0"
 
-"@graphql-codegen/typescript@^4.0.7":
+"@graphql-codegen/typescript@4.0.7", "@graphql-codegen/typescript@^4.0.7":
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-4.0.7.tgz#32f0f0916ed2ef7efbc233d14af07057aafdeea8"
   integrity sha512-Gn+JNvQBJhBqH7s83piAJ6UeU/MTj9GXWFO9bdbl8PMLCAM1uFAtg04iHfkGCtDKXcUg5a3Dt/SZG85uk5KuhA==
