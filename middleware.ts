@@ -10,20 +10,17 @@ const database: Record<string, string> = {
 export function middleware(req: NextRequest) {
   // Get the pathname of the request (e.g., "/produto/7428352752/test-1")
   const { pathname } = req.nextUrl
-
-  const requestHeaders = new Headers(req.headers)
-  requestHeaders.set('x-forwarded-for', 'https://www.vtexfaststore.com')
-
+  console.log(pathname)
   // Check if the requested path exists in our redirect map 
   if (database[pathname]) {
     // Perform the redirect
     const url = req.nextUrl.clone()
     url.pathname = database[pathname]
+    console.log(database[pathname])
 
-    // Return a redirect response (302 by default)
-    const response =  NextResponse.redirect(url)
-    response.headers.set('x-forwarded-for', 'https://www.vtexfaststore.com')
-    return response
+    // Return a redirect response 
+    return NextResponse.redirect(url)
+  
   }
 
   // If no redirect is required, continue to the requested page
