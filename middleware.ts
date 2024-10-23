@@ -7,26 +7,27 @@ const database: Record<string, string> = {
   '/produto/7428352752/test-2': '/ergonomic-granite-mouse-57815628/p',
 }
 
-export function middleware(req: NextRequest) {
+const delay = (ms: number) => new Promise( resolve => setTimeout( resolve, ms ) )
+
+export async function middleware(req: NextRequest) {
   // Get the pathname of the request (e.g., "/produto/7428352752/test-1")
+  await delay(2000)
   const { pathname } = req.nextUrl
   console.log(pathname)
   // Check if the requested path exists in our redirect map 
   if (database[pathname]) {
-    // Perform the redirect
-    const url = req.nextUrl.clone()
-    url.pathname = database[pathname]
-    console.log(database[pathname])
+    const pathnameToRedirect = database[pathname]
+    const redirectUrl = 'https://www.vtexfaststore.com' + pathnameToRedirect
 
-    // Return a redirect response 
-    const response = NextResponse.redirect(url, 301)
+    const redirectStatusCode = 301
+    const response = NextResponse.redirect(redirectUrl, redirectStatusCode)
+
     response.headers.set(
       'Cache-Control',
       'public, max-age=300, stale-while-revalidate=31536000'
     )
 
     return response
-  
   }
 
   // If no redirect is required, continue to the requested page
