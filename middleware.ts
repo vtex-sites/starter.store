@@ -19,7 +19,13 @@ export function middleware(req: NextRequest) {
     console.log(database[pathname])
 
     // Return a redirect response 
-    return NextResponse.redirect(url)
+    const response = NextResponse.redirect(url, 301)
+    response.headers.set(
+      'Cache-Control',
+      'public, max-age=300, stale-while-revalidate=31536000'
+    )
+
+    return response
   
   }
 
