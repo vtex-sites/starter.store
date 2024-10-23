@@ -24,7 +24,7 @@ export async function middleware(req: NextRequest) {
 
     response.headers.set(
       'Cache-Control',
-      'public, max-age=300, stale-while-revalidate=31536000'
+      'public, s-maxage=300, stale-while-revalidate=31536000'
     )
 
     return response
