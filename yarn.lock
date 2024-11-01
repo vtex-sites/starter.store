@@ -1262,6 +1262,12 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.0.135.tgz#f5dae8f90f54e26cdc0cc586db5d70e7eb17ec8f"
   integrity sha512-6bAsZoi4v1MaFPCP+5/u1wyEfuriT+KVhxwGBNAYDduVc/2w7QHMuLjF6JSnyZDFPgA7nAICV4HXlcHL4xx58g==
 
+"@faststore/plugin-test@file:../poc-plugin":
+  version "1.0.0"
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
 "@faststore/sdk@^3.0.135":
   version "3.0.135"
   resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.0.135.tgz#1755df9f347f0254723d73ec77c0fe5837004b44"
