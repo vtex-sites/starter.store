@@ -38,3 +38,6 @@ yarn-error.log*
 /.faststore
 .vscode/
 lighthouserc.js
+
+.idea
+public
