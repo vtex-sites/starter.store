@@ -11,7 +11,7 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/be9b2d04/@faststore/cli",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/cf6e9928/@faststore/cli",
     "@opentelemetry/api-logs": "^0.54.0",
     "@opentelemetry/instrumentation": "^0.54.0",
     "@opentelemetry/sdk-logs": "^0.54.0",
