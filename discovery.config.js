@@ -32,7 +32,7 @@ module.exports = {
     id: "",
     items: [],
     messages: [],
-    shouldSplitItem: true,
+    shouldSplitItem: false,
   },
   storeUrl: "https://vtexfaststore.com",
   secureSubdomain: "https://secure.vtexfaststore.com",
