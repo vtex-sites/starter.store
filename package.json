@@ -11,11 +11,11 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "^3.0.135",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/0899d37f/@faststore/cli",
     "next": "^13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@faststore/plugin-test": "/Users/guila/code/poc-plugin"
+    "@faststore-b2b/plugin-test": "^0.0.1"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.1",

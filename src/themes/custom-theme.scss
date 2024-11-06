@@ -33,5 +33,9 @@
     // FS UI Components
     // --------------------------------------------------------
     // Add here the customizations for FastStore UI components.
+    [data-fs-poc-title]{
+      color: red($color: #000000);
+      background-color: aqua;
+    }
   }
 }
