@@ -15,7 +15,7 @@
     "next": "^13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@faststore/plugin-test": "/Users/guila/code/poc-plugin"
+    "@faststore/plugin-test": "../poc-faststore-plugin"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.1",

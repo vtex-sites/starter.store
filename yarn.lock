@@ -1262,7 +1262,7 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.0.135.tgz#f5dae8f90f54e26cdc0cc586db5d70e7eb17ec8f"
   integrity sha512-6bAsZoi4v1MaFPCP+5/u1wyEfuriT+KVhxwGBNAYDduVc/2w7QHMuLjF6JSnyZDFPgA7nAICV4HXlcHL4xx58g==
 
-"@faststore/plugin-test@file:../poc-plugin":
+"@faststore/plugin-test@../poc-faststore-plugin":
   version "1.0.0"
   dependencies:
     react "^18.2.0"
