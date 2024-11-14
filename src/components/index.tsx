@@ -1,7 +1,7 @@
 import ProductDetails from "./ProductDetails/ProductDetails";
 
 const sections = {
-  ProductDetails,
+  // ProductDetails,
 };
 
 export default sections;
