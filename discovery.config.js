@@ -5,6 +5,7 @@ module.exports = {
     titleTemplate: "%s | FastStore",
     author: "FastStore",
   },
+  plugins: ["@vtex/plugin-test"],
   theme: "custom-theme",
   platform: "vtex",
   api: {
