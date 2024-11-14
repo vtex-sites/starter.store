@@ -11,11 +11,11 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "^3.0.146",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/61a18b34/@faststore/cli",
     "next": "^13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@faststore/plugin-test": "../poc-faststore-plugin"
+    "@vtex/plugin-test": "1.0.0"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.1",
