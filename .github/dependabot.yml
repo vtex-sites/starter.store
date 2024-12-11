@@ -10,7 +10,7 @@ updates:
       # for example, `dependabot-npm_and_yarn-faststore-core-1.0.0`
       separator: "-"
     allow:
-      # Allow updates for packages starting "@faststore/"
+      # Allow updates for packages starting with "@faststore/"
       - dependency-name: "@faststore/*"
         dependency-type: "direct"
     # Prefix all commit messages with "FastStore"
