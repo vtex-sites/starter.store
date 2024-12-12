@@ -1,3 +1,3 @@
 # starter.store
 
-A starter powered by FastStore.
+A starter powered by FastStore 🚀
