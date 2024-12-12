@@ -3,7 +3,7 @@ interface MatcherArgs {
 }
 
 const searchRegex = /^\/busca\/([^/]+)/
-// custom matcher for search pages in Americanas case
+// custom matcher for search pages
 export function matcher({pathname}: MatcherArgs): string | null {
   const searchMatch = pathname.match(searchRegex)
   if (searchMatch) {
