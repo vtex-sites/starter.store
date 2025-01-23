@@ -7,7 +7,7 @@ export function CustomHeader() {
         type="Organization"
         id="https://www.purpule-fox.io/#corporation"
         logo="https://www.example.com/photos/logo.jpg"
-        legalName="GO - Companhia FastStore"
+        legalName="GO - Companhia FastStore Custom"
         name="FastStore"
         email="sac@faststore.com"
         telephone="4003-2000"
