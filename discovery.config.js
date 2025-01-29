@@ -70,7 +70,6 @@ module.exports = {
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
-    enableSearchSSR: true
   },
   account: "storeframework",
   vtexHeadlessCms: {
