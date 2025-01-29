@@ -4,6 +4,9 @@ module.exports = {
     description: "Fast Demo Store",
     titleTemplate: "%s | FastStore",
     author: "FastStore",
+    search: {
+      noIndex: false,
+    },
   },
   theme: "custom-theme",
   platform: "vtex",
