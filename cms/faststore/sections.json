@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CustomReviewCard",
+    "schema": {
+      "title": "Custom Review Card",
+      "description": "Testing ReviewCard Component",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
