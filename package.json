@@ -29,5 +29,6 @@
     "node": "18.19.0",
     "yarn": "1.19.1"
   },
-  "author": "VTEX"
+  "author": "VTEX",
+  "packageManager": "yarn@1.19.1"
 }
