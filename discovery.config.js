@@ -5,8 +5,8 @@ module.exports = {
     titleTemplate: "%s | FastStore",
     author: "FastStore",
     search: {
-      noIndex: false,
-      noFollow: false,
+      noIndex: true,
+      noFollow: true,
     },
   },
   theme: "custom-theme",
