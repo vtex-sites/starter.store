@@ -6,6 +6,7 @@ module.exports = {
     author: "FastStore",
     search: {
       noIndex: false,
+      noFollow: false,
     },
   },
   theme: "custom-theme",
