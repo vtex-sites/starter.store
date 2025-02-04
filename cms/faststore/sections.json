@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CustomTextareaField",
+    "schema": {
+      "title": "Custom Textarea Field",
+      "description": "Testing TextareaField Component",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
