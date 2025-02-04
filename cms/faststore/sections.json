@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CustomTooltipSection",
+    "schema": {
+      "title": "Custom Tooltip Section",
+      "description": "Testing Tooltip Component",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
