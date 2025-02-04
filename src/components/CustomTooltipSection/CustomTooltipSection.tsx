@@ -4,7 +4,8 @@ import styles from "./CustomTooltipSection.module.scss";
 
 export default function CustomTooltipSection() {
   return (
-    <section className={styles.customTooltip}>
+    <section className={styles.customTooltipSection}>
+      <h2>Custom Tooltip Section</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quis
         tempora quas quibusdam aliquam doloribus, et reiciendis
