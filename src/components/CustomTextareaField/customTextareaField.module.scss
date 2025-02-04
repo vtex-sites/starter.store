@@ -1,0 +1,7 @@
+.customTextareaField {
+  padding: 40px;
+
+  @import "@faststore/ui/src/components/atoms/Label/styles";
+  @import "@faststore/ui/src/components/atoms/Textarea/styles";
+  @import "@faststore/ui/src/components/molecules/TextareaField/styles";
+}
