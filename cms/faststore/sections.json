@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CustomRatingFieldSection",
+    "schema": {
+      "title": "Custom RatingField Section",
+      "description": "Testing RatingField Component",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
