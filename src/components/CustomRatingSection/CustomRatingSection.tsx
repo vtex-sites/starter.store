@@ -5,7 +5,7 @@ import {
 
 import { useState } from "react";
 
-import styles from "./customRatingField.module.scss";
+import styles from "./customRatingSection.module.scss";
 
 export default function CustomRatingField() {
   const [rating1, setRating1] = useState(0);
