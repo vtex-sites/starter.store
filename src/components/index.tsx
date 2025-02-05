@@ -1,3 +1,9 @@
-import NewProductDetails from "./sections/NewProductDetails";
+import NewProductDetails from "./sections/NewProductDetails" 
+import ProductDetailsWithCustomButton from "./sections/ProductDetailsWithCustomButton";
 
-export default { NewProductDetails };
+const sections = {
+
+ProductDetails: ProductDetailsWithCustomButton,
+NewProductDetails
+};
+export default sections;
