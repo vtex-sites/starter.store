@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CustomProgressBarSection",
+    "schema": {
+      "title": "Custom ProgressBar Section",
+      "description": "Testing ProgressBar Component",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
