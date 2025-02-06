@@ -13,8 +13,7 @@ export default function CustomTooltipSection() {
           id="textarea-field"
           content="Share your thoughts about the product. How would you describe its quality?"
         >
-          <Icon name="XCircle" /> distinctio minima sint unde. Quod illum
-          officiis
+          <Icon name="XCircle" />
         </UITooltip>
         totam perspiciatis dolores ipsum est consequuntur.
       </p>
@@ -28,8 +27,7 @@ export default function CustomTooltipSection() {
           content="Share your thoughts about the product"
           dismissable
         >
-          <Icon name="XCircle" /> distinctio minima sint unde. Quod illum
-          officiis
+          <Icon name="XCircle" />
         </UITooltip>
         totam perspiciatis dolores ipsum est consequuntur.
       </p>
@@ -43,8 +41,7 @@ export default function CustomTooltipSection() {
           content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum sequi asperiores dignissimos ad quaerat, a reiciendis vel! Quaerat deleniti, assumenda iure repudiandae possimus facere voluptatem aspernatur at sit molestias."
           dismissable
         >
-          <Icon name="XCircle" /> distinctio minima sint unde. Quod illum
-          officiis
+          <Icon name="XCircle" />
         </UITooltip>
         totam perspiciatis dolores ipsum est consequuntur.
       </p>
