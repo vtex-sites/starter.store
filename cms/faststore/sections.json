@@ -1,0 +1,11 @@
+[
+  {
+    "name": "CustomModalFooterSection",
+    "schema": {
+      "title": "Custom Modal Footer",
+      "description": "Testing ModalFooter Component",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
