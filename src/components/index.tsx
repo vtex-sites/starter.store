@@ -1,3 +1,3 @@
-import CustomRatingSection from "./CustomRatingSection/CustomRatingSection";
+import CustomRatingFieldSection from "./CustomRatingFieldSection/CustomRatingFieldSection";
 
-export default { CustomRatingSection };
+export default { CustomRatingFieldSection };
