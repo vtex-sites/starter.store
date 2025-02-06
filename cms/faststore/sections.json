@@ -1,6 +1,6 @@
 [
   {
-    "name": "CustomModalFooter",
+    "name": "CustomModalFooterSection",
     "schema": {
       "title": "Custom Modal Footer",
       "description": "Testing ModalFooter Component",
