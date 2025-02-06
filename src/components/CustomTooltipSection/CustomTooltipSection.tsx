@@ -1,6 +1,6 @@
 import { Icon, Tooltip as UITooltip } from "@faststore/ui";
 
-import styles from "./CustomTooltipSection.module.scss";
+import styles from "./customTooltipSection.module.scss";
 
 export default function CustomTooltipSection() {
   return (
