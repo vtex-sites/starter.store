@@ -11,7 +11,10 @@ export default function CustomTextareaField() {
         id="textarea-field"
         label="Share your thoughts about the product. How would you describe its quality?"
       />
+      <br />
+
       <UITextareaField id="textarea-field-short-label" label="Short label" />
+      <br />
       <UITextareaField
         id="textarea-field-error"
         label="Share your thoughts about the product. How would you describe its quality?"
