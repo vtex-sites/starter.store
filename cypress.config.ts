@@ -13,7 +13,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       return require("cypress/plugins/index.js")(on, config);
     },
-    baseUrl: "http://localhost:3000/",
+    baseUrl: process.env.BASE_URL || "http://localhost:3000/",
     experimentalRunAllSpecs: true,
   },
 });
