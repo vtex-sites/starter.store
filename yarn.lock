@@ -1156,16 +1156,20 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@faststore/api@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.14.2.tgz#8c28b597035a9be6c89095d19340690a0804d292"
-  integrity sha512-spcKe5E07v2TZXr3ASzaGQ6/FG82AGfuTE3o0csbVVPAQBT4Y4Yih8Lda+34qGHdViK6ueP7X4whgO9Hp0Aybw==
+"@faststore/api@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.15.3.tgz#8764e1bc6172758267e74611d5f496330e05699d"
+  integrity sha512-ZULaQ12UkaAth8j+TgFwTbgQzy57S0+NFeL1UPQIQ9aIZD8qfnpeh0tyJLy22zqFw+kuDX5Xxye9ZpI6BO01UA==
   dependencies:
     "@envelop/on-resolve" "^4.1.1"
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/schema" "^9.0.0"
+    "@graphql-tools/utils" "^10.2.0"
+    "@opentelemetry/api" "^1.4.1"
+    "@opentelemetry/api-logs" "^0.39.1"
     "@opentelemetry/exporter-logs-otlp-grpc" "^0.39.1"
     "@opentelemetry/exporter-trace-otlp-grpc" "^0.39.1"
+    "@opentelemetry/resources" "^1.13.0"
     "@opentelemetry/sdk-logs" "^0.39.1"
     "@opentelemetry/sdk-trace-base" "^1.13.0"
     "@rollup/plugin-graphql" "^1.0.0"
@@ -1176,13 +1180,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.14.2.tgz#4b8934bc54188db3708c3c469fba23361a1de00e"
-  integrity sha512-nM6/9kVAPxoq4ftHVnlxgG/9+XOuPtdrQ4FKXGUh43jE5fqiSt3HG8PL2TJfC5/fjuXphNPcNv8KxuU7rDpyhg==
+"@faststore/cli@^3.22.1":
+  version "3.22.1"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.22.1.tgz#4d073e67b3e4e8ba29b3b4b10d7a1166802a3ca2"
+  integrity sha512-A25yN8G3D8zgOa2SATAocCUSiat6fo5Z4oQqpuwWMmSRMEn2aRuTouWW1CjnuzlcmmYpjhW7MgQqr0wdWJaJIQ==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.14.2"
+    "@faststore/core" "^3.22.1"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1195,15 +1199,19 @@
     ora "5.4.1"
     path "^0.12.7"
 
-"@faststore/components@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.14.2.tgz#7759c64581ef2ca7ec7a225ba7067c7a8f037027"
-  integrity sha512-R/oM7y+KdWojP9vvNSaO2VqTTWUwkeQv9N3ate01uUv6nWsH1k9TFtK8YWUCW/NBSVC6NF/eqWYXFU2FhG18rQ==
+"@faststore/components@^3.22.0":
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.22.0.tgz#655f0b999fc026da0767035448d7b22f6425d1e3"
+  integrity sha512-jk/Vh1Iy1DQbFWRaUcXAjkQ9yI1Gy0K0NC6rEes5PxpFn79HYFZqblfmnsLa3WwbTZaR/Kx4Zj0JEc/0ITcRXw==
+  dependencies:
+    react-intersection-observer "^8.32.5"
+    react-swipeable "^7.0.0"
+    tabbable "^5.2.1"
 
-"@faststore/core@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.14.2.tgz#4597a1564e9421c6242b990517fcae8a8fe360ad"
-  integrity sha512-zOTFViaS0aj4DrkMA35v2GEC1ftxQjBtWLLDONHKzMmszivMbgvu7qZCbPcXpoATGRZEu7l+QbymVTfLjfSu9g==
+"@faststore/core@^3.22.1":
+  version "3.22.1"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.22.1.tgz#8c39c6693ab7ebda231ce3502ed730e7f69d7fee"
+  integrity sha512-oB6AP2/kqDmm4DxOz+4AyEw8pfxE61f9PfSVXhUWXUE846DlWwDmvlEZmyxf9dfBBWUUb78+KQUSKHpfz5/4ZA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1211,12 +1219,12 @@
     "@envelop/graphql-jit" "^8.0.3"
     "@envelop/parser-cache" "^6.0.2"
     "@envelop/validation-cache" "^6.0.2"
-    "@faststore/api" "^3.14.2"
-    "@faststore/components" "^3.14.2"
-    "@faststore/graphql-utils" "^3.14.2"
-    "@faststore/lighthouse" "^3.14.2"
-    "@faststore/sdk" "^3.14.2"
-    "@faststore/ui" "^3.14.2"
+    "@faststore/api" "^3.15.3"
+    "@faststore/components" "^3.22.0"
+    "@faststore/graphql-utils" "^3.15.3"
+    "@faststore/lighthouse" "^3.15.3"
+    "@faststore/sdk" "^3.15.3"
+    "@faststore/ui" "^3.22.0"
     "@graphql-codegen/cli" "5.0.2"
     "@graphql-codegen/client-preset" "4.2.6"
     "@graphql-codegen/typescript" "4.0.7"
@@ -1248,32 +1256,33 @@
     sass-loader "^12.6.0"
     sharp "^0.32.6"
     style-loader "^3.3.1"
-    swr "^1.3.0"
+    swr "^2.2.5"
     tsx "^4.6.2"
 
-"@faststore/graphql-utils@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-3.14.2.tgz#1db1606534cdd0401e7d40df6ec197ab6e05f3e4"
-  integrity sha512-PLHJhHXDZy0MtigpRZssWEZ4PfvrU2EN5HP4U/KO0Ur//IfGCWedC5znFe2RYh+v8BfblUnU7I2eKKIieyL8+w==
+"@faststore/graphql-utils@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-3.15.3.tgz#f80e5419ccffc88539f92bc0655c69f8eada084c"
+  integrity sha512-AtqPQaDfZQP6twMSjnX81ZBmRQqKFoRAzMahvdqnfRa5WHGnugF4g1bmSXFCbkRLbaIZe5/PtnnQcDg9lBib/g==
 
-"@faststore/lighthouse@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.14.2.tgz#eea958aa3373e1d1654bdc0ec6a2a3c593035e9c"
-  integrity sha512-zwujcNQVh9cBsRcLx8XSQziOAp1Ttx1qmLEmbWo2KyKbBqQL08PhfQ1Shr6v9yWLQ6TP3PQRS2kI7LkLgnDoAA==
+"@faststore/lighthouse@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.15.3.tgz#1e920eb4c604041577c67f4999d93e553628d7ae"
+  integrity sha512-pnW/Eftu8qb3EI+hXfFXXzW39/tZWUndxu26+4HssOvlxyydvOINGGXAJbzbC+TkDztoiOXCUtUVnPXtrfruZw==
 
-"@faststore/sdk@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.14.2.tgz#050000e6710191703afc71b891db60cd535546c8"
-  integrity sha512-PIpIaf3rYEvAVri8L67t/F5efXCzg7PLZ5pY2Rf5BL/ur4I9ucCLiG2PlJNMmXwWohxVMrBUONWsUXFWYLLGmw==
+"@faststore/sdk@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.15.3.tgz#f3249d14f18dfc4571f2b5242317d05f1b68a0f4"
+  integrity sha512-uxEGxHurw3gTKgmeMQee2UpXKrmbojF86XzoWfh9SQsrohoZJqX+mIsKF+IJ7Ck2sVDJ+7IXJJM7HPc4kfrQ2g==
   dependencies:
+    "@types/react" "^18.2.42"
     idb-keyval "^5.1.3"
 
-"@faststore/ui@^3.14.2":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.14.2.tgz#16c36d655223f883e5f2597750432bee4a52cc8c"
-  integrity sha512-pWn9EfLvJLVEvBT9JnzFrYTvJVb+xEl5Ygylw081IiofJpyGrPMxET/e5iJON0MKW9xp0WCwGdbGtQQLggtSTg==
+"@faststore/ui@^3.22.0":
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.22.0.tgz#c6829afddcd6c8b95aa4e54fa9004024f959da5c"
+  integrity sha512-mdkcmXigbYp9VsqdKErKXrFt8PtaxNoqvEHvkBxfjofSHfWxyYedsOa9XlY/KzTMQn+6argSyuAVodwurCz/KA==
   dependencies:
-    "@faststore/components" "^3.14.2"
+    "@faststore/components" "^3.22.0"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
@@ -2216,7 +2225,7 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-3.0.6.tgz#35539ba5d78a5743e5ac0c5dd707965019df9ee3"
   integrity sha512-nEv7dFPxCrWrvK6dQ8zya0/Kb54EXVcwIKV9capjSa89ZDoOo+qH0YSo4/eQVECXgW3eUvgKLDIcIt62YBk0HA==
 
-"@opentelemetry/api-logs@0.39.1":
+"@opentelemetry/api-logs@0.39.1", "@opentelemetry/api-logs@^0.39.1":
   version "0.39.1"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.39.1.tgz#3ea1e9dda11c35f993cb60dc5e52780b8175e702"
   integrity sha512-9BJ8lMcOzEN0lu+Qji801y707oFO4xT3db6cosPvl+k7ItUHKN5ofWqtSbM9gbt1H4JJ/4/2TVrqI9Rq7hNv6Q==
@@ -2228,12 +2237,24 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.4.1.tgz#ff22eb2e5d476fbc2450a196e40dd243cc20c28f"
   integrity sha512-O2yRJce1GOc6PAy3QxFM4NzFiWzvScDC1/5ihYBL6BUEVdq0XMWN01sppE+H6bBXbaFYipjwFLEWLg5PaSOThA==
 
+"@opentelemetry/api@^1.4.1":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.9.0.tgz#d03eba68273dc0f7509e2a3d5cba21eae10379fe"
+  integrity sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==
+
 "@opentelemetry/core@1.13.0":
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/core/-/core-1.13.0.tgz#7cdcb4176d260d279b0aa31456c4ce2ba7f410aa"
   integrity sha512-2dBX3Sj99H96uwJKvc2w9NOiNgbvAO6mOFJFramNkKfS9O4Um+VWgpnlAazoYjT6kUJ1MP70KQ5ngD4ed+4NUw==
   dependencies:
     "@opentelemetry/semantic-conventions" "1.13.0"
+
+"@opentelemetry/core@1.30.1":
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/core/-/core-1.30.1.tgz#a0b468bb396358df801881709ea38299fc30ab27"
+  integrity sha512-OOCM2C/QIURhJMuKaekP3TRBxBKxG/TWWA0TL2J6nXUtDnuCtccy49LUJF8xPFXMX+0LMcxFpCo8M9cGY1W6rQ==
+  dependencies:
+    "@opentelemetry/semantic-conventions" "1.28.0"
 
 "@opentelemetry/exporter-logs-otlp-grpc@^0.39.1":
   version "0.39.1"
@@ -2295,6 +2316,14 @@
     "@opentelemetry/core" "1.13.0"
     "@opentelemetry/semantic-conventions" "1.13.0"
 
+"@opentelemetry/resources@^1.13.0":
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/resources/-/resources-1.30.1.tgz#a4eae17ebd96947fdc7a64f931ca4b71e18ce964"
+  integrity sha512-5UxZqiAgLYGFjS4s9qm5mBVo433u+dSPUFWVWXmLAD4wB65oMCoXaJP1KJa9DIYYMeHu3z4BZcStG3LC593cWA==
+  dependencies:
+    "@opentelemetry/core" "1.30.1"
+    "@opentelemetry/semantic-conventions" "1.28.0"
+
 "@opentelemetry/sdk-logs@0.39.1", "@opentelemetry/sdk-logs@^0.39.1":
   version "0.39.1"
   resolved "https://registry.yarnpkg.com/@opentelemetry/sdk-logs/-/sdk-logs-0.39.1.tgz#888af05458af5d097d6263ade118e8db78f76f38"
@@ -2325,6 +2354,11 @@
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.13.0.tgz#0290398b3eaebc6029c348988a78c3b688fe9219"
   integrity sha512-LMGqfSZkaMQXqewO0o1wvWr/2fQdCh4a3Sqlxka/UsJCe0cfLulh6x2aqnKLnsrSGiCq5rSCwvINd152i0nCqw==
+
+"@opentelemetry/semantic-conventions@1.28.0":
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.28.0.tgz#337fb2bca0453d0726696e745f50064411f646d6"
+  integrity sha512-lp4qAiMTD4sNWW4DbKLBkfiMZ4jbAboJIGOQr5DvciMRI494OapieI9qiODpOt0XBr1LjIDy1xAGAnVs5supTA==
 
 "@parcel/watcher-android-arm64@2.4.1":
   version "2.4.1"
@@ -4003,6 +4037,11 @@ dependency-graph@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.11.0.tgz#ac0ce7ed68a54da22165a85e97a01d53f5eb2e27"
   integrity sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==
+
+dequal@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
+  integrity sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==
 
 destroy@1.2.0:
   version "1.2.0"
@@ -7777,10 +7816,13 @@ swap-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 
-swr@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/swr/-/swr-1.3.0.tgz#c6531866a35b4db37b38b72c45a63171faf9f4e8"
-  integrity sha512-dkghQrOl2ORX9HYrMDtPa7LTVHJjCTeZoB1dqTbnnEDlSvN8JEKpYIYurDfvbQFUUS8Cg8PceFVZNkW0KNNYPw==
+swr@^2.2.5:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-2.3.2.tgz#e7c4eb7115e7ff734e445ad0036e97812dd95191"
+  integrity sha512-RosxFpiabojs75IwQ316DGoDRmOqtiAj0tg8wCcbEu4CiLZBs/a9QNtHV7TUfDXmmlgqij/NqzKq/eLelyv9xA==
+  dependencies:
+    dequal "^2.0.3"
+    use-sync-external-store "^1.4.0"
 
 tabbable@^5.2.1:
   version "5.3.3"
@@ -8166,6 +8208,11 @@ urlpattern-polyfill@^8.0.0:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/urlpattern-polyfill/-/urlpattern-polyfill-8.0.2.tgz#99f096e35eff8bf4b5a2aa7d58a1523d6ebc7ce5"
   integrity sha512-Qp95D4TPJl1kC9SKigDcqgyM2VDVO4RiJc2d4qe5GrYm+zbIQCWWKAFaJNQ4BhdFeDGwBmAxqJBwWSJDb9T3BQ==
+
+use-sync-external-store@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.4.0.tgz#adbc795d8eeb47029963016cefdf89dc799fcebc"
+  integrity sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   version "1.0.2"
