@@ -1,0 +1,11 @@
+[
+  {
+    "name": "ProductThumbnailSection",
+    "schema": {
+      "title": "Product Thumbnail",
+      "description": "Display a product thumbnail",
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
