@@ -34,7 +34,7 @@ module.exports = {
     messages: [],
     shouldSplitItem: true,
   },
-  storeUrl: "https://vtexfaststore.com",
+  storeUrl: "https://www.vtexfaststore.com",
   secureSubdomain: "https://secure.vtexfaststore.com",
   checkoutUrl: "https://secure.vtexfaststore.com/checkout",
   loginUrl: "https://secure.vtexfaststore.com/api/io/login",
