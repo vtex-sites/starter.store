@@ -24,7 +24,7 @@ module.exports = {
     country: "USA",
     deliveryMode: null,
     addressType: null,
-    postalCode: null,
+    postalCode: "90210",
     geoCoordinates: null,
     person: null,
   },
