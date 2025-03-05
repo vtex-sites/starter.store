@@ -77,4 +77,7 @@ module.exports = {
       "https://storeframework.myvtex.com/cms-releases/webhook-releases",
     ],
   },
+  deliveryPromise: {
+    enabled: true,
+  },
 };
