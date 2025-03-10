@@ -24,7 +24,7 @@ module.exports = {
     country: "USA",
     deliveryMode: null,
     addressType: null,
-    postalCode: null,
+    postalCode: "90210",
     geoCoordinates: null,
     person: null,
   },
@@ -76,5 +76,8 @@ module.exports = {
     webhookUrls: [
       "https://storeframework.myvtex.com/cms-releases/webhook-releases",
     ],
+  },
+  deliveryPromise: {
+    enabled: true,
   },
 };
