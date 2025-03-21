@@ -11,7 +11,14 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "^3.25.10",
+    "@faststore/api": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/api",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/cli",
+    "@faststore/components": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/components",
+    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/core",
+    "@faststore/graphql-utils": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/graphql-utils",
+    "@faststore/lighthouse": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/lighthouse",
+    "@faststore/sdk": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/sdk",
+    "@faststore/ui": "https://pkg.csb.dev/vtex/faststore/commit/0abece3a/@faststore/ui",
     "next": "^13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
