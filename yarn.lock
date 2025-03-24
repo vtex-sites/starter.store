@@ -1180,10 +1180,10 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.29.1":
-  version "3.29.1"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.29.1.tgz#47a97b9ad30e856e2fccb632e8346c61c6577162"
-  integrity sha512-7YLTGqbUugn6Wc7lR2xuN3nsAEr5YkN0nM3mT0GV6I4RxczW0ItxZl3IoNm5LXpK5u4Kjfh1MmyJbz+tqCU3ZQ==
+"@faststore/cli@^3.30.0":
+  version "3.30.0"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.30.0.tgz#976af2b79770d1bebf7de4e06fd7713db51a5721"
+  integrity sha512-oTSoyhSLB0V+r7/Unqmh45XGiyg+XzYl/Gmemg9oP7R1ZVMJOlh8MNXOxQBCz0eTD1V3t/rDgeDuIBtymU2Szw==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@faststore/core" "^3.29.1"
