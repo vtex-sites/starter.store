@@ -11,7 +11,7 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "^3.29.1",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/ba1568a5/@faststore/cli",
     "next": "^13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
