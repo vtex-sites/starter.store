@@ -67,6 +67,10 @@ module.exports = {
   analytics: {
     gtmContainerId: "GTM-PGHZ95N",
   },
+  deliveryPromise: {
+    enabled: true,
+    mandatory: true,
+  },
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
