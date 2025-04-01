@@ -70,6 +70,7 @@ module.exports = {
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
+    enableRedirects: true,
   },
   account: "storeframework",
   vtexHeadlessCms: {
