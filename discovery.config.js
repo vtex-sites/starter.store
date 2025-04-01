@@ -70,6 +70,10 @@ module.exports = {
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
+    graphqlCacheControl: {
+      maxAge: 5 * 60, // 0 disables cache, 5 * 60 enable cache control maxAge 5 minutes
+      staleWhileRevalidate: 60,
+    },
   },
   account: "storeframework",
   vtexHeadlessCms: {
