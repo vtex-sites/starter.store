@@ -29,7 +29,7 @@ module.exports = {
       symbol: "R$",
     },
     locale: "pt-BR",
-    channel: '{"salesChannel":1,"regionId":""}',
+    channel: '{"salesChannel":"1","regionId":""}',
     country: "BRA",
     deliveryMode: null,
     addressType: null,
@@ -46,11 +46,11 @@ module.exports = {
   },
 
   // Production URLs
-  storeUrl: "https://newstore.vtex.app",
-  secureSubdomain: "https://secure.vtexfaststore.com/",
-  checkoutUrl: "https://secure.vtexfaststore.com/checkout",
-  loginUrl: "https://secure.vtexfaststore.com/api/io/login",
-  accountUrl: "https://secure.vtexfaststore.com/api/io/account",
+  storeUrl: "https://www.fast.store",
+  secureSubdomain: "https://www.fast.store/",
+  checkoutUrl: "https://www.fast.store/checkout",
+  loginUrl: "https://www.fast.store/api/io/login",
+  accountUrl: "https://www.fast.store/api/io/account",
 
   previewRedirects: {
     home: '/',
