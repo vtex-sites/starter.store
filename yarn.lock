@@ -1155,10 +1155,10 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@faststore/api@^3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.59.0.tgz#4a8f14e8cb8689e872599c7a6962e2d3bcdb9059"
-  integrity sha512-Ur/wUT6rNmde2Zvhu9K5OvOcu/I4PjQGpAS95izC6a7VAZwXqotuIJgw8EJVcfbDJqRZz26g6L9VM8Y/6sCpDQ==
+"@faststore/api@^3.60.3":
+  version "3.60.3"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.60.3.tgz#ef3aa69d3665d69a4b8b922ce2c1e778a27754bf"
+  integrity sha512-2uzzYREdHahX9iaDfdiBL35SomQ9oRUkW4+3Yg8s9+BVjsfwB5KgOZkxdKJewKHXAvdTZGkQwpxgfGc+x4t15A==
   dependencies:
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/schema" "^9.0.0"
@@ -1171,13 +1171,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.60.1":
-  version "3.60.1"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.60.1.tgz#e2f13952ab2d25831ede83b339f7bc8783eeb21a"
-  integrity sha512-lTdpjm7CNQAb/ZyAh7YheYMjvS9LbyCbFwKbLS6J4V8O4oh4eu6hLrXKGNVb+E0kHNzfAXQ7A8xefQ6uIBjS3w==
+"@faststore/cli@^3.60.3":
+  version "3.60.3"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.60.3.tgz#8a383c1fe57fdcb68cd7042591432665c85238f1"
+  integrity sha512-Egypd7jNEORVZOq+rK1X50Nch+77O1rTLi4U0RTeK74UEg30ISqehrTzsXSf6b0tBhHzo+nl5gTipF1AODx7RQ==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.60.1"
+    "@faststore/core" "^3.60.3"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1199,10 +1199,10 @@
     react-swipeable "^7.0.0"
     tabbable "^5.2.1"
 
-"@faststore/core@^3.60.1":
-  version "3.60.1"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.60.1.tgz#49697ea2574974e21862cf530f36a1c577cbcfa3"
-  integrity sha512-RfmhddS8h2VfUI/QS9bfh5CmuJQ7CoLuaoeg6sbTb8vnb0GThhPWTUht0tZ10sjR6BUaJ93W9+xOHo8fKFRECw==
+"@faststore/core@^3.60.3":
+  version "3.60.3"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.60.3.tgz#26a3438129bc7a9b4fa95f7d99bd310a56991062"
+  integrity sha512-Oz3Zxin/3glpRn9o6f+wuCluo+BoQ1VeCStBh8daIxKZStgX+DHM0H6LD9OF2yQ9cx9a1eRyQKx0x0kJvwTkPw==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1210,10 +1210,10 @@
     "@envelop/graphql-jit" "^8.0.3"
     "@envelop/parser-cache" "^6.0.2"
     "@envelop/validation-cache" "^6.0.2"
-    "@faststore/api" "^3.59.0"
+    "@faststore/api" "^3.60.3"
     "@faststore/graphql-utils" "^3.56.1"
     "@faststore/lighthouse" "^3.56.1"
-    "@faststore/sdk" "^3.56.1"
+    "@faststore/sdk" "^3.60.3"
     "@faststore/ui" "^3.56.1"
     "@graphql-codegen/cli" "5.0.2"
     "@graphql-codegen/client-preset" "4.2.6"
@@ -1261,13 +1261,15 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.56.1.tgz#7e26b658e78c02880d6a03b434de718cc623c5f0"
   integrity sha512-8+UaOkI3PacN2t+TpKGTivAAid0DbvxuJVNT9dhc1KAyB2uu9DxrnmlqkjVCJS3HzuYayzfBz5cgnZLKjd4KAQ==
 
-"@faststore/sdk@^3.56.1":
-  version "3.56.1"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.56.1.tgz#af982d8283b3a3894421fe249eef716a1b20a2b7"
-  integrity sha512-97wBriWOBeAdlMfYaCPWydA3hlTAGAdfJk0zjezDrfp2ageMQwZF52qlNFA7wBN/fRfKfzSuV9LEDjFQr5p/uA==
+"@faststore/sdk@^3.60.3":
+  version "3.60.3"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.60.3.tgz#c759931447706bd108a5754b7de7d7c7b40f07c6"
+  integrity sha512-zTuWAFpwtFdmoaKcN4OvR7HjIqTtEXHmXOyq+c873mjt15Yqi/XK2lDqEWK6RWDbjFkF1oWBWBwViKmk7uMOmA==
   dependencies:
     "@types/react" "^18.2.42"
+    fast-deep-equal "^3.1.3"
     idb-keyval "^5.1.3"
+    zustand "^5.0.5"
 
 "@faststore/ui@^3.56.1":
   version "3.56.1"
@@ -8598,3 +8600,8 @@ yoctocolors-cjs@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yoctocolors-cjs/-/yoctocolors-cjs-2.1.2.tgz#f4b905a840a37506813a7acaa28febe97767a242"
   integrity sha512-cYVsTjKl8b+FrnidjibDWskAv7UKOfcwaVZdp/it9n1s9fU3IkgDbhdIRKCW4JDsAlECJY0ytoVPT3sK6kideA==
+
+zustand@^5.0.5:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-5.0.6.tgz#a2da43d8dc3d31e314279e5baec06297bea70a5c"
+  integrity sha512-ihAqNeUVhe0MAD+X8M5UzqyZ9k3FFZLBTtqo6JLPwV53cbRB/mJwBI0PxcIgqhBBHlEs8G45OTDTMq3gNcLq3A==
