@@ -1171,13 +1171,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.60.3":
-  version "3.60.3"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.60.3.tgz#8a383c1fe57fdcb68cd7042591432665c85238f1"
-  integrity sha512-Egypd7jNEORVZOq+rK1X50Nch+77O1rTLi4U0RTeK74UEg30ISqehrTzsXSf6b0tBhHzo+nl5gTipF1AODx7RQ==
+"@faststore/cli@^3.60.4":
+  version "3.60.4"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.60.4.tgz#ee3b0e211d35f19533f02b9200e36c19624c37c0"
+  integrity sha512-0z6tOubvYsWLyKGuu1Rd/6KniC9bsJLevJmmKxKn4/Xd4rNwpxLT+MWmEIB79sc/f/iT73oAJMrjkAnnETI/vQ==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.60.3"
+    "@faststore/core" "^3.60.4"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1199,10 +1199,10 @@
     react-swipeable "^7.0.0"
     tabbable "^5.2.1"
 
-"@faststore/core@^3.60.3":
-  version "3.60.3"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.60.3.tgz#26a3438129bc7a9b4fa95f7d99bd310a56991062"
-  integrity sha512-Oz3Zxin/3glpRn9o6f+wuCluo+BoQ1VeCStBh8daIxKZStgX+DHM0H6LD9OF2yQ9cx9a1eRyQKx0x0kJvwTkPw==
+"@faststore/core@^3.60.4":
+  version "3.60.4"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.60.4.tgz#9afd7fb05417b13e74ee5fb297a4c4819fc20646"
+  integrity sha512-ogNRSNPH8HTp5vUESEA6HDtINMtqh594WomH7uhmAmONz78H0I8oDuybb25Z6Eb4vH1U7KXKBS2qFd8xHzyeAA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1214,7 +1214,7 @@
     "@faststore/graphql-utils" "^3.56.1"
     "@faststore/lighthouse" "^3.56.1"
     "@faststore/sdk" "^3.60.3"
-    "@faststore/ui" "^3.56.1"
+    "@faststore/ui" "^3.60.4"
     "@graphql-codegen/cli" "5.0.2"
     "@graphql-codegen/client-preset" "4.2.6"
     "@graphql-codegen/typescript" "4.0.7"
@@ -1271,10 +1271,10 @@
     idb-keyval "^5.1.3"
     zustand "^5.0.5"
 
-"@faststore/ui@^3.56.1":
-  version "3.56.1"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.56.1.tgz#ef52107b815fec699726634c3f64b821edfc425f"
-  integrity sha512-sb2BQtp75OItf3Jz7czvrLdYnIUbgWb9uTFfvqlTH5Njw+7x5299HBUgkyKIbnXTfOgQt35K2t+dkCzm2GkFug==
+"@faststore/ui@^3.60.4":
+  version "3.60.4"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.60.4.tgz#66668e8c237efe29470f11f0f65808c87247e8c8"
+  integrity sha512-wTVUWbPEpy7hL5cM6v/hAV/oMYyCVRADyZsp006QEM+giHAd0Epq+QXucUEhwK77szmUMRXMvAFiA9VW1viXAw==
   dependencies:
     "@faststore/components" "^3.56.1"
     include-media "^1.4.10"
