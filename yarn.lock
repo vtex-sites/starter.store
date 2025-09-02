@@ -1171,13 +1171,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@3.77.2":
-  version "3.77.2"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.77.2.tgz#1842fc8e598a3da22eff5e7ab97a174bea58377b"
-  integrity sha512-PqICssWsnnJXIvWDcgLZ+ZRzyPwW+kzn6bWw1SH697P3EwRg4uqc4BZqDnXwCFFHG3KMtrkEGOWzwAbyfr5nAg==
+"@faststore/cli@3.77.3":
+  version "3.77.3"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.77.3.tgz#2227beef118ceafed7cff5ce472b980f0531315e"
+  integrity sha512-B1OrfLuEm/lqfmJMhW87LRNNZeuR50apUWgZ+BB/zFP7O9iERzXUBDade75yYyXYTyTqflnejg/N018YKqXY1w==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.77.2"
+    "@faststore/core" "^3.77.3"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1199,10 +1199,10 @@
     react-swipeable "^7.0.0"
     tabbable "^5.2.1"
 
-"@faststore/core@^3.77.2":
-  version "3.77.2"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.77.2.tgz#0de88c96112f8442dd3e392af67bec0300cfb00c"
-  integrity sha512-ZH2On4UDiR7YJHhUtOSJjarYxeooOrQO9poICfcop1nE2Dm7jd68XFp9pek0iuFbOpTiFS/4z+MPFdwDld2YsQ==
+"@faststore/core@^3.77.3":
+  version "3.77.3"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.77.3.tgz#824280d8ba8c8bb8eaa285165519bcdd6bbab672"
+  integrity sha512-DBGpSyAlkP25U6vUPFkQY9DKqef6V6jYk6unTDsngeoLPiKmCoVaRqv0uNaid8KGDQ5VmaNuYobhal5D/tpNSg==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
