@@ -1155,10 +1155,10 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@faststore/api@^3.73.0":
-  version "3.73.0"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.73.0.tgz#ca55080d0a65500a37e2288f295326b3c65a656b"
-  integrity sha512-/+KWgybeXp4iSNkgr0KMVvV5z9i4ipvasVesu0j0tv/KB9k6dsz/kbyeK5UCnQiUTXSoc2hOQuDAHtL1u/BSJw==
+"@faststore/api@^3.79.0":
+  version "3.79.0"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.79.0.tgz#7b4ce808f1f67d21e5c36f88b133e1d3081658ae"
+  integrity sha512-xXdLohb7TleGlMoyMQw4ZqO0VUEnX2tucp2IECf2EttnT1PHhfbaq7Si0Xsp+g2yoSRpIOPv/RQsdb5XurO8WQ==
   dependencies:
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/schema" "^9.0.0"
@@ -1171,13 +1171,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@3.77.2":
-  version "3.77.2"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.77.2.tgz#1842fc8e598a3da22eff5e7ab97a174bea58377b"
-  integrity sha512-PqICssWsnnJXIvWDcgLZ+ZRzyPwW+kzn6bWw1SH697P3EwRg4uqc4BZqDnXwCFFHG3KMtrkEGOWzwAbyfr5nAg==
+"@faststore/cli@3.79.1":
+  version "3.79.1"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.79.1.tgz#ff16b748b48ac279a72f4449ec9840414c0c7162"
+  integrity sha512-1ycN3EBQlTyZ1VX5+m9VmZEryRjmOQToJ3nqZdTMtNNKpyCjZ4ZObNp77wqX1X98xBH6WXkOKKYj4UZBPsnNgg==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.77.2"
+    "@faststore/core" "^3.79.1"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1190,19 +1190,19 @@
     ora "5.4.1"
     path "^0.12.7"
 
-"@faststore/components@^3.70.2":
-  version "3.70.2"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.70.2.tgz#f391bba7c0d31ef8e41ec2c9af86da6fa8cee700"
-  integrity sha512-n2RaIgEf/gFBVfIT9VkjoYOMukczPSSVuG5CrunBNA0NxC93obmrLQV+Hwquz1kKTryq802XCkJC7aDagmykaQ==
+"@faststore/components@^3.78.0":
+  version "3.78.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.78.0.tgz#c94727dc2f7f7ad312a10c656f815f56467ba0f6"
+  integrity sha512-4EcphtHKmW6rrkTyua83ntCeV1O4rRl3JVNoY1fEiJ/jDJkKRVFe5n5EtLQG+x2q02dhCWg1W/c+SelEehEV1Q==
   dependencies:
     react-intersection-observer "^8.32.5"
     react-swipeable "^7.0.0"
     tabbable "^5.2.1"
 
-"@faststore/core@^3.77.2":
-  version "3.77.2"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.77.2.tgz#0de88c96112f8442dd3e392af67bec0300cfb00c"
-  integrity sha512-ZH2On4UDiR7YJHhUtOSJjarYxeooOrQO9poICfcop1nE2Dm7jd68XFp9pek0iuFbOpTiFS/4z+MPFdwDld2YsQ==
+"@faststore/core@^3.79.1":
+  version "3.79.1"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.79.1.tgz#d895aa62560d2703fc5076dfb8f2a99094fa3485"
+  integrity sha512-BXCmgJnlTcVUZ9Z3j5nPRwwEipqzurOOdvqL3x0zzecTMUO+hVdSrSW/DHscNXekQDdFd59S2T2oEc91UNHzaA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1210,11 +1210,11 @@
     "@envelop/graphql-jit" "^8.0.3"
     "@envelop/parser-cache" "^6.0.2"
     "@envelop/validation-cache" "^6.0.2"
-    "@faststore/api" "^3.73.0"
+    "@faststore/api" "^3.79.0"
     "@faststore/graphql-utils" "^3.56.1"
     "@faststore/lighthouse" "^3.56.1"
     "@faststore/sdk" "^3.77.2"
-    "@faststore/ui" "^3.70.2"
+    "@faststore/ui" "^3.78.0"
     "@graphql-codegen/cli" "5.0.2"
     "@graphql-codegen/client-preset" "4.2.6"
     "@graphql-codegen/typescript" "4.0.7"
@@ -1273,12 +1273,12 @@
     idb-keyval "^5.1.3"
     zustand "^5.0.5"
 
-"@faststore/ui@^3.70.2":
-  version "3.70.2"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.70.2.tgz#64a1d4014a8741d7ccafc506bb7fe19c4aca0f66"
-  integrity sha512-WoAe8mhSTl5sTAVHWigg8wvU3dm5wCJRLRNPDUMC4aNdyOPvyFHKMzVASsOdtVZBmxLexQqbKAibNFKm0uN2Bg==
+"@faststore/ui@^3.78.0":
+  version "3.78.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.78.0.tgz#fa75ed9818cbecad439b275b2df6630dddf8df00"
+  integrity sha512-XybQhWlMCbdli4r6neYlzOTmlKSDpkIoPWZO0E7fnxeYHAnJPUjvKlrl0ZD4FryLiH6LptyJlsTPpbtTCJVjEw==
   dependencies:
-    "@faststore/components" "^3.70.2"
+    "@faststore/components" "^3.78.0"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
