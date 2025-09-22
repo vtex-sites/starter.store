@@ -1,23 +1,22 @@
-
 module.exports = {
   seo: {
-  "title": "FastStore",
-  "description": "A fast and performant store framework",
-  "titleTemplate": "%s | FastStore",
-  "author": "FastStore"
-},
+    title: "FastStore",
+    description: "A fast and performant store framework",
+    titleTemplate: "%s | FastStore",
+    author: "FastStore",
+  },
 
   // Theming
-  theme: 'custom-theme',
+  theme: "custom-theme",
 
   // Ecommerce Platform
-  platform: 'vtex',
+  platform: "vtex",
 
   // Platform specific configs for API
   api: {
     storeId: "newstore",
-    workspace: 'master',
-    environment: 'vtexcommercestable',
+    workspace: "master",
+    environment: "vtexcommercestable",
     hideUnavailableItems: true,
     incrementAddress: false,
   },
@@ -39,7 +38,7 @@ module.exports = {
   },
 
   cart: {
-    id: '',
+    id: "",
     items: [],
     messages: [],
     shouldSplitItem: true,
@@ -53,7 +52,7 @@ module.exports = {
   accountUrl: "https://www.fast.store/api/io/account",
 
   previewRedirects: {
-    home: '/',
+    home: "/",
     plp: "/headphones",
     search: "/s?q=Newstore",
     pdp: "/headphone-white-10000006/p",
@@ -61,9 +60,9 @@ module.exports = {
 
   // Lighthouse CI
   lighthouse: {
-    server: process.env.BASE_SITE_URL || 'http://localhost:3000',
+    server: process.env.BASE_SITE_URL || "http://localhost:3000",
     pages: {
-      home: '/',
+      home: "/",
       pdp: "/headphone-white-10000006/p",
       collection: "/headphones",
     },
@@ -72,13 +71,14 @@ module.exports = {
   // E2E CI
   cypress: {
     pages: {
-      home: '/',
+      home: "/",
       pdp: "/headphone-white-10000006/p",
       collection: "/headphones",
-      collection_filtered: "/headphones?category-1=headphones&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=score_desc&page=0",
+      collection_filtered:
+        "/headphones?category-1=headphones&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=score_desc&page=0",
       search: "/s?q=Newstore",
     },
-    browser: 'electron',
+    browser: "electron",
   },
 
   analytics: {
@@ -89,11 +89,10 @@ module.exports = {
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
+    enableFaststoreMyAccount: true,
   },
 
   vtexHeadlessCms: {
-    webhookUrls: [
-      "https://newstore.myvtex.com/cms-releases/webhook-releases",
-    ],
+    webhookUrls: ["https://newstore.myvtex.com/cms-releases/webhook-releases"],
   },
-}
+};
