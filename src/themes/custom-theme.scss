@@ -120,6 +120,30 @@
       }
     }
 
+    // Banner button right alignment
+    [data-fs-banner] {
+      [data-fs-button],
+      .banner-button {
+        margin-left: auto;
+        align-self: flex-end;
+      }
+
+      [data-fs-banner-content],
+      .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+      }
+
+      [data-fs-banner-actions],
+      .banner-actions {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: var(--fs-spacing-3);
+      }
+    }
+
     [data-fs-input] {
       --fs-input-height                                 : 56px;
       --fs-input-border-radius                          : var(--fs-border-radius);
