@@ -95,4 +95,7 @@ module.exports = {
   vtexHeadlessCms: {
     webhookUrls: ["https://newstore.myvtex.com/cms-releases/webhook-releases"],
   },
+  plugins: [
+    '@vtex/faststore-plugin-visual-editor'
+  ]
 };

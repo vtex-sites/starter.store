@@ -96,6 +96,30 @@
       --fs-button-secondary-inverse-border-color-active : transparent;
     }
 
+    // Check in out button - Pink styling
+    [data-fs-button*="check"][data-fs-button*="out"],
+    .btn-checkout,
+    .checkout-button,
+    [data-testid*="checkout"],
+    button[class*="checkout"] {
+      --fs-color-accent-4: #e91e63;
+      background-color: var(--fs-color-accent-4) !important;
+      border-color: var(--fs-color-accent-4) !important;
+      color: var(--fs-color-neutral-0) !important;
+
+      &:hover {
+        --fs-color-accent-4: #c2185b;
+        background-color: var(--fs-color-accent-4) !important;
+        border-color: var(--fs-color-accent-4) !important;
+      }
+
+      &:active {
+        --fs-color-accent-4: #ad1457;
+        background-color: var(--fs-color-accent-4) !important;
+        border-color: var(--fs-color-accent-4) !important;
+      }
+    }
+
     [data-fs-input] {
       --fs-input-height                                 : 56px;
       --fs-input-border-radius                          : var(--fs-border-radius);
