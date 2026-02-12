@@ -1,3 +1,6 @@
+
+@use  "@faststore/ui/src/styles/base/utilities" as u;
+
 // ----------------------------------------------------------
 // GLOBAL TOKENS
 // Custom Theme
@@ -41,7 +44,7 @@
 
   // PADDING
 
-  @include media(">=notebook") {
+  @include u.media(">=notebook") {
     --fs-grid-padding                                   : var(--fs-spacing-6);
   }
 
@@ -107,7 +110,7 @@
       --fs-input-field-button-height                    : 56px;
 
       [data-fs-button] { min-width: var(--fs-input-field-button-height); }
-      input:not(:placeholder-shown) + label, &:focus + label { top: rem(9px); }
+      input:not(:placeholder-shown) + label, &:focus + label { top: u.rem(9px); }
     }
 
     [data-fs-quantity-selector] {
@@ -140,7 +143,7 @@
         padding: 0 var(--fs-grid-padding);
       }
 
-      @include media(">=notebook") {
+      @include u.media(">=notebook") {
         --fs-incentives-gap                               : var(--fs-spacing-6);
       }
     }
@@ -176,10 +179,10 @@
     ////////////////////
 
     [data-fs-hero] {
-      @include layout-content;
+      @include u.layout-content;
 
       &[data-fs-hero-variant="primary"] [data-fs-hero-heading] {
-        @include media(">=notebook") {
+        @include u.media(">=notebook") {
           padding: var(--fs-spacing-13) var(--fs-spacing-5);
         }
       }
@@ -194,7 +197,7 @@
       }
 
       [data-fs-tile] > * {
-        @include media(">=notebook") {
+        @include u.media(">=notebook") {
           grid-auto-rows: 640px auto;
         }
       }
@@ -250,7 +253,7 @@
     [data-fs-image-gallery] > [data-fs-image] {
       object-fit: cover;
 
-      @include media("<notebook") {
+      @include u.media("<notebook") {
         height: 280px;
       }
     }
@@ -305,7 +308,7 @@
     [data-fs-product-listing-content-grid] {
       column-gap: var(--fs-spacing-6);
 
-      @include media(">=notebook") { row-gap: var(--fs-spacing-3); }
+      @include u.media(">=notebook") { row-gap: var(--fs-spacing-3); }
     }
 
     [data-fs-filter] {
@@ -338,7 +341,7 @@
       --fs-cart-sidebar-footer-box-shadow                  : none;
       --fs-slide-over-partial-max-width-notebook           : 480px;
 
-      @include media(">=notebook") {
+      @include u.media(">=notebook") {
         --fs-cart-sidebar-list-padding                       : var(--fs-spacing-3) var(--fs-spacing-7);
         --fs-slide-over-header-padding                       : var(--fs-spacing-2) var(--fs-spacing-7);
       }
@@ -353,7 +356,7 @@
     }
 
     [data-fs-cart-sidebar-footer] {
-      @include media(">=notebook") {
+      @include u.media(">=notebook") {
         padding: 0 var(--fs-spacing-7) var(--fs-spacing-4);
       }
 
