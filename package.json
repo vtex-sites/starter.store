@@ -13,7 +13,6 @@
   "dependencies": {
     "@faststore/cli": "latest",
     "graphql": "^16.12.0",
-    "next": "^13.5.9",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
