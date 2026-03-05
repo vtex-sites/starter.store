@@ -87,7 +87,7 @@ module.exports = {
   },
 
   experimental: {
-    nodeVersion: 18,
+    nodeVersion: 20,
     cypressVersion: 12,
     enableFaststoreMyAccount: false,
   },
