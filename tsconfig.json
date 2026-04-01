@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -13,8 +17,36 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "src/*": [
+        "./node_modules/@faststore/core/src/*"
+      ],
+      "@generated/*": [
+        "./node_modules/@faststore/core/@generated/*"
+      ],
+      "@faststore/core": [
+        "./node_modules/@faststore/core/index.ts"
+      ],
+      "@faststore/core/api": [
+        "./node_modules/@faststore/core/api/index.ts"
+      ],
+      "@faststore/core/experimental": [
+        "./node_modules/@faststore/core/src/experimental/index.ts"
+      ],
+      "@faststore/core/experimental/server": [
+        "./node_modules/@faststore/core/src/experimental/server/index.ts"
+      ]
+    }
   },
-  "include": ["*.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "public", ".faststore"]
+  "include": [
+    "*.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "public",
+    ".faststore"
+  ]
 }

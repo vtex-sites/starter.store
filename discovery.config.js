@@ -14,7 +14,7 @@ module.exports = {
 
   // Platform specific configs for API
   api: {
-    storeId: "newstore",
+    storeId: "brandless",
     workspace: "master",
     environment: "vtexcommercestable",
     hideUnavailableItems: true,
@@ -90,6 +90,10 @@ module.exports = {
     nodeVersion: 18,
     cypressVersion: 12,
     enableFaststoreMyAccount: false,
+  },
+
+  contentSource: {
+    type: "CP"
   },
 
   vtexHeadlessCms: {

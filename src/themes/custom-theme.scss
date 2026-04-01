@@ -308,6 +308,14 @@
       @include media(">=notebook") { row-gap: var(--fs-spacing-3); }
     }
 
+    [data-fs-quick-filter] {
+      margin-bottom: var(--fs-spacing-3);
+
+      @include media(">=notebook") {
+        margin-bottom: var(--fs-spacing-4);
+      }
+    }
+
     [data-fs-filter] {
       --fs-filter-accordion-button-padding-right-notebook     : 0;
       --fs-filter-accordion-item-panel-padding-right-notebook : 0;
