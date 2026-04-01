@@ -1,0 +1,1 @@
+Use skill /Users/otavio.meirelles/Projects/fs_mcp/skills/faststore-storefront/SKILL.md
