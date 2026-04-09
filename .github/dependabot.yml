@@ -15,6 +15,11 @@ updates:
         dependency-type: "direct"
     # Prefix all commit messages with "FastStore"
     # include a list of updated dependencies
+    ignore:
+      # Ignore ALL versions that don't follow pure semantic versioning (X.X.X)
+      # This rejects any version with suffixes, prefixes, or additional tags like -dev, -beta, -alpha, -rc, -pre, -next, -canary, -experimental.
+      - dependency-name: "@faststore/*"
+        versions: ["*-*"]
     commit-message:
       prefix: "FastStore"
       include: "scope"
