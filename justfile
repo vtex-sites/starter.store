@@ -42,4 +42,12 @@ gen-schema:
     vtex content generate-schema cms/faststore/components cms/faststore/pages -o cms/faststore/schema.json -b vtex.faststore4
 
 upload-schema:
-    vtex content upload-schema cms/faststore/schema.json
+    expect -c '\
+    spawn vtex content upload-schema cms/faststore/schema.json; \
+    expect "store ID"; \
+    send "faststore\r"; \
+    expect "uploaded with"; \
+    send "y\r"; \
+    expect "Are you sure"; \
+    send "y\r"; \
+    expect eof' 2>&1;
