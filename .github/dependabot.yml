@@ -13,6 +13,10 @@ updates:
       # Allow updates for packages starting "@faststore/"
       - dependency-name: "@faststore/*"
         dependency-type: "direct"
+    ignore:
+      # Ignore pre-release versions (alpha, beta, canary, dev, etc.)
+      - dependency-name: "@faststore/*"
+        versions: ["alpha", "beta", "canary", "dev", "experimental", "next", "nightly", "rc"]
     # Prefix all commit messages with "FastStore"
     # include a list of updated dependencies
     commit-message:
