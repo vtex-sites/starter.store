@@ -13,11 +13,6 @@ updates:
       # Allow updates for packages starting "@faststore/"
       - dependency-name: "@faststore/*"
         dependency-type: "direct"
-    ignore:
-      # Ignore ALL versions that don't follow pure semantic versioning (X.X.X)
-      # This rejects any version with suffixes, prefixes, or additional tags like -dev, -beta, -alpha, -rc, -pre, -next, -canary, -experimental.
-      - dependency-name: "@faststore/*"
-        versions: ["*-*"]
     # Prefix all commit messages with "FastStore"
     # include a list of updated dependencies
     commit-message:
