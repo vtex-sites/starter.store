@@ -11,8 +11,8 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "3.98.4",
-    "next": "^13.5.9",
+    "@faststore/cli": "^4.1.0",
+    "graphql": "^16.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -23,7 +23,7 @@
     "cypress": "12.17.4",
     "cypress-axe": "^1.5.0",
     "cypress-wait-until": "^2.0.1",
-    "typescript": "5.3.2"
+    "typescript": "^5.9.3"
   },
   "volta": {
     "node": "18.19.0",
