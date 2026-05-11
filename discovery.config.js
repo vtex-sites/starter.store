@@ -1,6 +1,6 @@
 module.exports = {
   contentSource: {
-    type: 'CMS',
+    type: "CMS",
   },
   seo: {
     title: "FastStore",
@@ -90,7 +90,7 @@ module.exports = {
   },
 
   experimental: {
-    nodeVersion: 18,
+    nodeVersion: 24,
     cypressVersion: 12,
     enableFaststoreMyAccount: false,
   },
