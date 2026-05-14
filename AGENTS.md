@@ -30,6 +30,11 @@ src/customizations/src/sections/     # Section overrides
 src/customizations/src/styles/       # Global style overrides
 ```
 
+Section overrides must also be registered in:
+```
+src/components/index.tsx   # Section override registration (default export only)
+```
+
 ---
 
 ## Store configuration
@@ -103,7 +108,18 @@ Rules from the official docs:
 
 ## Headless CMS
 
-Content is managed through **VTEX Headless CMS** (legacy, compatible with FastStore v2/v3). Content types available out of the box:
+The store `contentSource` is set in `discovery.config.js`.
+
+The CMS sync command depends on the `contentSource` type:
+
+| `contentSource.type` | Sync command |
+|---|---|
+| `"CMS"` | `yarn cms-sync` (this store) |
+| `"CP"` | `vtex content generate-schema` + `vtex content upload-schema` |
+
+**Do not use `vtex content` commands on a `"CMS"` store — they are only for `"CP"`.**
+
+Content types available out of the box:
 
 | Content Type | Scope | Purpose |
 |---|---|---|
@@ -138,3 +154,10 @@ Run `yarn cms-sync` to push local content type definitions to the VTEX Admin. Th
 - [Theming](https://developers.vtex.com/docs/guides/faststore/using-themes-overview)
 - [Component overrides](https://developers.vtex.com/docs/guides/faststore/building-sections-component-customization-overview)
 - [Extending the API](https://developers.vtex.com/docs/guides/faststore/api-extensions-overview)
+
+## Available Skills
+- [FastStore Storefront — Coding Rules](https://github.com/vtex/skills/blob/main/tracks/faststore/skills/faststore-storefront/skill.md)
+
+> Before following the skill's CMS schema workflow, check `contentSource` type in `discovery.config.js`:
+> - `"CMS"` → use `yarn cms-sync`
+> - `"CP"` → use `vtex content generate-schema` + `vtex content upload-schema` as described in the skill
