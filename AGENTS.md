@@ -110,15 +110,6 @@ Rules from the official docs:
 
 The store `contentSource` is set in `discovery.config.js`.
 
-The CMS sync command depends on the `contentSource` type:
-
-| `contentSource.type` | Sync command |
-|---|---|
-| `"CMS"` | `yarn cms-sync` (this store) |
-| `"CP"` | `vtex content generate-schema` + `vtex content upload-schema` |
-
-**Do not use `vtex content` commands on a `"CMS"` store — they are only for `"CP"`.**
-
 Content types available out of the box:
 
 | Content Type | Scope | Purpose |
@@ -155,9 +146,8 @@ Run `yarn cms-sync` to push local content type definitions to the VTEX Admin. Th
 - [Component overrides](https://developers.vtex.com/docs/guides/faststore/building-sections-component-customization-overview)
 - [Extending the API](https://developers.vtex.com/docs/guides/faststore/api-extensions-overview)
 
-## Available Skills
-- [FastStore Storefront — Coding Rules](https://github.com/vtex/skills/blob/main/tracks/faststore/skills/faststore-storefront/skill.md)
 
-> Before following the skill's CMS schema workflow, check `contentSource` type in `discovery.config.js`:
-> - `"CMS"` → use `yarn cms-sync`
-> - `"CP"` → use `vtex content generate-schema` + `vtex content upload-schema` as described in the skill
+## Available Skills
+- [FastStore Storefront — Coding Rules](https://github.com/vtex/skills/blob/main/skills/faststore-storefront/SKILL.md)
+
+> Only use this skill after check if `contentSource` type in `discovery.config.js` is CP.
