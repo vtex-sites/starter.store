@@ -1,6 +1,6 @@
 module.exports = {
   contentSource: {
-    type: "CMS",
+    type: 'CP',
   },
   seo: {
     title: "FastStore",
