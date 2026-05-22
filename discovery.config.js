@@ -93,6 +93,7 @@ module.exports = {
     nodeVersion: 24,
     cypressVersion: 12,
     enableFaststoreMyAccount: false,
+    optimizedFonts: true, 
   },
 
   vtexHeadlessCms: {
