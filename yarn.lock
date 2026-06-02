@@ -681,9 +681,9 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/api":
+"@faststore/api@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/api":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/api#cf2d5c29363d383b90c3ce15577050330d2ebb36"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/api#ddeab28a7f6d5fe661bb7e48a2c3c50ed95a4841"
   dependencies:
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/merge" "9.1.1"
@@ -696,13 +696,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/cli":
+"@faststore/cli@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/cli":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/cli#b8c2093d1f2b1273e2b44b042744703e0ae67aab"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/cli#d7001951fbefca5fd3bef7dafba6d64af70704fc"
   dependencies:
     "@antfu/ni" "0.21.12"
-    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/api"
-    "@faststore/core" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/core"
+    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/api"
+    "@faststore/core" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/core"
     "@graphql-codegen/cli" "6.1.1"
     "@graphql-tools/merge" "9.1.1"
     "@graphql-tools/utils" "10.10.1"
@@ -723,16 +723,16 @@
     prettier "^3.1.0"
     resolve-pkg "^3.0.0"
 
-"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/components":
+"@faststore/components@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/components":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/components#71e2cf633a80db27e64aa9ca0caecfb47a6193fc"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/components#71e2cf633a80db27e64aa9ca0caecfb47a6193fc"
   dependencies:
     react-intersection-observer "^8.32.5"
     react-swipeable "^7.0.0"
 
-"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/core":
+"@faststore/core@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/core":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/core#7801ae8d11129eff72dfcc0c260b20a7c943e07a"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/core#04d843d12e5ecfa6f778e4929517ce5874cc22d7"
   dependencies:
     "@antfu/ni" "0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -740,11 +740,11 @@
     "@envelop/graphql-jit" "^11"
     "@envelop/parser-cache" "^10"
     "@envelop/validation-cache" "^10"
-    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/api"
-    "@faststore/diagnostics" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/diagnostics"
-    "@faststore/lighthouse" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/lighthouse"
-    "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/sdk"
-    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/ui"
+    "@faststore/api" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/api"
+    "@faststore/diagnostics" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/diagnostics"
+    "@faststore/lighthouse" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/lighthouse"
+    "@faststore/sdk" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/sdk"
+    "@faststore/ui" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/ui"
     "@graphql-codegen/cli" "6.1.1"
     "@graphql-codegen/client-preset" "4.2.6"
     "@graphql-codegen/typescript" "4.0.7"
@@ -788,32 +788,32 @@
     swr "^2.2.5"
     use-sync-external-store "^1.6.0"
 
-"@faststore/diagnostics@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/diagnostics":
+"@faststore/diagnostics@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/diagnostics":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/diagnostics#35d0fd857cb3f288e10a720643c33b420b7c7d0e"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/diagnostics#35d0fd857cb3f288e10a720643c33b420b7c7d0e"
   dependencies:
     "@opentelemetry/api" "^1.9.0"
     "@opentelemetry/instrumentation-http" "^0.212.0"
     "@vtex/diagnostics-nodejs" "^5.1.1"
     resolve-pkg "^3.0.1"
 
-"@faststore/lighthouse@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/lighthouse":
+"@faststore/lighthouse@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/lighthouse":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/lighthouse#0fa724671b39e209f9ae11f3745a9da44fd91e84"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/lighthouse#0fa724671b39e209f9ae11f3745a9da44fd91e84"
 
-"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/sdk":
+"@faststore/sdk@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/sdk":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/sdk#5a04cf7ebfd6b6be0273049945a0fe8cfad9f71a"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/sdk#5a04cf7ebfd6b6be0273049945a0fe8cfad9f71a"
   dependencies:
     fast-deep-equal "^3.1.3"
     idb-keyval "^6"
     zustand "^5.0.5"
 
-"@faststore/ui@https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/ui":
+"@faststore/ui@https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/ui":
   version "4.3.0-dev.0"
-  resolved "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/ui#0b2ac237a7244b296aaa0a4d7511b9c8447cfe79"
+  resolved "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/ui#fddb72145ceaee6c405f80729653b7e632b61aa0"
   dependencies:
-    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/ce877f68/@faststore/components"
+    "@faststore/components" "https://pkg.csb.dev/vtex/faststore/commit/de91b464/@faststore/components"
     include-media "^2.0.0"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
@@ -4922,9 +4922,9 @@ ejs@^3.1.10:
     jake "^10.8.5"
 
 electron-to-chromium@^1.5.328:
-  version "1.5.365"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.365.tgz#65ccc724af6312d34c5b7e8faa0b57a62d5d311d"
-  integrity sha512-xfip4u1QF1s+URFqpA6N+OeFpDGpN7VJz1f3MO3bVL0QYBjpGiZ5/Of7kugvM+o8TTqmanUlviHN3c8M9vYWCw==
+  version "1.5.366"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.366.tgz#54cfb4090db768d58dce9ef5a2f8b837e61ebe6b"
+  integrity sha512-OlRuhb688YTCzzU3gXPLn6nGyd+F+53INE1qaKKlu6kETErE8FYsyDh0XqXEU+uBRn0MpCzz2vfNwORhkap8qg==
 
 emoji-regex@^10.3.0:
   version "10.6.0"
