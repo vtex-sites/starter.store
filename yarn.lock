@@ -676,10 +676,10 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@faststore/api@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-4.7.0.tgz#ae3c4e162dd5512569010d397e23adb6497a28e7"
-  integrity sha512-2OVy+a52gEUfRsrgpujm+5wykAn+JBhHw1PSy9yt5MdArArYLR/3s24urVxGD5E2MEX5BIuQ1klEZwIv3KLFLg==
+"@faststore/api@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-4.9.1.tgz#67f49039eb96423e45848967f9a7e8e032a46902"
+  integrity sha512-AOFxziSrerp3hWFBLkWCSofCiggPVDwRYPb1Z2qLuJ5RFLiE/rQ2LPyCTr+m7E/JTWaln39Zg6p1dkT5zhozXQ==
   dependencies:
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/merge" "9.1.1"
@@ -692,14 +692,14 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-4.7.0.tgz#ce4fcd29f762e9409342e8c985b0054398a9261b"
-  integrity sha512-S+mthXJznWyms4NpyM5jVkc69pmu5xBf2lO90b0DMYnBzKSOffJsTbLk+Q/nKrYyguqJFX5uLp7u5+tA/5IfPg==
+"@faststore/cli@^4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-4.9.1.tgz#d9ec72193c0e363e6d0c582b76293b1ca5371802"
+  integrity sha512-j/YMevtvcUoUWOMxp9yhSZmrFq933ucUWC3rCmvdV0hKjQ9kxZhmiqw5hM7GM/qKxK65XgkaXW75MlMOCskJXA==
   dependencies:
     "@antfu/ni" "0.21.12"
-    "@faststore/api" "4.7.0"
-    "@faststore/core" "4.7.0"
+    "@faststore/api" "4.9.1"
+    "@faststore/core" "4.9.1"
     "@graphql-codegen/cli" "6.1.1"
     "@graphql-tools/merge" "9.1.1"
     "@graphql-tools/utils" "10.10.1"
@@ -717,31 +717,30 @@
     oclif "^4"
     ora "5.4.1"
     prettier "^3.1.0"
-    resolve-pkg "^3.0.0"
 
-"@faststore/components@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-4.7.0.tgz#72aa4e1b9e309d746ed7583e7f1b8fb0f0dcc8a3"
-  integrity sha512-ScsTuYLzf5ojPri8dGPjt4DvWb8mGoaQiGd1Rucq0EZ/igzqcqq62S25K5IZ6spVsi5DDxPdO6G/AN7F6iU/9Q==
+"@faststore/components@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-4.9.1.tgz#96772300996909da750967954542e046314a89c8"
+  integrity sha512-SXvwxM8fs3MLvdo8Do6cXFNnRKDX/ozmFdBB13AWUBBtlVHd4ci3I8hdhZDyVNz8K2uPX8lBrrcU9eSWhtqDxw==
   dependencies:
     react-intersection-observer "^8.32.5"
     react-swipeable "^7.0.0"
 
-"@faststore/core@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-4.7.0.tgz#c4eb31241ce625549400136935e1961f43dd05e4"
-  integrity sha512-BMHFPavJvQa0KkgOguSIH/+IuxD1dzdteyHF8/OIwOSi4XuaikLOVRInOVrhm0qY9TZPyztnokuuuLK76cs6Sw==
+"@faststore/core@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-4.9.1.tgz#3b833d7571a0b9f42636377a780748ce1e48e634"
+  integrity sha512-dL71U3+zn78MwOhHmRwEGIApKA/XqE3FePziiCzMgTzqA6QMTxMRY2R+Hwj2rTbAjaqx7KE7gHvMCB9FNf0lYA==
   dependencies:
     "@antfu/ni" "0.21.12"
     "@envelop/core" "^5"
     "@envelop/graphql-jit" "^11"
     "@envelop/parser-cache" "^10"
     "@envelop/validation-cache" "^10"
-    "@faststore/api" "4.7.0"
-    "@faststore/diagnostics" "4.7.0"
-    "@faststore/lighthouse" "4.7.0"
-    "@faststore/sdk" "4.7.0"
-    "@faststore/ui" "4.7.0"
+    "@faststore/api" "4.9.1"
+    "@faststore/diagnostics" "4.9.1"
+    "@faststore/lighthouse" "4.9.1"
+    "@faststore/sdk" "4.9.1"
+    "@faststore/ui" "4.9.1"
     "@graphql-codegen/cli" "6.1.1"
     "@graphql-codegen/client-preset" "4.2.6"
     "@graphql-codegen/typescript" "4.0.7"
@@ -787,10 +786,10 @@
     swr "^2.2.5"
     use-sync-external-store "^1.6.0"
 
-"@faststore/diagnostics@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/diagnostics/-/diagnostics-4.7.0.tgz#319bbd779dd87c8bfc2ec5dc798bd8bda6572ec8"
-  integrity sha512-WZUMbf6lXOYHU5qnjDB6suiD0TsxNNwpMsTIzn1Iuq5HHXn92n4QHN9wptU4UUIpyGADWWO0lCoGjd1v8tIXdA==
+"@faststore/diagnostics@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/diagnostics/-/diagnostics-4.9.1.tgz#11714a06700da734a6a2a182d58774c327afc081"
+  integrity sha512-efeDMcj++S7DnDIuba8/9I9Kobm0SH1ClLS/wEESj7d56J4ML5+rnc6GCcptb9dSMDSRWL06chiazUmfVg+RTQ==
   dependencies:
     "@grpc/grpc-js" "^1.14.4"
     "@opentelemetry/api" "^1.9.0"
@@ -804,26 +803,26 @@
     "@opentelemetry/sdk-node" "^0.219.0"
     "@opentelemetry/sdk-trace-node" "^2.8.0"
 
-"@faststore/lighthouse@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-4.7.0.tgz#9adfacf3631920c7b63762c5f8dacb4dc864a025"
-  integrity sha512-Rabc1TOFIBJxl/DyQnom0OFegXtAmLA6Pn3zoniLmumlU/HrMMlGcIPxzh8UITRoTVJWtBieyHd03q5zU7OmOA==
+"@faststore/lighthouse@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-4.9.1.tgz#1f35e18427890ec962ee0d2ec4662be4a9f0f39a"
+  integrity sha512-18me4cHMRP0MM7HYUR9iJyCcLgcG/5YmzsWXDzpwXYtbcHQLQ63wNvjTca4QFBEeDs+ne8Zl4aJLRsm5YeDWfQ==
 
-"@faststore/sdk@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-4.7.0.tgz#ce7401150b9c75add29b0b9a2bfa0650669904aa"
-  integrity sha512-l++iX3nZlQYdcdnPKwXQrMO9LcV9G750EzbrCCIM/tHAWUnAtljTX5/TV5xbqB0yYeqcb00AjeOqhNAvopgpsg==
+"@faststore/sdk@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-4.9.1.tgz#79d1ec13ccf35802c7fce25d486e12d61a5d282d"
+  integrity sha512-Xu7c/Bb1Z+ZtNT8aGd4WLqbnUc0DkqxLZ1Zg5qblPPT9FWQcErci2lpCFKk/fEeH9RrElXs+RkhooiT1q7+Sxw==
   dependencies:
     fast-deep-equal "^3.1.3"
     idb-keyval "^6"
     zustand "^5.0.5"
 
-"@faststore/ui@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-4.7.0.tgz#439fdb03b8fe573779a6518b1fde5e527930a78a"
-  integrity sha512-4DoJUrZvNN1tpX2O28BXsopwo/r2//YlClbcIWIqHlBIH12Sz6KRIHIzttQrECOiJrTKTsFUy53HQkScnBhoYA==
+"@faststore/ui@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-4.9.1.tgz#0693237f3c976e59be63d4c3368264854b727dd7"
+  integrity sha512-4BWDEbTfZ0FVVx1fw0dUT7NKy66TqkAmwrARsn4so6KsgUcPIWMO/+3wZCDIjMZAziX7KDyTc6eMKzaW2eTz1w==
   dependencies:
-    "@faststore/components" "4.7.0"
+    "@faststore/components" "4.9.1"
     include-media "^2.0.0"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
@@ -5170,11 +5169,6 @@ find-cache-dir@^3.2.0:
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
 
-find-up-simple@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/find-up-simple/-/find-up-simple-1.0.1.tgz#18fb90ad49e45252c4d7fca56baade04fa3fca1e"
-  integrity sha512-afd4O7zpqHeRyg4PfDQsXmlDe2PfdHtJt6Akt8jOWaApLOZk5JXs6VMR29lz03pRe9mpykrRCYIYxaJYcfpncQ==
-
 find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
@@ -8032,13 +8026,6 @@ resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
-
-resolve-pkg@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/resolve-pkg/-/resolve-pkg-3.0.1.tgz#f9b6b43b85b1f5bd3cb7a7d249c290a6e423192d"
-  integrity sha512-OYIg+p3xVYwh4R0tnEKU+XZA8qiDY4y7iC+XgoC8LFbZuKHjPuuJ9mhWdSX6KYFNKvgar6hOdNj207DDI0nMfg==
-  dependencies:
-    find-up-simple "^1.0.1"
 
 responselike@^1.0.2:
   version "1.0.2"
